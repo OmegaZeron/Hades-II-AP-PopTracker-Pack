@@ -1,0 +1,15 @@
+﻿{
+	"name": "Hades II Tracker",
+	"game_name": "Hades",
+	"package_version": "0.0.0",
+	"package_uid": "hades_ap",
+	"author": "OmegaZeron",
+	"min_poptracker_version": "0.33.0",
+	"variants": {
+		"standard": {
+			"display_name": "AP Autotracker v0.0.0",
+			"flags": ["ap"]
+		}
+	},
+	"versions_url": "https://raw.githubusercontent.com/OmegaZeron/Hades-AP-Poptracker-Pack/versions/versions.json"
+}

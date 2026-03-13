@@ -1,0 +1,26 @@
+[
+	{
+		"name": "Silver Spade",
+		"type": "toggle",
+		"img": "images/items/SilverSpade.png",
+		"codes": "tool, SilverSpade"
+	},
+	{
+		"name": "Crescent Pick",
+		"type": "toggle",
+		"img": "images/items/CrescentPick.png",
+		"codes": "tool, CrescentPick"
+	},
+	{
+		"name": "Tablet of Peace",
+		"type": "toggle",
+		"img": "images/items/TabletOfPeace.png",
+		"codes": "tool, TabletOfPeace"
+	},
+	{
+		"name": "Rod of Fishing",
+		"type": "toggle",
+		"img": "images/items/RodOfFishing.png",
+		"codes": "tool, RodOfFishing"
+	}
+]

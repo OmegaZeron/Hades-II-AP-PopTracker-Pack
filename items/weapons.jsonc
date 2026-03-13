@@ -1,0 +1,74 @@
+[
+	{
+		"name": "Descura, the Witch's Staff",
+		"type": "toggle",
+		"img": "images/items/Descura.png",
+		"codes": "weapon, Descura"
+	},
+	{
+		"name": "Aspect of Anubis (Descura)",
+		"type": "toggle",
+		"img": "images/items/Anubis.png",
+		"codes": "aspect, aspectDescura, Anubis, aspectHidden"
+	},
+	{
+		"name": "Lim and Oros, the Sister Blades",
+		"type": "toggle",
+		"img": "images/items/LimAndOros.png",
+		"codes": "weapon, LimAndOros"
+	},
+	{
+		"name": "Aspect of the Morrigan (Lim and Oros)",
+		"type": "toggle",
+		"img": "images/items/the Morrigan.png",
+		"codes": "aspect, aspectLimAndOros, TheMorrigan, aspectHidden"
+	},
+	{
+		"name": "Ygnium, the Umbral Flames",
+		"type": "toggle",
+		"img": "images/items/Ygnium.png",
+		"codes": "weapon, Ygnium"
+	},
+	{
+		"name": "Aspect of Supay (Ygnium)",
+		"type": "toggle",
+		"img": "images/items/Supay.png",
+		"codes": "aspect, aspectYgnium, Supay, aspectHidden"
+	},
+	{
+		"name": "Zorephet, the Moonstone Axe",
+		"type": "toggle",
+		"img": "images/items/Zorephet.png",
+		"codes": "weapon, Zorephet"
+	},
+	{
+		"name": "Aspect of Nergal (Zorephet)",
+		"type": "toggle",
+		"img": "images/items/Nergal.png",
+		"codes": "aspect, aspectZorephet, Nergal, aspectHidden"
+	},
+	{
+		"name": "Revall, the Argent Skull",
+		"type": "toggle",
+		"img": "images/items/Revall.png",
+		"codes": "weapon, Revall"
+	},
+	{
+		"name": "Aspect of Hel (Revall)",
+		"type": "toggle",
+		"img": "images/items/Hel.png",
+		"codes": "aspect, aspectRevall, Hel, aspectHidden"
+	},
+	{
+		"name": "Xinth, the Black Coat",
+		"type": "toggle",
+		"img": "images/items/Xinth.png",
+		"codes": "weapon, Xinth"
+	},
+	{
+		"name": "Aspect of Shiva (Xinth)",
+		"type": "toggle",
+		"img": "images/items/Shiva.png",
+		"codes": "aspect, aspectXinth, Shiva, aspectHidden"
+	}
+]

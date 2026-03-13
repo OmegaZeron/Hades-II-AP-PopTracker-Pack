@@ -1,0 +1,1 @@
+Menu = Hades2Location.New("Menu")
