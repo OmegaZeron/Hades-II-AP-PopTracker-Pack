@@ -1,6 +1,6 @@
-import fs from 'fs'
+import { writeToFile } from "./utils.js"
 
-export function createScores() {
+export function createScoresLocs() {
 	let locations = []
 
 	// some hard coded x/y values to place on the map
@@ -40,15 +40,11 @@ export function createScores() {
 		chest_opened_img: "images/labels/TroveOpen.png",
 		children: locations
 	}]
+	let output = JSON.stringify(result, null, "\t").replace(/rules": \[\n\s+(".+")\n\s+\]/g, `rules": [$1]`)
 
-	fs.writeFile("locations/score.jsonc", JSON.stringify(result, null, "\t").replace(/rules": \[\n\s+(".+")\n\s+\]/g, `rules": [$1]`), err => {
-		if (err) {
-			console.error(`Error writing to file: ${err}`)
-			return
-		}
-	})
+	writeToFile("locations/score.jsonc", output)
 }
 
 if (import.meta.main) {
-	createScores()
+	createScoresLocs()
 }

@@ -1,0 +1,2184 @@
+[
+	{
+		"name": "Erebus",
+		"chest_unopened_img": "images/labels/Trove.png",
+		"chest_opened_img": "images/labels/TroveOpen.png",
+		"access_rules": ["^$CanReach|Erebus"],
+		"children": [
+			{
+				"name": "Erebus",
+				"visibility_rules": ["location_room"],
+				"sections": [
+					{"name": "Room 1"},
+					{"name": "Room 2"},
+					{"name": "Room 3"},
+					{"name": "Room 4"},
+					{"name": "Room 5"},
+					{"name": "Room 6"},
+					{"name": "Room 7"},
+					{"name": "Room 8"},
+					{"name": "Room 9"},
+					{"name": "Room 10"},
+					{"name": "Room 11"},
+					{"name": "Room 12"},
+					{"name": "Room 13"}
+				],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": 0,
+						"y": 0
+					}
+				]
+			},
+			{
+				"name": "Erebus (Descura)",
+				"visibility_rules": ["location_weapon"],
+				"access_rules": ["Descura"],
+				"sections": [
+					{"name": "Room 1"},
+					{"name": "Room 2"},
+					{"name": "Room 3"},
+					{"name": "Room 4"},
+					{"name": "Room 5"},
+					{"name": "Room 6"},
+					{"name": "Room 7"},
+					{"name": "Room 8"},
+					{"name": "Room 9"},
+					{"name": "Room 10"},
+					{"name": "Room 11"},
+					{"name": "Room 12"},
+					{"name": "Room 13"}
+				],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": -95,
+						"y": 0
+					}
+				]
+			},
+			{
+				"name": "Erebus (Lim and Oros)",
+				"visibility_rules": ["location_weapon"],
+				"access_rules": ["LimAndOros"],
+				"sections": [
+					{"name": "Room 1"},
+					{"name": "Room 2"},
+					{"name": "Room 3"},
+					{"name": "Room 4"},
+					{"name": "Room 5"},
+					{"name": "Room 6"},
+					{"name": "Room 7"},
+					{"name": "Room 8"},
+					{"name": "Room 9"},
+					{"name": "Room 10"},
+					{"name": "Room 11"},
+					{"name": "Room 12"},
+					{"name": "Room 13"}
+				],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": -45,
+						"y": 0
+					}
+				]
+			},
+			{
+				"name": "Erebus (Ygnium)",
+				"visibility_rules": ["location_weapon"],
+				"access_rules": ["Ygnium"],
+				"sections": [
+					{"name": "Room 1"},
+					{"name": "Room 2"},
+					{"name": "Room 3"},
+					{"name": "Room 4"},
+					{"name": "Room 5"},
+					{"name": "Room 6"},
+					{"name": "Room 7"},
+					{"name": "Room 8"},
+					{"name": "Room 9"},
+					{"name": "Room 10"},
+					{"name": "Room 11"},
+					{"name": "Room 12"},
+					{"name": "Room 13"}
+				],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": -15,
+						"y": 0
+					}
+				]
+			},
+			{
+				"name": "Erebus (Zorephet)",
+				"visibility_rules": ["location_weapon"],
+				"access_rules": ["Zorephet"],
+				"sections": [
+					{"name": "Room 1"},
+					{"name": "Room 2"},
+					{"name": "Room 3"},
+					{"name": "Room 4"},
+					{"name": "Room 5"},
+					{"name": "Room 6"},
+					{"name": "Room 7"},
+					{"name": "Room 8"},
+					{"name": "Room 9"},
+					{"name": "Room 10"},
+					{"name": "Room 11"},
+					{"name": "Room 12"},
+					{"name": "Room 13"}
+				],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": 15,
+						"y": 0
+					}
+				]
+			},
+			{
+				"name": "Erebus (Revall)",
+				"visibility_rules": ["location_weapon"],
+				"access_rules": ["Revall"],
+				"sections": [
+					{"name": "Room 1"},
+					{"name": "Room 2"},
+					{"name": "Room 3"},
+					{"name": "Room 4"},
+					{"name": "Room 5"},
+					{"name": "Room 6"},
+					{"name": "Room 7"},
+					{"name": "Room 8"},
+					{"name": "Room 9"},
+					{"name": "Room 10"},
+					{"name": "Room 11"},
+					{"name": "Room 12"},
+					{"name": "Room 13"}
+				],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": 45,
+						"y": 0
+					}
+				]
+			},
+			{
+				"name": "Erebus (Xinth)",
+				"visibility_rules": ["location_weapon"],
+				"access_rules": ["Xinth"],
+				"sections": [
+					{"name": "Room 1"},
+					{"name": "Room 2"},
+					{"name": "Room 3"},
+					{"name": "Room 4"},
+					{"name": "Room 5"},
+					{"name": "Room 6"},
+					{"name": "Room 7"},
+					{"name": "Room 8"},
+					{"name": "Room 9"},
+					{"name": "Room 10"},
+					{"name": "Room 11"},
+					{"name": "Room 12"},
+					{"name": "Room 13"}
+				],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": 95,
+						"y": 0
+					}
+				]
+			},
+			{
+				"name": "Hecate",
+				"access_rules": ["^$CanReach|Hecate"],
+				"sections": [
+					{
+						"name": "The Test",
+						"visibility_rules": ["location_room"]
+					},
+					{
+						"name": "Descura",
+						"visibility_rules": ["location_weapon"],
+						"access_rules": ["Descura"]
+					},
+					{
+						"name": "Lim and Oros",
+						"visibility_rules": ["location_weapon"],
+						"access_rules": ["LimAndOros"]
+					},
+					{
+						"name": "Ygnium",
+						"visibility_rules": ["location_weapon"],
+						"access_rules": ["Ygnium"]
+					},
+					{
+						"name": "Zorephet",
+						"visibility_rules": ["location_weapon"],
+						"access_rules": ["Zorephet"]
+					},
+					{
+						"name": "Revall",
+						"visibility_rules": ["location_weapon"],
+						"access_rules": ["Revall"]
+					},
+					{
+						"name": "Xinth",
+						"visibility_rules": ["location_weapon"],
+						"access_rules": ["Xinth"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": 0,
+						"y": 10
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "Oceanus",
+		"chest_unopened_img": "images/labels/Trove.png",
+		"chest_opened_img": "images/labels/TroveOpen.png",
+		"access_rules": ["^$CanReach|Oceanus"],
+		"children": [
+			{
+				"name": "Oceanus",
+				"visibility_rules": ["location_room"],
+				"sections": [
+					{"name": "Room 15"},
+					{"name": "Room 16"},
+					{"name": "Room 17"},
+					{"name": "Room 18"},
+					{"name": "Room 19"},
+					{"name": "Room 20"},
+					{"name": "Room 21"},
+					{"name": "Room 22"},
+					{"name": "Room 23"}
+				],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": 0,
+						"y": 0
+					}
+				]
+			},
+			{
+				"name": "Oceanus (Descura)",
+				"visibility_rules": ["location_weapon"],
+				"access_rules": ["Descura"],
+				"sections": [
+					{"name": "Room 15"},
+					{"name": "Room 16"},
+					{"name": "Room 17"},
+					{"name": "Room 18"},
+					{"name": "Room 19"},
+					{"name": "Room 20"},
+					{"name": "Room 21"},
+					{"name": "Room 22"},
+					{"name": "Room 23"}
+				],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": -95,
+						"y": 0
+					}
+				]
+			},
+			{
+				"name": "Oceanus (Lim and Oros)",
+				"visibility_rules": ["location_weapon"],
+				"access_rules": ["LimAndOros"],
+				"sections": [
+					{"name": "Room 15"},
+					{"name": "Room 16"},
+					{"name": "Room 17"},
+					{"name": "Room 18"},
+					{"name": "Room 19"},
+					{"name": "Room 20"},
+					{"name": "Room 21"},
+					{"name": "Room 22"},
+					{"name": "Room 23"}
+				],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": -45,
+						"y": 0
+					}
+				]
+			},
+			{
+				"name": "Oceanus (Ygnium)",
+				"visibility_rules": ["location_weapon"],
+				"access_rules": ["Ygnium"],
+				"sections": [
+					{"name": "Room 15"},
+					{"name": "Room 16"},
+					{"name": "Room 17"},
+					{"name": "Room 18"},
+					{"name": "Room 19"},
+					{"name": "Room 20"},
+					{"name": "Room 21"},
+					{"name": "Room 22"},
+					{"name": "Room 23"}
+				],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": -15,
+						"y": 0
+					}
+				]
+			},
+			{
+				"name": "Oceanus (Zorephet)",
+				"visibility_rules": ["location_weapon"],
+				"access_rules": ["Zorephet"],
+				"sections": [
+					{"name": "Room 15"},
+					{"name": "Room 16"},
+					{"name": "Room 17"},
+					{"name": "Room 18"},
+					{"name": "Room 19"},
+					{"name": "Room 20"},
+					{"name": "Room 21"},
+					{"name": "Room 22"},
+					{"name": "Room 23"}
+				],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": 15,
+						"y": 0
+					}
+				]
+			},
+			{
+				"name": "Oceanus (Revall)",
+				"visibility_rules": ["location_weapon"],
+				"access_rules": ["Revall"],
+				"sections": [
+					{"name": "Room 15"},
+					{"name": "Room 16"},
+					{"name": "Room 17"},
+					{"name": "Room 18"},
+					{"name": "Room 19"},
+					{"name": "Room 20"},
+					{"name": "Room 21"},
+					{"name": "Room 22"},
+					{"name": "Room 23"}
+				],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": 45,
+						"y": 0
+					}
+				]
+			},
+			{
+				"name": "Oceanus (Xinth)",
+				"visibility_rules": ["location_weapon"],
+				"access_rules": ["Xinth"],
+				"sections": [
+					{"name": "Room 15"},
+					{"name": "Room 16"},
+					{"name": "Room 17"},
+					{"name": "Room 18"},
+					{"name": "Room 19"},
+					{"name": "Room 20"},
+					{"name": "Room 21"},
+					{"name": "Room 22"},
+					{"name": "Room 23"}
+				],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": 95,
+						"y": 0
+					}
+				]
+			},
+			{
+				"name": "Scylla and the Sirens",
+				"access_rules": ["^$CanReach|Scylla"],
+				"sections": [
+					{
+						"name": "They Hate You",
+						"visibility_rules": ["location_room"]
+					},
+					{
+						"name": "Descura",
+						"visibility_rules": ["location_weapon"],
+						"access_rules": ["Descura"]
+					},
+					{
+						"name": "Lim and Oros",
+						"visibility_rules": ["location_weapon"],
+						"access_rules": ["LimAndOros"]
+					},
+					{
+						"name": "Ygnium",
+						"visibility_rules": ["location_weapon"],
+						"access_rules": ["Ygnium"]
+					},
+					{
+						"name": "Zorephet",
+						"visibility_rules": ["location_weapon"],
+						"access_rules": ["Zorephet"]
+					},
+					{
+						"name": "Revall",
+						"visibility_rules": ["location_weapon"],
+						"access_rules": ["Revall"]
+					},
+					{
+						"name": "Xinth",
+						"visibility_rules": ["location_weapon"],
+						"access_rules": ["Xinth"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": 0,
+						"y": 10
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "Fields of Mourning",
+		"chest_unopened_img": "images/labels/Trove.png",
+		"chest_opened_img": "images/labels/TroveOpen.png",
+		"access_rules": ["^$CanReach|Fields"],
+		"children": [
+			{
+				"name": "Fields of Mourning",
+				"visibility_rules": ["location_room"],
+				"sections": [
+					{"name": "Room 25"},
+					{"name": "Room 26"},
+					{"name": "Room 27"},
+					{"name": "Room 28"},
+					{"name": "Room 29"},
+					{"name": "Room 30"},
+					{"name": "Room 31"},
+					{"name": "Room 32"},
+					{"name": "Room 33"},
+					{"name": "Room 34"},
+					{"name": "Room 35"}
+				],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": 0,
+						"y": 0
+					}
+				]
+			},
+			{
+				"name": "Fields of Mourning (Descura)",
+				"visibility_rules": ["location_weapon"],
+				"access_rules": ["Descura"],
+				"sections": [
+					{"name": "Room 25"},
+					{"name": "Room 26"},
+					{"name": "Room 27"},
+					{"name": "Room 28"},
+					{"name": "Room 29"},
+					{"name": "Room 30"},
+					{"name": "Room 31"},
+					{"name": "Room 32"},
+					{"name": "Room 33"},
+					{"name": "Room 34"},
+					{"name": "Room 35"}
+				],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": -95,
+						"y": 0
+					}
+				]
+			},
+			{
+				"name": "Fields of Mourning (Lim and Oros)",
+				"visibility_rules": ["location_weapon"],
+				"access_rules": ["LimAndOros"],
+				"sections": [
+					{"name": "Room 25"},
+					{"name": "Room 26"},
+					{"name": "Room 27"},
+					{"name": "Room 28"},
+					{"name": "Room 29"},
+					{"name": "Room 30"},
+					{"name": "Room 31"},
+					{"name": "Room 32"},
+					{"name": "Room 33"},
+					{"name": "Room 34"},
+					{"name": "Room 35"}
+				],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": -45,
+						"y": 0
+					}
+				]
+			},
+			{
+				"name": "Fields of Mourning (Ygnium)",
+				"visibility_rules": ["location_weapon"],
+				"access_rules": ["Ygnium"],
+				"sections": [
+					{"name": "Room 25"},
+					{"name": "Room 26"},
+					{"name": "Room 27"},
+					{"name": "Room 28"},
+					{"name": "Room 29"},
+					{"name": "Room 30"},
+					{"name": "Room 31"},
+					{"name": "Room 32"},
+					{"name": "Room 33"},
+					{"name": "Room 34"},
+					{"name": "Room 35"}
+				],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": -15,
+						"y": 0
+					}
+				]
+			},
+			{
+				"name": "Fields of Mourning (Zorephet)",
+				"visibility_rules": ["location_weapon"],
+				"access_rules": ["Zorephet"],
+				"sections": [
+					{"name": "Room 25"},
+					{"name": "Room 26"},
+					{"name": "Room 27"},
+					{"name": "Room 28"},
+					{"name": "Room 29"},
+					{"name": "Room 30"},
+					{"name": "Room 31"},
+					{"name": "Room 32"},
+					{"name": "Room 33"},
+					{"name": "Room 34"},
+					{"name": "Room 35"}
+				],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": 15,
+						"y": 0
+					}
+				]
+			},
+			{
+				"name": "Fields of Mourning (Revall)",
+				"visibility_rules": ["location_weapon"],
+				"access_rules": ["Revall"],
+				"sections": [
+					{"name": "Room 25"},
+					{"name": "Room 26"},
+					{"name": "Room 27"},
+					{"name": "Room 28"},
+					{"name": "Room 29"},
+					{"name": "Room 30"},
+					{"name": "Room 31"},
+					{"name": "Room 32"},
+					{"name": "Room 33"},
+					{"name": "Room 34"},
+					{"name": "Room 35"}
+				],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": 45,
+						"y": 0
+					}
+				]
+			},
+			{
+				"name": "Fields of Mourning (Xinth)",
+				"visibility_rules": ["location_weapon"],
+				"access_rules": ["Xinth"],
+				"sections": [
+					{"name": "Room 25"},
+					{"name": "Room 26"},
+					{"name": "Room 27"},
+					{"name": "Room 28"},
+					{"name": "Room 29"},
+					{"name": "Room 30"},
+					{"name": "Room 31"},
+					{"name": "Room 32"},
+					{"name": "Room 33"},
+					{"name": "Room 34"},
+					{"name": "Room 35"}
+				],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": 95,
+						"y": 0
+					}
+				]
+			},
+			{
+				"name": "Cerberus",
+				"access_rules": ["^$CanReach|Cerberus"],
+				"sections": [
+					{
+						"name": "Tormented Puppy",
+						"visibility_rules": ["location_room"]
+					},
+					{
+						"name": "Descura",
+						"visibility_rules": ["location_weapon"],
+						"access_rules": ["Descura"]
+					},
+					{
+						"name": "Lim and Oros",
+						"visibility_rules": ["location_weapon"],
+						"access_rules": ["LimAndOros"]
+					},
+					{
+						"name": "Ygnium",
+						"visibility_rules": ["location_weapon"],
+						"access_rules": ["Ygnium"]
+					},
+					{
+						"name": "Zorephet",
+						"visibility_rules": ["location_weapon"],
+						"access_rules": ["Zorephet"]
+					},
+					{
+						"name": "Revall",
+						"visibility_rules": ["location_weapon"],
+						"access_rules": ["Revall"]
+					},
+					{
+						"name": "Xinth",
+						"visibility_rules": ["location_weapon"],
+						"access_rules": ["Xinth"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": 0,
+						"y": 10
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "Tartarus",
+		"chest_unopened_img": "images/labels/Trove.png",
+		"chest_opened_img": "images/labels/TroveOpen.png",
+		"access_rules": ["^$CanReach|Tartarus"],
+		"children": [
+			{
+				"name": "Tartarus",
+				"visibility_rules": ["location_room"],
+				"sections": [
+					{"name": "Room 37"},
+					{"name": "Room 38"},
+					{"name": "Room 39"},
+					{"name": "Room 40"},
+					{"name": "Room 41"},
+					{"name": "Room 42"},
+					{"name": "Room 43"},
+					{"name": "Room 44"},
+					{"name": "Room 45"},
+					{"name": "Room 46"},
+					{"name": "Room 47"},
+					{"name": "Room 48"},
+					{"name": "Room 49"},
+					{"name": "Room 50"},
+					{"name": "Room 51"},
+					{"name": "Room 52"},
+					{"name": "Room 53"},
+					{"name": "Room 54"},
+					{"name": "Room 55"},
+					{"name": "Room 56"},
+					{"name": "Room 57"},
+					{"name": "Room 58"},
+					{"name": "Room 59"},
+					{"name": "Room 60"},
+					{"name": "Room 61"},
+					{"name": "Room 62"},
+					{"name": "Room 63"},
+					{"name": "Room 64"},
+					{"name": "Room 65"},
+					{"name": "Room 66"},
+					{"name": "Room 67"},
+					{"name": "Room 68"},
+					{"name": "Room 69"},
+					{"name": "Room 70"},
+					{"name": "Room 71"},
+					{"name": "Room 72"}
+				],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": 0,
+						"y": 0
+					}
+				]
+			},
+			{
+				"name": "Tartarus (Descura)",
+				"visibility_rules": ["location_weapon"],
+				"access_rules": ["Descura"],
+				"sections": [
+					{"name": "Room 37"},
+					{"name": "Room 38"},
+					{"name": "Room 39"},
+					{"name": "Room 40"},
+					{"name": "Room 41"},
+					{"name": "Room 42"},
+					{"name": "Room 43"},
+					{"name": "Room 44"},
+					{"name": "Room 45"},
+					{"name": "Room 46"},
+					{"name": "Room 47"},
+					{"name": "Room 48"},
+					{"name": "Room 49"},
+					{"name": "Room 50"},
+					{"name": "Room 51"},
+					{"name": "Room 52"},
+					{"name": "Room 53"},
+					{"name": "Room 54"},
+					{"name": "Room 55"},
+					{"name": "Room 56"},
+					{"name": "Room 57"},
+					{"name": "Room 58"},
+					{"name": "Room 59"},
+					{"name": "Room 60"},
+					{"name": "Room 61"},
+					{"name": "Room 62"},
+					{"name": "Room 63"},
+					{"name": "Room 64"},
+					{"name": "Room 65"},
+					{"name": "Room 66"},
+					{"name": "Room 67"},
+					{"name": "Room 68"},
+					{"name": "Room 69"},
+					{"name": "Room 70"},
+					{"name": "Room 71"},
+					{"name": "Room 72"}
+				],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": -95,
+						"y": 0
+					}
+				]
+			},
+			{
+				"name": "Tartarus (Lim and Oros)",
+				"visibility_rules": ["location_weapon"],
+				"access_rules": ["LimAndOros"],
+				"sections": [
+					{"name": "Room 37"},
+					{"name": "Room 38"},
+					{"name": "Room 39"},
+					{"name": "Room 40"},
+					{"name": "Room 41"},
+					{"name": "Room 42"},
+					{"name": "Room 43"},
+					{"name": "Room 44"},
+					{"name": "Room 45"},
+					{"name": "Room 46"},
+					{"name": "Room 47"},
+					{"name": "Room 48"},
+					{"name": "Room 49"},
+					{"name": "Room 50"},
+					{"name": "Room 51"},
+					{"name": "Room 52"},
+					{"name": "Room 53"},
+					{"name": "Room 54"},
+					{"name": "Room 55"},
+					{"name": "Room 56"},
+					{"name": "Room 57"},
+					{"name": "Room 58"},
+					{"name": "Room 59"},
+					{"name": "Room 60"},
+					{"name": "Room 61"},
+					{"name": "Room 62"},
+					{"name": "Room 63"},
+					{"name": "Room 64"},
+					{"name": "Room 65"},
+					{"name": "Room 66"},
+					{"name": "Room 67"},
+					{"name": "Room 68"},
+					{"name": "Room 69"},
+					{"name": "Room 70"},
+					{"name": "Room 71"},
+					{"name": "Room 72"}
+				],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": -45,
+						"y": 0
+					}
+				]
+			},
+			{
+				"name": "Tartarus (Ygnium)",
+				"visibility_rules": ["location_weapon"],
+				"access_rules": ["Ygnium"],
+				"sections": [
+					{"name": "Room 37"},
+					{"name": "Room 38"},
+					{"name": "Room 39"},
+					{"name": "Room 40"},
+					{"name": "Room 41"},
+					{"name": "Room 42"},
+					{"name": "Room 43"},
+					{"name": "Room 44"},
+					{"name": "Room 45"},
+					{"name": "Room 46"},
+					{"name": "Room 47"},
+					{"name": "Room 48"},
+					{"name": "Room 49"},
+					{"name": "Room 50"},
+					{"name": "Room 51"},
+					{"name": "Room 52"},
+					{"name": "Room 53"},
+					{"name": "Room 54"},
+					{"name": "Room 55"},
+					{"name": "Room 56"},
+					{"name": "Room 57"},
+					{"name": "Room 58"},
+					{"name": "Room 59"},
+					{"name": "Room 60"},
+					{"name": "Room 61"},
+					{"name": "Room 62"},
+					{"name": "Room 63"},
+					{"name": "Room 64"},
+					{"name": "Room 65"},
+					{"name": "Room 66"},
+					{"name": "Room 67"},
+					{"name": "Room 68"},
+					{"name": "Room 69"},
+					{"name": "Room 70"},
+					{"name": "Room 71"},
+					{"name": "Room 72"}
+				],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": -15,
+						"y": 0
+					}
+				]
+			},
+			{
+				"name": "Tartarus (Zorephet)",
+				"visibility_rules": ["location_weapon"],
+				"access_rules": ["Zorephet"],
+				"sections": [
+					{"name": "Room 37"},
+					{"name": "Room 38"},
+					{"name": "Room 39"},
+					{"name": "Room 40"},
+					{"name": "Room 41"},
+					{"name": "Room 42"},
+					{"name": "Room 43"},
+					{"name": "Room 44"},
+					{"name": "Room 45"},
+					{"name": "Room 46"},
+					{"name": "Room 47"},
+					{"name": "Room 48"},
+					{"name": "Room 49"},
+					{"name": "Room 50"},
+					{"name": "Room 51"},
+					{"name": "Room 52"},
+					{"name": "Room 53"},
+					{"name": "Room 54"},
+					{"name": "Room 55"},
+					{"name": "Room 56"},
+					{"name": "Room 57"},
+					{"name": "Room 58"},
+					{"name": "Room 59"},
+					{"name": "Room 60"},
+					{"name": "Room 61"},
+					{"name": "Room 62"},
+					{"name": "Room 63"},
+					{"name": "Room 64"},
+					{"name": "Room 65"},
+					{"name": "Room 66"},
+					{"name": "Room 67"},
+					{"name": "Room 68"},
+					{"name": "Room 69"},
+					{"name": "Room 70"},
+					{"name": "Room 71"},
+					{"name": "Room 72"}
+				],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": 15,
+						"y": 0
+					}
+				]
+			},
+			{
+				"name": "Tartarus (Revall)",
+				"visibility_rules": ["location_weapon"],
+				"access_rules": ["Revall"],
+				"sections": [
+					{"name": "Room 37"},
+					{"name": "Room 38"},
+					{"name": "Room 39"},
+					{"name": "Room 40"},
+					{"name": "Room 41"},
+					{"name": "Room 42"},
+					{"name": "Room 43"},
+					{"name": "Room 44"},
+					{"name": "Room 45"},
+					{"name": "Room 46"},
+					{"name": "Room 47"},
+					{"name": "Room 48"},
+					{"name": "Room 49"},
+					{"name": "Room 50"},
+					{"name": "Room 51"},
+					{"name": "Room 52"},
+					{"name": "Room 53"},
+					{"name": "Room 54"},
+					{"name": "Room 55"},
+					{"name": "Room 56"},
+					{"name": "Room 57"},
+					{"name": "Room 58"},
+					{"name": "Room 59"},
+					{"name": "Room 60"},
+					{"name": "Room 61"},
+					{"name": "Room 62"},
+					{"name": "Room 63"},
+					{"name": "Room 64"},
+					{"name": "Room 65"},
+					{"name": "Room 66"},
+					{"name": "Room 67"},
+					{"name": "Room 68"},
+					{"name": "Room 69"},
+					{"name": "Room 70"},
+					{"name": "Room 71"},
+					{"name": "Room 72"}
+				],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": 45,
+						"y": 0
+					}
+				]
+			},
+			{
+				"name": "Tartarus (Xinth)",
+				"visibility_rules": ["location_weapon"],
+				"access_rules": ["Xinth"],
+				"sections": [
+					{"name": "Room 37"},
+					{"name": "Room 38"},
+					{"name": "Room 39"},
+					{"name": "Room 40"},
+					{"name": "Room 41"},
+					{"name": "Room 42"},
+					{"name": "Room 43"},
+					{"name": "Room 44"},
+					{"name": "Room 45"},
+					{"name": "Room 46"},
+					{"name": "Room 47"},
+					{"name": "Room 48"},
+					{"name": "Room 49"},
+					{"name": "Room 50"},
+					{"name": "Room 51"},
+					{"name": "Room 52"},
+					{"name": "Room 53"},
+					{"name": "Room 54"},
+					{"name": "Room 55"},
+					{"name": "Room 56"},
+					{"name": "Room 57"},
+					{"name": "Room 58"},
+					{"name": "Room 59"},
+					{"name": "Room 60"},
+					{"name": "Room 61"},
+					{"name": "Room 62"},
+					{"name": "Room 63"},
+					{"name": "Room 64"},
+					{"name": "Room 65"},
+					{"name": "Room 66"},
+					{"name": "Room 67"},
+					{"name": "Room 68"},
+					{"name": "Room 69"},
+					{"name": "Room 70"},
+					{"name": "Room 71"},
+					{"name": "Room 72"}
+				],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": 95,
+						"y": 0
+					}
+				]
+			},
+			{
+				"name": "Chronos",
+				"access_rules": ["^$CanReach|Chronos"],
+				"sections": [
+					{
+						"name": "Grandfather Time",
+						"visibility_rules": ["location_room"]
+					},
+					{
+						"name": "Descura",
+						"visibility_rules": ["location_weapon"],
+						"access_rules": ["Descura"]
+					},
+					{
+						"name": "Lim and Oros",
+						"visibility_rules": ["location_weapon"],
+						"access_rules": ["LimAndOros"]
+					},
+					{
+						"name": "Ygnium",
+						"visibility_rules": ["location_weapon"],
+						"access_rules": ["Ygnium"]
+					},
+					{
+						"name": "Zorephet",
+						"visibility_rules": ["location_weapon"],
+						"access_rules": ["Zorephet"]
+					},
+					{
+						"name": "Revall",
+						"visibility_rules": ["location_weapon"],
+						"access_rules": ["Revall"]
+					},
+					{
+						"name": "Xinth",
+						"visibility_rules": ["location_weapon"],
+						"access_rules": ["Xinth"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": 0,
+						"y": 10
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "City of Ephyra",
+		"chest_unopened_img": "images/labels/Trove.png",
+		"chest_opened_img": "images/labels/TroveOpen.png",
+		"access_rules": ["^$CanReach|Ephyra"],
+		"children": [
+			{
+				"name": "City of Ephyra",
+				"visibility_rules": ["location_room"],
+				"sections": [
+					{"name": "Room 1"},
+					{"name": "Room 2"},
+					{"name": "Room 3"},
+					{"name": "Room 4"},
+					{"name": "Room 5"},
+					{"name": "Room 6"},
+					{"name": "Room 7"},
+					{"name": "Room 8"},
+					{"name": "Room 9"},
+					{"name": "Room 10"},
+					{"name": "Room 11"},
+					{"name": "Room 12"},
+					{"name": "Room 13"}
+				],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": 0,
+						"y": 0
+					}
+				]
+			},
+			{
+				"name": "City of Ephyra (Descura)",
+				"visibility_rules": ["location_weapon"],
+				"access_rules": ["Descura"],
+				"sections": [
+					{"name": "Room 1"},
+					{"name": "Room 2"},
+					{"name": "Room 3"},
+					{"name": "Room 4"},
+					{"name": "Room 5"},
+					{"name": "Room 6"},
+					{"name": "Room 7"},
+					{"name": "Room 8"},
+					{"name": "Room 9"},
+					{"name": "Room 10"},
+					{"name": "Room 11"},
+					{"name": "Room 12"},
+					{"name": "Room 13"}
+				],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": -95,
+						"y": 0
+					}
+				]
+			},
+			{
+				"name": "City of Ephyra (Lim and Oros)",
+				"visibility_rules": ["location_weapon"],
+				"access_rules": ["LimAndOros"],
+				"sections": [
+					{"name": "Room 1"},
+					{"name": "Room 2"},
+					{"name": "Room 3"},
+					{"name": "Room 4"},
+					{"name": "Room 5"},
+					{"name": "Room 6"},
+					{"name": "Room 7"},
+					{"name": "Room 8"},
+					{"name": "Room 9"},
+					{"name": "Room 10"},
+					{"name": "Room 11"},
+					{"name": "Room 12"},
+					{"name": "Room 13"}
+				],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": -45,
+						"y": 0
+					}
+				]
+			},
+			{
+				"name": "City of Ephyra (Ygnium)",
+				"visibility_rules": ["location_weapon"],
+				"access_rules": ["Ygnium"],
+				"sections": [
+					{"name": "Room 1"},
+					{"name": "Room 2"},
+					{"name": "Room 3"},
+					{"name": "Room 4"},
+					{"name": "Room 5"},
+					{"name": "Room 6"},
+					{"name": "Room 7"},
+					{"name": "Room 8"},
+					{"name": "Room 9"},
+					{"name": "Room 10"},
+					{"name": "Room 11"},
+					{"name": "Room 12"},
+					{"name": "Room 13"}
+				],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": -15,
+						"y": 0
+					}
+				]
+			},
+			{
+				"name": "City of Ephyra (Zorephet)",
+				"visibility_rules": ["location_weapon"],
+				"access_rules": ["Zorephet"],
+				"sections": [
+					{"name": "Room 1"},
+					{"name": "Room 2"},
+					{"name": "Room 3"},
+					{"name": "Room 4"},
+					{"name": "Room 5"},
+					{"name": "Room 6"},
+					{"name": "Room 7"},
+					{"name": "Room 8"},
+					{"name": "Room 9"},
+					{"name": "Room 10"},
+					{"name": "Room 11"},
+					{"name": "Room 12"},
+					{"name": "Room 13"}
+				],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": 15,
+						"y": 0
+					}
+				]
+			},
+			{
+				"name": "City of Ephyra (Revall)",
+				"visibility_rules": ["location_weapon"],
+				"access_rules": ["Revall"],
+				"sections": [
+					{"name": "Room 1"},
+					{"name": "Room 2"},
+					{"name": "Room 3"},
+					{"name": "Room 4"},
+					{"name": "Room 5"},
+					{"name": "Room 6"},
+					{"name": "Room 7"},
+					{"name": "Room 8"},
+					{"name": "Room 9"},
+					{"name": "Room 10"},
+					{"name": "Room 11"},
+					{"name": "Room 12"},
+					{"name": "Room 13"}
+				],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": 45,
+						"y": 0
+					}
+				]
+			},
+			{
+				"name": "City of Ephyra (Xinth)",
+				"visibility_rules": ["location_weapon"],
+				"access_rules": ["Xinth"],
+				"sections": [
+					{"name": "Room 1"},
+					{"name": "Room 2"},
+					{"name": "Room 3"},
+					{"name": "Room 4"},
+					{"name": "Room 5"},
+					{"name": "Room 6"},
+					{"name": "Room 7"},
+					{"name": "Room 8"},
+					{"name": "Room 9"},
+					{"name": "Room 10"},
+					{"name": "Room 11"},
+					{"name": "Room 12"},
+					{"name": "Room 13"}
+				],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": 95,
+						"y": 0
+					}
+				]
+			},
+			{
+				"name": "Polyphemus",
+				"access_rules": ["^$CanReach|Polyphemus"],
+				"sections": [
+					{
+						"name": "Blind Shepherd",
+						"visibility_rules": ["location_room"]
+					},
+					{
+						"name": "Descura",
+						"visibility_rules": ["location_weapon"],
+						"access_rules": ["Descura"]
+					},
+					{
+						"name": "Lim and Oros",
+						"visibility_rules": ["location_weapon"],
+						"access_rules": ["LimAndOros"]
+					},
+					{
+						"name": "Ygnium",
+						"visibility_rules": ["location_weapon"],
+						"access_rules": ["Ygnium"]
+					},
+					{
+						"name": "Zorephet",
+						"visibility_rules": ["location_weapon"],
+						"access_rules": ["Zorephet"]
+					},
+					{
+						"name": "Revall",
+						"visibility_rules": ["location_weapon"],
+						"access_rules": ["Revall"]
+					},
+					{
+						"name": "Xinth",
+						"visibility_rules": ["location_weapon"],
+						"access_rules": ["Xinth"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": 0,
+						"y": 10
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "Rift of Thessaly",
+		"chest_unopened_img": "images/labels/Trove.png",
+		"chest_opened_img": "images/labels/TroveOpen.png",
+		"access_rules": ["^$CanReach|Thessaly"],
+		"children": [
+			{
+				"name": "Rift of Thessaly",
+				"visibility_rules": ["location_room"],
+				"sections": [
+					{"name": "Room 15"},
+					{"name": "Room 16"},
+					{"name": "Room 17"},
+					{"name": "Room 18"},
+					{"name": "Room 19"},
+					{"name": "Room 20"},
+					{"name": "Room 21"},
+					{"name": "Room 22"},
+					{"name": "Room 23"}
+				],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": 0,
+						"y": 0
+					}
+				]
+			},
+			{
+				"name": "Rift of Thessaly (Descura)",
+				"visibility_rules": ["location_weapon"],
+				"access_rules": ["Descura"],
+				"sections": [
+					{"name": "Room 15"},
+					{"name": "Room 16"},
+					{"name": "Room 17"},
+					{"name": "Room 18"},
+					{"name": "Room 19"},
+					{"name": "Room 20"},
+					{"name": "Room 21"},
+					{"name": "Room 22"},
+					{"name": "Room 23"}
+				],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": -95,
+						"y": 0
+					}
+				]
+			},
+			{
+				"name": "Rift of Thessaly (Lim and Oros)",
+				"visibility_rules": ["location_weapon"],
+				"access_rules": ["LimAndOros"],
+				"sections": [
+					{"name": "Room 15"},
+					{"name": "Room 16"},
+					{"name": "Room 17"},
+					{"name": "Room 18"},
+					{"name": "Room 19"},
+					{"name": "Room 20"},
+					{"name": "Room 21"},
+					{"name": "Room 22"},
+					{"name": "Room 23"}
+				],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": -45,
+						"y": 0
+					}
+				]
+			},
+			{
+				"name": "Rift of Thessaly (Ygnium)",
+				"visibility_rules": ["location_weapon"],
+				"access_rules": ["Ygnium"],
+				"sections": [
+					{"name": "Room 15"},
+					{"name": "Room 16"},
+					{"name": "Room 17"},
+					{"name": "Room 18"},
+					{"name": "Room 19"},
+					{"name": "Room 20"},
+					{"name": "Room 21"},
+					{"name": "Room 22"},
+					{"name": "Room 23"}
+				],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": -15,
+						"y": 0
+					}
+				]
+			},
+			{
+				"name": "Rift of Thessaly (Zorephet)",
+				"visibility_rules": ["location_weapon"],
+				"access_rules": ["Zorephet"],
+				"sections": [
+					{"name": "Room 15"},
+					{"name": "Room 16"},
+					{"name": "Room 17"},
+					{"name": "Room 18"},
+					{"name": "Room 19"},
+					{"name": "Room 20"},
+					{"name": "Room 21"},
+					{"name": "Room 22"},
+					{"name": "Room 23"}
+				],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": 15,
+						"y": 0
+					}
+				]
+			},
+			{
+				"name": "Rift of Thessaly (Revall)",
+				"visibility_rules": ["location_weapon"],
+				"access_rules": ["Revall"],
+				"sections": [
+					{"name": "Room 15"},
+					{"name": "Room 16"},
+					{"name": "Room 17"},
+					{"name": "Room 18"},
+					{"name": "Room 19"},
+					{"name": "Room 20"},
+					{"name": "Room 21"},
+					{"name": "Room 22"},
+					{"name": "Room 23"}
+				],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": 45,
+						"y": 0
+					}
+				]
+			},
+			{
+				"name": "Rift of Thessaly (Xinth)",
+				"visibility_rules": ["location_weapon"],
+				"access_rules": ["Xinth"],
+				"sections": [
+					{"name": "Room 15"},
+					{"name": "Room 16"},
+					{"name": "Room 17"},
+					{"name": "Room 18"},
+					{"name": "Room 19"},
+					{"name": "Room 20"},
+					{"name": "Room 21"},
+					{"name": "Room 22"},
+					{"name": "Room 23"}
+				],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": 95,
+						"y": 0
+					}
+				]
+			},
+			{
+				"name": "Eris",
+				"access_rules": ["^$CanReach|Eris"],
+				"sections": [
+					{
+						"name": "Strife Incarnate",
+						"visibility_rules": ["location_room"]
+					},
+					{
+						"name": "Descura",
+						"visibility_rules": ["location_weapon"],
+						"access_rules": ["Descura"]
+					},
+					{
+						"name": "Lim and Oros",
+						"visibility_rules": ["location_weapon"],
+						"access_rules": ["LimAndOros"]
+					},
+					{
+						"name": "Ygnium",
+						"visibility_rules": ["location_weapon"],
+						"access_rules": ["Ygnium"]
+					},
+					{
+						"name": "Zorephet",
+						"visibility_rules": ["location_weapon"],
+						"access_rules": ["Zorephet"]
+					},
+					{
+						"name": "Revall",
+						"visibility_rules": ["location_weapon"],
+						"access_rules": ["Revall"]
+					},
+					{
+						"name": "Xinth",
+						"visibility_rules": ["location_weapon"],
+						"access_rules": ["Xinth"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": 0,
+						"y": 10
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "Mount Olympus",
+		"chest_unopened_img": "images/labels/Trove.png",
+		"chest_opened_img": "images/labels/TroveOpen.png",
+		"access_rules": ["^$CanReach|Olympus"],
+		"children": [
+			{
+				"name": "Mount Olympus",
+				"visibility_rules": ["location_room"],
+				"sections": [
+					{"name": "Room 25"},
+					{"name": "Room 26"},
+					{"name": "Room 27"},
+					{"name": "Room 28"},
+					{"name": "Room 29"},
+					{"name": "Room 30"},
+					{"name": "Room 31"},
+					{"name": "Room 32"},
+					{"name": "Room 33"},
+					{"name": "Room 34"},
+					{"name": "Room 35"}
+				],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": 0,
+						"y": 0
+					}
+				]
+			},
+			{
+				"name": "Mount Olympus (Descura)",
+				"visibility_rules": ["location_weapon"],
+				"access_rules": ["Descura"],
+				"sections": [
+					{"name": "Room 25"},
+					{"name": "Room 26"},
+					{"name": "Room 27"},
+					{"name": "Room 28"},
+					{"name": "Room 29"},
+					{"name": "Room 30"},
+					{"name": "Room 31"},
+					{"name": "Room 32"},
+					{"name": "Room 33"},
+					{"name": "Room 34"},
+					{"name": "Room 35"}
+				],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": -95,
+						"y": 0
+					}
+				]
+			},
+			{
+				"name": "Mount Olympus (Lim and Oros)",
+				"visibility_rules": ["location_weapon"],
+				"access_rules": ["LimAndOros"],
+				"sections": [
+					{"name": "Room 25"},
+					{"name": "Room 26"},
+					{"name": "Room 27"},
+					{"name": "Room 28"},
+					{"name": "Room 29"},
+					{"name": "Room 30"},
+					{"name": "Room 31"},
+					{"name": "Room 32"},
+					{"name": "Room 33"},
+					{"name": "Room 34"},
+					{"name": "Room 35"}
+				],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": -45,
+						"y": 0
+					}
+				]
+			},
+			{
+				"name": "Mount Olympus (Ygnium)",
+				"visibility_rules": ["location_weapon"],
+				"access_rules": ["Ygnium"],
+				"sections": [
+					{"name": "Room 25"},
+					{"name": "Room 26"},
+					{"name": "Room 27"},
+					{"name": "Room 28"},
+					{"name": "Room 29"},
+					{"name": "Room 30"},
+					{"name": "Room 31"},
+					{"name": "Room 32"},
+					{"name": "Room 33"},
+					{"name": "Room 34"},
+					{"name": "Room 35"}
+				],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": -15,
+						"y": 0
+					}
+				]
+			},
+			{
+				"name": "Mount Olympus (Zorephet)",
+				"visibility_rules": ["location_weapon"],
+				"access_rules": ["Zorephet"],
+				"sections": [
+					{"name": "Room 25"},
+					{"name": "Room 26"},
+					{"name": "Room 27"},
+					{"name": "Room 28"},
+					{"name": "Room 29"},
+					{"name": "Room 30"},
+					{"name": "Room 31"},
+					{"name": "Room 32"},
+					{"name": "Room 33"},
+					{"name": "Room 34"},
+					{"name": "Room 35"}
+				],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": 15,
+						"y": 0
+					}
+				]
+			},
+			{
+				"name": "Mount Olympus (Revall)",
+				"visibility_rules": ["location_weapon"],
+				"access_rules": ["Revall"],
+				"sections": [
+					{"name": "Room 25"},
+					{"name": "Room 26"},
+					{"name": "Room 27"},
+					{"name": "Room 28"},
+					{"name": "Room 29"},
+					{"name": "Room 30"},
+					{"name": "Room 31"},
+					{"name": "Room 32"},
+					{"name": "Room 33"},
+					{"name": "Room 34"},
+					{"name": "Room 35"}
+				],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": 45,
+						"y": 0
+					}
+				]
+			},
+			{
+				"name": "Mount Olympus (Xinth)",
+				"visibility_rules": ["location_weapon"],
+				"access_rules": ["Xinth"],
+				"sections": [
+					{"name": "Room 25"},
+					{"name": "Room 26"},
+					{"name": "Room 27"},
+					{"name": "Room 28"},
+					{"name": "Room 29"},
+					{"name": "Room 30"},
+					{"name": "Room 31"},
+					{"name": "Room 32"},
+					{"name": "Room 33"},
+					{"name": "Room 34"},
+					{"name": "Room 35"}
+				],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": 95,
+						"y": 0
+					}
+				]
+			},
+			{
+				"name": "Prometheus",
+				"access_rules": ["^$CanReach|Prometheus"],
+				"sections": [
+					{
+						"name": "Titan of Prophecy",
+						"visibility_rules": ["location_room"]
+					},
+					{
+						"name": "Descura",
+						"visibility_rules": ["location_weapon"],
+						"access_rules": ["Descura"]
+					},
+					{
+						"name": "Lim and Oros",
+						"visibility_rules": ["location_weapon"],
+						"access_rules": ["LimAndOros"]
+					},
+					{
+						"name": "Ygnium",
+						"visibility_rules": ["location_weapon"],
+						"access_rules": ["Ygnium"]
+					},
+					{
+						"name": "Zorephet",
+						"visibility_rules": ["location_weapon"],
+						"access_rules": ["Zorephet"]
+					},
+					{
+						"name": "Revall",
+						"visibility_rules": ["location_weapon"],
+						"access_rules": ["Revall"]
+					},
+					{
+						"name": "Xinth",
+						"visibility_rules": ["location_weapon"],
+						"access_rules": ["Xinth"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": 0,
+						"y": 10
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "The Summit",
+		"chest_unopened_img": "images/labels/Trove.png",
+		"chest_opened_img": "images/labels/TroveOpen.png",
+		"access_rules": ["^$CanReach|Summit"],
+		"children": [
+			{
+				"name": "The Summit",
+				"visibility_rules": ["location_room"],
+				"sections": [
+					{"name": "Room 37"},
+					{"name": "Room 38"},
+					{"name": "Room 39"},
+					{"name": "Room 40"},
+					{"name": "Room 41"},
+					{"name": "Room 42"},
+					{"name": "Room 43"},
+					{"name": "Room 44"},
+					{"name": "Room 45"},
+					{"name": "Room 46"},
+					{"name": "Room 47"},
+					{"name": "Room 48"},
+					{"name": "Room 49"},
+					{"name": "Room 50"},
+					{"name": "Room 51"},
+					{"name": "Room 52"},
+					{"name": "Room 53"},
+					{"name": "Room 54"},
+					{"name": "Room 55"},
+					{"name": "Room 56"},
+					{"name": "Room 57"},
+					{"name": "Room 58"},
+					{"name": "Room 59"},
+					{"name": "Room 60"},
+					{"name": "Room 61"},
+					{"name": "Room 62"},
+					{"name": "Room 63"},
+					{"name": "Room 64"},
+					{"name": "Room 65"},
+					{"name": "Room 66"},
+					{"name": "Room 67"},
+					{"name": "Room 68"},
+					{"name": "Room 69"},
+					{"name": "Room 70"},
+					{"name": "Room 71"},
+					{"name": "Room 72"}
+				],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": 0,
+						"y": 0
+					}
+				]
+			},
+			{
+				"name": "The Summit (Descura)",
+				"visibility_rules": ["location_weapon"],
+				"access_rules": ["Descura"],
+				"sections": [
+					{"name": "Room 37"},
+					{"name": "Room 38"},
+					{"name": "Room 39"},
+					{"name": "Room 40"},
+					{"name": "Room 41"},
+					{"name": "Room 42"},
+					{"name": "Room 43"},
+					{"name": "Room 44"},
+					{"name": "Room 45"},
+					{"name": "Room 46"},
+					{"name": "Room 47"},
+					{"name": "Room 48"},
+					{"name": "Room 49"},
+					{"name": "Room 50"},
+					{"name": "Room 51"},
+					{"name": "Room 52"},
+					{"name": "Room 53"},
+					{"name": "Room 54"},
+					{"name": "Room 55"},
+					{"name": "Room 56"},
+					{"name": "Room 57"},
+					{"name": "Room 58"},
+					{"name": "Room 59"},
+					{"name": "Room 60"},
+					{"name": "Room 61"},
+					{"name": "Room 62"},
+					{"name": "Room 63"},
+					{"name": "Room 64"},
+					{"name": "Room 65"},
+					{"name": "Room 66"},
+					{"name": "Room 67"},
+					{"name": "Room 68"},
+					{"name": "Room 69"},
+					{"name": "Room 70"},
+					{"name": "Room 71"},
+					{"name": "Room 72"}
+				],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": -95,
+						"y": 0
+					}
+				]
+			},
+			{
+				"name": "The Summit (Lim and Oros)",
+				"visibility_rules": ["location_weapon"],
+				"access_rules": ["LimAndOros"],
+				"sections": [
+					{"name": "Room 37"},
+					{"name": "Room 38"},
+					{"name": "Room 39"},
+					{"name": "Room 40"},
+					{"name": "Room 41"},
+					{"name": "Room 42"},
+					{"name": "Room 43"},
+					{"name": "Room 44"},
+					{"name": "Room 45"},
+					{"name": "Room 46"},
+					{"name": "Room 47"},
+					{"name": "Room 48"},
+					{"name": "Room 49"},
+					{"name": "Room 50"},
+					{"name": "Room 51"},
+					{"name": "Room 52"},
+					{"name": "Room 53"},
+					{"name": "Room 54"},
+					{"name": "Room 55"},
+					{"name": "Room 56"},
+					{"name": "Room 57"},
+					{"name": "Room 58"},
+					{"name": "Room 59"},
+					{"name": "Room 60"},
+					{"name": "Room 61"},
+					{"name": "Room 62"},
+					{"name": "Room 63"},
+					{"name": "Room 64"},
+					{"name": "Room 65"},
+					{"name": "Room 66"},
+					{"name": "Room 67"},
+					{"name": "Room 68"},
+					{"name": "Room 69"},
+					{"name": "Room 70"},
+					{"name": "Room 71"},
+					{"name": "Room 72"}
+				],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": -45,
+						"y": 0
+					}
+				]
+			},
+			{
+				"name": "The Summit (Ygnium)",
+				"visibility_rules": ["location_weapon"],
+				"access_rules": ["Ygnium"],
+				"sections": [
+					{"name": "Room 37"},
+					{"name": "Room 38"},
+					{"name": "Room 39"},
+					{"name": "Room 40"},
+					{"name": "Room 41"},
+					{"name": "Room 42"},
+					{"name": "Room 43"},
+					{"name": "Room 44"},
+					{"name": "Room 45"},
+					{"name": "Room 46"},
+					{"name": "Room 47"},
+					{"name": "Room 48"},
+					{"name": "Room 49"},
+					{"name": "Room 50"},
+					{"name": "Room 51"},
+					{"name": "Room 52"},
+					{"name": "Room 53"},
+					{"name": "Room 54"},
+					{"name": "Room 55"},
+					{"name": "Room 56"},
+					{"name": "Room 57"},
+					{"name": "Room 58"},
+					{"name": "Room 59"},
+					{"name": "Room 60"},
+					{"name": "Room 61"},
+					{"name": "Room 62"},
+					{"name": "Room 63"},
+					{"name": "Room 64"},
+					{"name": "Room 65"},
+					{"name": "Room 66"},
+					{"name": "Room 67"},
+					{"name": "Room 68"},
+					{"name": "Room 69"},
+					{"name": "Room 70"},
+					{"name": "Room 71"},
+					{"name": "Room 72"}
+				],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": -15,
+						"y": 0
+					}
+				]
+			},
+			{
+				"name": "The Summit (Zorephet)",
+				"visibility_rules": ["location_weapon"],
+				"access_rules": ["Zorephet"],
+				"sections": [
+					{"name": "Room 37"},
+					{"name": "Room 38"},
+					{"name": "Room 39"},
+					{"name": "Room 40"},
+					{"name": "Room 41"},
+					{"name": "Room 42"},
+					{"name": "Room 43"},
+					{"name": "Room 44"},
+					{"name": "Room 45"},
+					{"name": "Room 46"},
+					{"name": "Room 47"},
+					{"name": "Room 48"},
+					{"name": "Room 49"},
+					{"name": "Room 50"},
+					{"name": "Room 51"},
+					{"name": "Room 52"},
+					{"name": "Room 53"},
+					{"name": "Room 54"},
+					{"name": "Room 55"},
+					{"name": "Room 56"},
+					{"name": "Room 57"},
+					{"name": "Room 58"},
+					{"name": "Room 59"},
+					{"name": "Room 60"},
+					{"name": "Room 61"},
+					{"name": "Room 62"},
+					{"name": "Room 63"},
+					{"name": "Room 64"},
+					{"name": "Room 65"},
+					{"name": "Room 66"},
+					{"name": "Room 67"},
+					{"name": "Room 68"},
+					{"name": "Room 69"},
+					{"name": "Room 70"},
+					{"name": "Room 71"},
+					{"name": "Room 72"}
+				],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": 15,
+						"y": 0
+					}
+				]
+			},
+			{
+				"name": "The Summit (Revall)",
+				"visibility_rules": ["location_weapon"],
+				"access_rules": ["Revall"],
+				"sections": [
+					{"name": "Room 37"},
+					{"name": "Room 38"},
+					{"name": "Room 39"},
+					{"name": "Room 40"},
+					{"name": "Room 41"},
+					{"name": "Room 42"},
+					{"name": "Room 43"},
+					{"name": "Room 44"},
+					{"name": "Room 45"},
+					{"name": "Room 46"},
+					{"name": "Room 47"},
+					{"name": "Room 48"},
+					{"name": "Room 49"},
+					{"name": "Room 50"},
+					{"name": "Room 51"},
+					{"name": "Room 52"},
+					{"name": "Room 53"},
+					{"name": "Room 54"},
+					{"name": "Room 55"},
+					{"name": "Room 56"},
+					{"name": "Room 57"},
+					{"name": "Room 58"},
+					{"name": "Room 59"},
+					{"name": "Room 60"},
+					{"name": "Room 61"},
+					{"name": "Room 62"},
+					{"name": "Room 63"},
+					{"name": "Room 64"},
+					{"name": "Room 65"},
+					{"name": "Room 66"},
+					{"name": "Room 67"},
+					{"name": "Room 68"},
+					{"name": "Room 69"},
+					{"name": "Room 70"},
+					{"name": "Room 71"},
+					{"name": "Room 72"}
+				],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": 45,
+						"y": 0
+					}
+				]
+			},
+			{
+				"name": "The Summit (Xinth)",
+				"visibility_rules": ["location_weapon"],
+				"access_rules": ["Xinth"],
+				"sections": [
+					{"name": "Room 37"},
+					{"name": "Room 38"},
+					{"name": "Room 39"},
+					{"name": "Room 40"},
+					{"name": "Room 41"},
+					{"name": "Room 42"},
+					{"name": "Room 43"},
+					{"name": "Room 44"},
+					{"name": "Room 45"},
+					{"name": "Room 46"},
+					{"name": "Room 47"},
+					{"name": "Room 48"},
+					{"name": "Room 49"},
+					{"name": "Room 50"},
+					{"name": "Room 51"},
+					{"name": "Room 52"},
+					{"name": "Room 53"},
+					{"name": "Room 54"},
+					{"name": "Room 55"},
+					{"name": "Room 56"},
+					{"name": "Room 57"},
+					{"name": "Room 58"},
+					{"name": "Room 59"},
+					{"name": "Room 60"},
+					{"name": "Room 61"},
+					{"name": "Room 62"},
+					{"name": "Room 63"},
+					{"name": "Room 64"},
+					{"name": "Room 65"},
+					{"name": "Room 66"},
+					{"name": "Room 67"},
+					{"name": "Room 68"},
+					{"name": "Room 69"},
+					{"name": "Room 70"},
+					{"name": "Room 71"},
+					{"name": "Room 72"}
+				],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": 95,
+						"y": 0
+					}
+				]
+			},
+			{
+				"name": "Typhon",
+				"access_rules": ["^$CanReach|Typhon"],
+				"sections": [
+					{
+						"name": "Father of All Monsters",
+						"visibility_rules": ["location_room"]
+					},
+					{
+						"name": "Descura",
+						"visibility_rules": ["location_weapon"],
+						"access_rules": ["Descura"]
+					},
+					{
+						"name": "Lim and Oros",
+						"visibility_rules": ["location_weapon"],
+						"access_rules": ["LimAndOros"]
+					},
+					{
+						"name": "Ygnium",
+						"visibility_rules": ["location_weapon"],
+						"access_rules": ["Ygnium"]
+					},
+					{
+						"name": "Zorephet",
+						"visibility_rules": ["location_weapon"],
+						"access_rules": ["Zorephet"]
+					},
+					{
+						"name": "Revall",
+						"visibility_rules": ["location_weapon"],
+						"access_rules": ["Revall"]
+					},
+					{
+						"name": "Xinth",
+						"visibility_rules": ["location_weapon"],
+						"access_rules": ["Xinth"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": 0,
+						"y": 10
+					}
+				]
+			}
+		]
+	}
+]
