@@ -1,5 +1,4 @@
-import fs from 'fs'
-import { toPascalCase } from './utils.js'
+import { toPascalCase, writeToFile } from './utils.js'
 
 export function createWeapons() {
 	let items = []
@@ -78,12 +77,7 @@ export function createWeapons() {
 		}
 	}
 
-	fs.writeFile("items/weapons.jsonc", JSON.stringify(items, null, "\t"), err => {
-		if (err) {
-			console.error(`Error writing to file: ${err}`)
-			return
-		}
-	})
+	writeToFile("items/weapons.jsonc", JSON.stringify(items, null, "\t"))
 }
 
 if (import.meta.main) {

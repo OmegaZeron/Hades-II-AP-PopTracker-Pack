@@ -1,5 +1,6 @@
 require("scripts.logic.variable_definitions")
 require("scripts.logic.logic")
+require("scripts.logic.location_definitions")
 require("scripts.logic.logic_predicates")
 require("scripts.utils")
 require("scripts.autotracking")
@@ -14,5 +15,5 @@ Tracker:AddItems("items/pack_settings.jsonc")
 Tracker:AddMaps("maps/maps.jsonc")
 
 -- Tracker:AddLayouts("layouts/item_grids.jsonc")
--- Tracker:AddLayouts("layouts/tracker_layouts.jsonc")
+Tracker:AddLayouts("layouts/tracker_layouts.jsonc")
 -- Tracker:AddLayouts("layouts/broadcast.jsonc")

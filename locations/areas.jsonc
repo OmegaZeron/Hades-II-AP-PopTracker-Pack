@@ -25,9 +25,9 @@
 				],
 				"map_locations": [
 					{
-						"map": "areas",
-						"x": 0,
-						"y": 0
+						"map": "BiomeMap",
+						"x": 655,
+						"y": 1247
 					}
 				]
 			},
@@ -52,9 +52,9 @@
 				],
 				"map_locations": [
 					{
-						"map": "areas",
-						"x": -95,
-						"y": 0
+						"map": "BiomeMap",
+						"x": 525,
+						"y": 1247
 					}
 				]
 			},
@@ -79,9 +79,9 @@
 				],
 				"map_locations": [
 					{
-						"map": "areas",
-						"x": -45,
-						"y": 0
+						"map": "BiomeMap",
+						"x": 577,
+						"y": 1247
 					}
 				]
 			},
@@ -106,9 +106,9 @@
 				],
 				"map_locations": [
 					{
-						"map": "areas",
-						"x": -15,
-						"y": 0
+						"map": "BiomeMap",
+						"x": 629,
+						"y": 1247
 					}
 				]
 			},
@@ -133,9 +133,9 @@
 				],
 				"map_locations": [
 					{
-						"map": "areas",
-						"x": 15,
-						"y": 0
+						"map": "BiomeMap",
+						"x": 681,
+						"y": 1247
 					}
 				]
 			},
@@ -160,9 +160,9 @@
 				],
 				"map_locations": [
 					{
-						"map": "areas",
-						"x": 45,
-						"y": 0
+						"map": "BiomeMap",
+						"x": 733,
+						"y": 1247
 					}
 				]
 			},
@@ -187,9 +187,9 @@
 				],
 				"map_locations": [
 					{
-						"map": "areas",
-						"x": 95,
-						"y": 0
+						"map": "BiomeMap",
+						"x": 785,
+						"y": 1247
 					}
 				]
 			},
@@ -234,9 +234,9 @@
 				],
 				"map_locations": [
 					{
-						"map": "areas",
-						"x": 0,
-						"y": 10
+						"map": "BiomeMap",
+						"x": 777,
+						"y": 1343
 					}
 				]
 			}
@@ -264,9 +264,9 @@
 				],
 				"map_locations": [
 					{
-						"map": "areas",
-						"x": 0,
-						"y": 0
+						"map": "BiomeMap",
+						"x": 1015,
+						"y": 1367
 					}
 				]
 			},
@@ -287,9 +287,9 @@
 				],
 				"map_locations": [
 					{
-						"map": "areas",
-						"x": -95,
-						"y": 0
+						"map": "BiomeMap",
+						"x": 885,
+						"y": 1367
 					}
 				]
 			},
@@ -310,9 +310,9 @@
 				],
 				"map_locations": [
 					{
-						"map": "areas",
-						"x": -45,
-						"y": 0
+						"map": "BiomeMap",
+						"x": 937,
+						"y": 1367
 					}
 				]
 			},
@@ -333,9 +333,9 @@
 				],
 				"map_locations": [
 					{
-						"map": "areas",
-						"x": -15,
-						"y": 0
+						"map": "BiomeMap",
+						"x": 989,
+						"y": 1367
 					}
 				]
 			},
@@ -356,9 +356,9 @@
 				],
 				"map_locations": [
 					{
-						"map": "areas",
-						"x": 15,
-						"y": 0
+						"map": "BiomeMap",
+						"x": 1041,
+						"y": 1367
 					}
 				]
 			},
@@ -379,9 +379,9 @@
 				],
 				"map_locations": [
 					{
-						"map": "areas",
-						"x": 45,
-						"y": 0
+						"map": "BiomeMap",
+						"x": 1093,
+						"y": 1367
 					}
 				]
 			},
@@ -402,9 +402,9 @@
 				],
 				"map_locations": [
 					{
-						"map": "areas",
-						"x": 95,
-						"y": 0
+						"map": "BiomeMap",
+						"x": 1145,
+						"y": 1367
 					}
 				]
 			},
@@ -449,9 +449,9 @@
 				],
 				"map_locations": [
 					{
-						"map": "areas",
-						"x": 0,
-						"y": 10
+						"map": "BiomeMap",
+						"x": 1110,
+						"y": 1453
 					}
 				]
 			}
@@ -481,9 +481,9 @@
 				],
 				"map_locations": [
 					{
-						"map": "areas",
-						"x": 0,
-						"y": 0
+						"map": "BiomeMap",
+						"x": 1310,
+						"y": 1501
 					}
 				]
 			},
@@ -506,9 +506,9 @@
 				],
 				"map_locations": [
 					{
-						"map": "areas",
-						"x": -95,
-						"y": 0
+						"map": "BiomeMap",
+						"x": 1180,
+						"y": 1501
 					}
 				]
 			},
@@ -531,9 +531,9 @@
 				],
 				"map_locations": [
 					{
-						"map": "areas",
-						"x": -45,
-						"y": 0
+						"map": "BiomeMap",
+						"x": 1232,
+						"y": 1501
 					}
 				]
 			},
@@ -556,9 +556,9 @@
 				],
 				"map_locations": [
 					{
-						"map": "areas",
-						"x": -15,
-						"y": 0
+						"map": "BiomeMap",
+						"x": 1284,
+						"y": 1501
 					}
 				]
 			},
@@ -581,9 +581,9 @@
 				],
 				"map_locations": [
 					{
-						"map": "areas",
-						"x": 15,
-						"y": 0
+						"map": "BiomeMap",
+						"x": 1336,
+						"y": 1501
 					}
 				]
 			},
@@ -606,9 +606,9 @@
 				],
 				"map_locations": [
 					{
-						"map": "areas",
-						"x": 45,
-						"y": 0
+						"map": "BiomeMap",
+						"x": 1388,
+						"y": 1501
 					}
 				]
 			},
@@ -631,9 +631,9 @@
 				],
 				"map_locations": [
 					{
-						"map": "areas",
-						"x": 95,
-						"y": 0
+						"map": "BiomeMap",
+						"x": 1440,
+						"y": 1501
 					}
 				]
 			},
@@ -678,9 +678,9 @@
 				],
 				"map_locations": [
 					{
-						"map": "areas",
-						"x": 0,
-						"y": 10
+						"map": "BiomeMap",
+						"x": 1210,
+						"y": 1606
 					}
 				]
 			}
@@ -735,9 +735,9 @@
 				],
 				"map_locations": [
 					{
-						"map": "areas",
-						"x": 0,
-						"y": 0
+						"map": "BiomeMap",
+						"x": 998,
+						"y": 1729
 					}
 				]
 			},
@@ -785,9 +785,9 @@
 				],
 				"map_locations": [
 					{
-						"map": "areas",
-						"x": -95,
-						"y": 0
+						"map": "BiomeMap",
+						"x": 868,
+						"y": 1729
 					}
 				]
 			},
@@ -835,9 +835,9 @@
 				],
 				"map_locations": [
 					{
-						"map": "areas",
-						"x": -45,
-						"y": 0
+						"map": "BiomeMap",
+						"x": 920,
+						"y": 1729
 					}
 				]
 			},
@@ -885,9 +885,9 @@
 				],
 				"map_locations": [
 					{
-						"map": "areas",
-						"x": -15,
-						"y": 0
+						"map": "BiomeMap",
+						"x": 972,
+						"y": 1729
 					}
 				]
 			},
@@ -935,9 +935,9 @@
 				],
 				"map_locations": [
 					{
-						"map": "areas",
-						"x": 15,
-						"y": 0
+						"map": "BiomeMap",
+						"x": 1024,
+						"y": 1729
 					}
 				]
 			},
@@ -985,9 +985,9 @@
 				],
 				"map_locations": [
 					{
-						"map": "areas",
-						"x": 45,
-						"y": 0
+						"map": "BiomeMap",
+						"x": 1076,
+						"y": 1729
 					}
 				]
 			},
@@ -1035,9 +1035,9 @@
 				],
 				"map_locations": [
 					{
-						"map": "areas",
-						"x": 95,
-						"y": 0
+						"map": "BiomeMap",
+						"x": 1128,
+						"y": 1729
 					}
 				]
 			},
@@ -1082,9 +1082,9 @@
 				],
 				"map_locations": [
 					{
-						"map": "areas",
-						"x": 0,
-						"y": 10
+						"map": "BiomeMap",
+						"x": 1010,
+						"y": 1872
 					}
 				]
 			}
@@ -1116,7 +1116,7 @@
 				],
 				"map_locations": [
 					{
-						"map": "areas",
+						"map": "BiomeMap",
 						"x": 0,
 						"y": 0
 					}
@@ -1143,8 +1143,8 @@
 				],
 				"map_locations": [
 					{
-						"map": "areas",
-						"x": -95,
+						"map": "BiomeMap",
+						"x": -130,
 						"y": 0
 					}
 				]
@@ -1170,8 +1170,8 @@
 				],
 				"map_locations": [
 					{
-						"map": "areas",
-						"x": -45,
+						"map": "BiomeMap",
+						"x": -78,
 						"y": 0
 					}
 				]
@@ -1197,8 +1197,8 @@
 				],
 				"map_locations": [
 					{
-						"map": "areas",
-						"x": -15,
+						"map": "BiomeMap",
+						"x": -26,
 						"y": 0
 					}
 				]
@@ -1224,8 +1224,8 @@
 				],
 				"map_locations": [
 					{
-						"map": "areas",
-						"x": 15,
+						"map": "BiomeMap",
+						"x": 26,
 						"y": 0
 					}
 				]
@@ -1251,8 +1251,8 @@
 				],
 				"map_locations": [
 					{
-						"map": "areas",
-						"x": 45,
+						"map": "BiomeMap",
+						"x": 78,
 						"y": 0
 					}
 				]
@@ -1278,8 +1278,8 @@
 				],
 				"map_locations": [
 					{
-						"map": "areas",
-						"x": 95,
+						"map": "BiomeMap",
+						"x": 130,
 						"y": 0
 					}
 				]
@@ -1325,8 +1325,8 @@
 				],
 				"map_locations": [
 					{
-						"map": "areas",
-						"x": 0,
+						"map": "BiomeMap",
+						"x": 10,
 						"y": 10
 					}
 				]
@@ -1355,7 +1355,7 @@
 				],
 				"map_locations": [
 					{
-						"map": "areas",
+						"map": "BiomeMap",
 						"x": 0,
 						"y": 0
 					}
@@ -1378,8 +1378,8 @@
 				],
 				"map_locations": [
 					{
-						"map": "areas",
-						"x": -95,
+						"map": "BiomeMap",
+						"x": -130,
 						"y": 0
 					}
 				]
@@ -1401,8 +1401,8 @@
 				],
 				"map_locations": [
 					{
-						"map": "areas",
-						"x": -45,
+						"map": "BiomeMap",
+						"x": -78,
 						"y": 0
 					}
 				]
@@ -1424,8 +1424,8 @@
 				],
 				"map_locations": [
 					{
-						"map": "areas",
-						"x": -15,
+						"map": "BiomeMap",
+						"x": -26,
 						"y": 0
 					}
 				]
@@ -1447,8 +1447,8 @@
 				],
 				"map_locations": [
 					{
-						"map": "areas",
-						"x": 15,
+						"map": "BiomeMap",
+						"x": 26,
 						"y": 0
 					}
 				]
@@ -1470,8 +1470,8 @@
 				],
 				"map_locations": [
 					{
-						"map": "areas",
-						"x": 45,
+						"map": "BiomeMap",
+						"x": 78,
 						"y": 0
 					}
 				]
@@ -1493,8 +1493,8 @@
 				],
 				"map_locations": [
 					{
-						"map": "areas",
-						"x": 95,
+						"map": "BiomeMap",
+						"x": 130,
 						"y": 0
 					}
 				]
@@ -1540,8 +1540,8 @@
 				],
 				"map_locations": [
 					{
-						"map": "areas",
-						"x": 0,
+						"map": "BiomeMap",
+						"x": 10,
 						"y": 10
 					}
 				]
@@ -1572,7 +1572,7 @@
 				],
 				"map_locations": [
 					{
-						"map": "areas",
+						"map": "BiomeMap",
 						"x": 0,
 						"y": 0
 					}
@@ -1597,8 +1597,8 @@
 				],
 				"map_locations": [
 					{
-						"map": "areas",
-						"x": -95,
+						"map": "BiomeMap",
+						"x": -130,
 						"y": 0
 					}
 				]
@@ -1622,8 +1622,8 @@
 				],
 				"map_locations": [
 					{
-						"map": "areas",
-						"x": -45,
+						"map": "BiomeMap",
+						"x": -78,
 						"y": 0
 					}
 				]
@@ -1647,8 +1647,8 @@
 				],
 				"map_locations": [
 					{
-						"map": "areas",
-						"x": -15,
+						"map": "BiomeMap",
+						"x": -26,
 						"y": 0
 					}
 				]
@@ -1672,8 +1672,8 @@
 				],
 				"map_locations": [
 					{
-						"map": "areas",
-						"x": 15,
+						"map": "BiomeMap",
+						"x": 26,
 						"y": 0
 					}
 				]
@@ -1697,8 +1697,8 @@
 				],
 				"map_locations": [
 					{
-						"map": "areas",
-						"x": 45,
+						"map": "BiomeMap",
+						"x": 78,
 						"y": 0
 					}
 				]
@@ -1722,8 +1722,8 @@
 				],
 				"map_locations": [
 					{
-						"map": "areas",
-						"x": 95,
+						"map": "BiomeMap",
+						"x": 130,
 						"y": 0
 					}
 				]
@@ -1769,8 +1769,8 @@
 				],
 				"map_locations": [
 					{
-						"map": "areas",
-						"x": 0,
+						"map": "BiomeMap",
+						"x": 10,
 						"y": 10
 					}
 				]
@@ -1826,7 +1826,7 @@
 				],
 				"map_locations": [
 					{
-						"map": "areas",
+						"map": "BiomeMap",
 						"x": 0,
 						"y": 0
 					}
@@ -1876,8 +1876,8 @@
 				],
 				"map_locations": [
 					{
-						"map": "areas",
-						"x": -95,
+						"map": "BiomeMap",
+						"x": -130,
 						"y": 0
 					}
 				]
@@ -1926,8 +1926,8 @@
 				],
 				"map_locations": [
 					{
-						"map": "areas",
-						"x": -45,
+						"map": "BiomeMap",
+						"x": -78,
 						"y": 0
 					}
 				]
@@ -1976,8 +1976,8 @@
 				],
 				"map_locations": [
 					{
-						"map": "areas",
-						"x": -15,
+						"map": "BiomeMap",
+						"x": -26,
 						"y": 0
 					}
 				]
@@ -2026,8 +2026,8 @@
 				],
 				"map_locations": [
 					{
-						"map": "areas",
-						"x": 15,
+						"map": "BiomeMap",
+						"x": 26,
 						"y": 0
 					}
 				]
@@ -2076,8 +2076,8 @@
 				],
 				"map_locations": [
 					{
-						"map": "areas",
-						"x": 45,
+						"map": "BiomeMap",
+						"x": 78,
 						"y": 0
 					}
 				]
@@ -2126,8 +2126,8 @@
 				],
 				"map_locations": [
 					{
-						"map": "areas",
-						"x": 95,
+						"map": "BiomeMap",
+						"x": 130,
 						"y": 0
 					}
 				]
@@ -2173,8 +2173,8 @@
 				],
 				"map_locations": [
 					{
-						"map": "areas",
-						"x": 0,
+						"map": "BiomeMap",
+						"x": 10,
 						"y": 10
 					}
 				]

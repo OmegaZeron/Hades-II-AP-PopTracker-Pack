@@ -1,0 +1,8 @@
+[
+	{
+		"name": "BiomeMap",
+		"img": "images/maps/BiomeMap.png",
+		"location_size": 40,
+		"location_border_thickness": 5
+	}
+]

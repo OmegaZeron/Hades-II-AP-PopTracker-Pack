@@ -1,24 +1,24 @@
-import { vars, writeToFile } from './utils.js'
+import { vars, mapData, writeToFile } from './utils.js'
 
 export function createAreaLocs() {
 	let regions = [
-		{name: "Erebus", start: 1, end: 13, x: 0, y: 0, bossName: "Hecate", subName: "The Test", offsetX: 10, offsetY: 10},
-		{name: "Oceanus", start: 15, end: 23, x: 0, y: 0, bossName: "Scylla and the Sirens", bossCode: "Scylla", subName: "They Hate You", offsetX: 10, offsetY: 10},
-		{name: "Fields of Mourning", code: "Fields", start: 25, end: 35, x: 0, y: 0, bossName: "Cerberus", subName: "Tormented Puppy", offsetX: 10, offsetY: 10},
-		{name: "Tartarus", start: 37, end: 72, x: 0, y: 0, bossName: "Chronos", subName: "Grandfather Time", offsetX: 10, offsetY: 10},
-		{name: "City of Ephyra", code: "Ephyra", start: 1, end: 13, x: 0, y: 0, bossName: "Polyphemus", subName: "Blind Shepherd", offsetX: 10, offsetY: 10},
-		{name: "Rift of Thessaly", code: "Thessaly", start: 15, end: 23, x: 0, y: 0, bossName: "Eris", subName: "Strife Incarnate", offsetX: 10, offsetY: 10},
-		{name: "Mount Olympus", code: "Olympus", start: 25, end: 35, x: 0, y: 0, bossName: "Prometheus", subName: "Titan of Prophecy", offsetX: 10, offsetY: 10},
-		{name: "The Summit", code: "Summit", start: 37, end: 72, x: 0, y: 0, bossName: "Typhon", subName: "Father of All Monsters", offsetX: 10, offsetY: 10}
+		{name: "Erebus", start: 1, end: 13, x: 655, y: 1247, bossName: "Hecate", subName: "The Test", bossX: 777, bossY: 1343},
+		{name: "Oceanus", start: 15, end: 23, x: 1015, y: 1367, bossName: "Scylla and the Sirens", bossCode: "Scylla", subName: "They Hate You", bossX: 1110, bossY: 1453},
+		{name: "Fields of Mourning", code: "Fields", start: 25, end: 35, x: 1310, y: 1501, bossName: "Cerberus", subName: "Tormented Puppy", bossX: 1210, bossY: 1606},
+		{name: "Tartarus", start: 37, end: 72, x: 998, y: 1729, bossName: "Chronos", subName: "Grandfather Time", bossX: 1010, bossY: 1872},
+		{name: "City of Ephyra", code: "Ephyra", start: 1, end: 13, x: 0, y: 0, bossName: "Polyphemus", subName: "Blind Shepherd", bossX: 10, bossY: 10},
+		{name: "Rift of Thessaly", code: "Thessaly", start: 15, end: 23, x: 0, y: 0, bossName: "Eris", subName: "Strife Incarnate", bossX: 10, bossY: 10},
+		{name: "Mount Olympus", code: "Olympus", start: 25, end: 35, x: 0, y: 0, bossName: "Prometheus", subName: "Titan of Prophecy", bossX: 10, bossY: 10},
+		{name: "The Summit", code: "Summit", start: 37, end: 72, x: 0, y: 0, bossName: "Typhon", subName: "Father of All Monsters", bossX: 10, bossY: 10}
 	]
 	let weapons = [
 		null, // room-location system
-		{name: "Descura", code: vars.Weapons.Descura, offset: -95},
-		{name: "Lim and Oros", code: vars.Weapons.LimAndOros, offset: -45},
-		{name: "Ygnium", code: vars.Weapons.Ygnium, offset: -15},
-		{name: "Zorephet", code: vars.Weapons.Zorephet, offset: 15},
-		{name: "Revall", code: vars.Weapons.Revall, offset: 45},
-		{name: "Xinth", code: vars.Weapons.Xinth, offset: 95}
+		{name: "Descura", code: vars.Weapons.Descura, offset: -2.5},
+		{name: "Lim and Oros", code: vars.Weapons.LimAndOros, offset: -1.5},
+		{name: "Ygnium", code: vars.Weapons.Ygnium, offset: -.5},
+		{name: "Zorephet", code: vars.Weapons.Zorephet, offset: .5},
+		{name: "Revall", code: vars.Weapons.Revall, offset: 1.5},
+		{name: "Xinth", code: vars.Weapons.Xinth, offset: 2.5}
 	]
 	
 	let allLocations = []
@@ -39,8 +39,8 @@ export function createAreaLocs() {
 				access_rules: [weapon ? weapon.code : ''],
 				sections: [],
 				map_locations: [{
-					map: "areas",
-					x: region.x + (weapon ? weapon.offset : 0),
+					map: mapData.BiomeMap.name,
+					x: Math.floor(region.x + (weapon ? weapon.offset * (mapData.BiomeMap.size + mapData.BiomeMap.border * 2 + mapData.BiomeMap.buffer) : 0)),
 					y: region.y
 				}]
 			}
@@ -61,9 +61,9 @@ export function createAreaLocs() {
 			access_rules: [`^$CanReach|${region.bossCode ? region.bossCode : region.bossName}`],
 			sections: [],
 			map_locations: [{
-				map: "areas",
-				x: region.x + region.offsetX,
-				y: region.y + region.offsetY
+				map: mapData.BiomeMap.name,
+				x: region.bossX,
+				y: region.bossY
 			}]
 		}
 		for (let weapon of weapons) {

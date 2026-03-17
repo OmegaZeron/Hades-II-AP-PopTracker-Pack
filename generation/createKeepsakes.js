@@ -1,4 +1,4 @@
-import fs from 'fs'
+import { writeToFile } from "./utils.js"
 
 let keepsakeData = [
 	{name: "Silver Wheel", owner: "Hecate"},
@@ -48,12 +48,7 @@ export function createKeepsakeItems() {
 		})
 	}
 	
-	fs.writeFile("items/keepsakes.jsonc", JSON.stringify(items, null, "\t"), err => {
-		if (err) {
-			console.error(`Error writing to file: ${err}`)
-			return
-		}
-	})
+	writeToFile("items/keepsakes.jsonc", JSON.stringify(items, null, "\t"))
 }
 
 if (import.meta.main) {

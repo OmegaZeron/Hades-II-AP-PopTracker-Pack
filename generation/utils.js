@@ -70,7 +70,7 @@ export let vars = {
 	},
 	Tools: {
 		CrescentPick: "CrescentPick",
-		SilverSpace: "SilverSpace",
+		SilverSpade: "SilverSpade",
 		TabletOfPeace: "TabletOfPeace",
 		RodOfFishing: "RodOfFishing"
 	},
@@ -82,4 +82,8 @@ export let vars = {
 		FatesNeeded: "fates_needed",
 		ScoreRewardsAmount: "score_rewards_amount",
 	}
+}
+
+export let mapData = {
+	BiomeMap: {name: "BiomeMap", size: 40, border: 5, buffer: 2}
 }

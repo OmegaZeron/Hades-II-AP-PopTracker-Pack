@@ -1,0 +1,6 @@
+{
+	"tracker_default": {
+		"type": "map",
+		"maps": ["BiomeMap"]
+	}
+}
