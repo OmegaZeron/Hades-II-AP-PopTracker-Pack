@@ -47,7 +47,7 @@ ITEM_MAPPING = {
 	[weaponBaseID + 6] = {Xinth},
 	-- tools
 	[toolBaseID + 1] = {CrescentPick},
-	[toolBaseID + 1] = {SilverSpace},
-	[toolBaseID + 1] = {TabletOfPeace},
-	[toolBaseID + 1] = {RodOfFishing},
+	[toolBaseID + 2] = {TabletOfPeace},
+	[toolBaseID + 3] = {SilverSpade},
+	[toolBaseID + 4] = {RodOfFishing},
 }

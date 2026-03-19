@@ -2,7 +2,7 @@
 	{
 		"name": "Location Mode",
 		"type": "progressive",
-		"initial_stage_idx": 2,
+		"initial_stage_idx": 0,
 		"loop": true,
 		"allow_disabled": false,
 		"stages": [
@@ -13,15 +13,15 @@
 				"inherit_codes": false
 			},
 			{
-				"name": "Score",
-				"img": "images/labels/LocationScore.png",
-				"codes": "location_system, location_score",
-				"inherit_codes": false
-			},
-			{
 				"name": "Weapon Per Room",
 				"img": "images/labels/LocationWeapon.png",
 				"codes": "location_system, location_weapon",
+				"inherit_codes": false
+			},
+			{
+				"name": "Score",
+				"img": "images/labels/LocationScore.png",
+				"codes": "location_system, location_score",
 				"inherit_codes": false
 			}
 		]

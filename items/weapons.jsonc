@@ -2,73 +2,181 @@
 	{
 		"name": "Descura, the Witch's Staff",
 		"type": "toggle",
-		"img": "images/items/Descura.png",
+		"img": "images/items/Coronacht_Base.png",
 		"codes": "weapon, Descura"
+	},
+	{
+		"name": "Aspect of Melinoë (Descura)",
+		"type": "toggle",
+		"img": "images/items/Coronacht_Base.png",
+		"codes": "aspect, aspectDescura, DescuraMelinoe"
+	},
+	{
+		"name": "Aspect of Circe (Descura)",
+		"type": "toggle",
+		"img": "images/items/Coronacht_Base.png",
+		"codes": "aspect, aspectDescura, DescuraCirce"
+	},
+	{
+		"name": "Aspect of Momus (Descura)",
+		"type": "toggle",
+		"img": "images/items/Coronacht_Base.png",
+		"codes": "aspect, aspectDescura, DescuraMomus"
 	},
 	{
 		"name": "Aspect of Anubis (Descura)",
 		"type": "toggle",
-		"img": "images/items/Anubis.png",
-		"codes": "aspect, aspectDescura, Anubis, aspectHidden"
+		"img": "images/items/Coronacht_Base.png",
+		"codes": "aspect, aspectDescura, DescuraAnubis, aspectHidden"
 	},
 	{
 		"name": "Lim and Oros, the Sister Blades",
 		"type": "toggle",
-		"img": "images/items/LimAndOros.png",
+		"img": "images/items/Coronacht_Base.png",
 		"codes": "weapon, LimAndOros"
+	},
+	{
+		"name": "Aspect of Melinoë (Lim and Oros)",
+		"type": "toggle",
+		"img": "images/items/Coronacht_Base.png",
+		"codes": "aspect, aspectLimAndOros, LimAndOrosMelinoe"
+	},
+	{
+		"name": "Aspect of Artemis (Lim and Oros)",
+		"type": "toggle",
+		"img": "images/items/Coronacht_Base.png",
+		"codes": "aspect, aspectLimAndOros, LimAndOrosArtemis"
+	},
+	{
+		"name": "Aspect of Pan (Lim and Oros)",
+		"type": "toggle",
+		"img": "images/items/Coronacht_Base.png",
+		"codes": "aspect, aspectLimAndOros, LimAndOrosPan"
 	},
 	{
 		"name": "Aspect of the Morrigan (Lim and Oros)",
 		"type": "toggle",
-		"img": "images/items/the Morrigan.png",
-		"codes": "aspect, aspectLimAndOros, TheMorrigan, aspectHidden"
+		"img": "images/items/Coronacht_Base.png",
+		"codes": "aspect, aspectLimAndOros, LimAndOrosTheMorrigan, aspectHidden"
 	},
 	{
 		"name": "Ygnium, the Umbral Flames",
 		"type": "toggle",
-		"img": "images/items/Ygnium.png",
+		"img": "images/items/Coronacht_Base.png",
 		"codes": "weapon, Ygnium"
+	},
+	{
+		"name": "Aspect of Melinoë (Ygnium)",
+		"type": "toggle",
+		"img": "images/items/Coronacht_Base.png",
+		"codes": "aspect, aspectYgnium, YgniumMelinoe"
+	},
+	{
+		"name": "Aspect of Moros (Ygnium)",
+		"type": "toggle",
+		"img": "images/items/Coronacht_Base.png",
+		"codes": "aspect, aspectYgnium, YgniumMoros"
+	},
+	{
+		"name": "Aspect of Eos (Ygnium)",
+		"type": "toggle",
+		"img": "images/items/Coronacht_Base.png",
+		"codes": "aspect, aspectYgnium, YgniumEos"
 	},
 	{
 		"name": "Aspect of Supay (Ygnium)",
 		"type": "toggle",
-		"img": "images/items/Supay.png",
-		"codes": "aspect, aspectYgnium, Supay, aspectHidden"
+		"img": "images/items/Coronacht_Base.png",
+		"codes": "aspect, aspectYgnium, YgniumSupay, aspectHidden"
 	},
 	{
 		"name": "Zorephet, the Moonstone Axe",
 		"type": "toggle",
-		"img": "images/items/Zorephet.png",
+		"img": "images/items/Coronacht_Base.png",
 		"codes": "weapon, Zorephet"
+	},
+	{
+		"name": "Aspect of Melinoë (Zorephet)",
+		"type": "toggle",
+		"img": "images/items/Coronacht_Base.png",
+		"codes": "aspect, aspectZorephet, ZorephetMelinoe"
+	},
+	{
+		"name": "Aspect of Charon (Zorephet)",
+		"type": "toggle",
+		"img": "images/items/Coronacht_Base.png",
+		"codes": "aspect, aspectZorephet, ZorephetCharon"
+	},
+	{
+		"name": "Aspect of Thanatos (Zorephet)",
+		"type": "toggle",
+		"img": "images/items/Coronacht_Base.png",
+		"codes": "aspect, aspectZorephet, ZorephetThanatos"
 	},
 	{
 		"name": "Aspect of Nergal (Zorephet)",
 		"type": "toggle",
-		"img": "images/items/Nergal.png",
-		"codes": "aspect, aspectZorephet, Nergal, aspectHidden"
+		"img": "images/items/Coronacht_Base.png",
+		"codes": "aspect, aspectZorephet, ZorephetNergal, aspectHidden"
 	},
 	{
 		"name": "Revall, the Argent Skull",
 		"type": "toggle",
-		"img": "images/items/Revall.png",
+		"img": "images/items/Coronacht_Base.png",
 		"codes": "weapon, Revall"
+	},
+	{
+		"name": "Aspect of Melinoë (Revall)",
+		"type": "toggle",
+		"img": "images/items/Coronacht_Base.png",
+		"codes": "aspect, aspectRevall, RevallMelinoe"
+	},
+	{
+		"name": "Aspect of Medea (Revall)",
+		"type": "toggle",
+		"img": "images/items/Coronacht_Base.png",
+		"codes": "aspect, aspectRevall, RevallMedea"
+	},
+	{
+		"name": "Aspect of Persephone (Revall)",
+		"type": "toggle",
+		"img": "images/items/Coronacht_Base.png",
+		"codes": "aspect, aspectRevall, RevallPersephone"
 	},
 	{
 		"name": "Aspect of Hel (Revall)",
 		"type": "toggle",
-		"img": "images/items/Hel.png",
-		"codes": "aspect, aspectRevall, Hel, aspectHidden"
+		"img": "images/items/Coronacht_Base.png",
+		"codes": "aspect, aspectRevall, RevallHel, aspectHidden"
 	},
 	{
 		"name": "Xinth, the Black Coat",
 		"type": "toggle",
-		"img": "images/items/Xinth.png",
+		"img": "images/items/Coronacht_Base.png",
 		"codes": "weapon, Xinth"
+	},
+	{
+		"name": "Aspect of Melinoë (Xinth)",
+		"type": "toggle",
+		"img": "images/items/Coronacht_Base.png",
+		"codes": "aspect, aspectXinth, XinthMelinoe"
+	},
+	{
+		"name": "Aspect of Selene (Xinth)",
+		"type": "toggle",
+		"img": "images/items/Coronacht_Base.png",
+		"codes": "aspect, aspectXinth, XinthSelene"
+	},
+	{
+		"name": "Aspect of Nyx (Xinth)",
+		"type": "toggle",
+		"img": "images/items/Coronacht_Base.png",
+		"codes": "aspect, aspectXinth, XinthNyx"
 	},
 	{
 		"name": "Aspect of Shiva (Xinth)",
 		"type": "toggle",
-		"img": "images/items/Shiva.png",
-		"codes": "aspect, aspectXinth, Shiva, aspectHidden"
+		"img": "images/items/Coronacht_Base.png",
+		"codes": "aspect, aspectXinth, XinthShiva, aspectHidden"
 	}
 ]

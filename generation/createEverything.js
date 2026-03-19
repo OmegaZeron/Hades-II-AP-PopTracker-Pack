@@ -5,6 +5,7 @@ import { createItems } from "./createGenericItem.js"
 import { createMaps } from "./createMaps.js"
 import { createScoresLocs } from "./createScoreLocations.js"
 import { createAreaLocs } from "./createAreaLocations.js"
+import { createItemGrids } from "./createItemGrids.js"
 
 createVars()
 
@@ -15,3 +16,5 @@ createItems()
 createMaps()
 createScoresLocs()
 createAreaLocs()
+
+createItemGrids()

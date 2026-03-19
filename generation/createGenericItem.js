@@ -1,13 +1,14 @@
-import { writeToFile, toPascalCase } from './utils.js'
+import { writeToFile, toPascalCase, vars } from './utils.js'
 
 export function createItems() {
 	let items = []
 
 	let itemData = [
-		{name: "Silver Spade", type: "tool"},
-		{name: "Crescent Pick", type: "tool"},
-		{name: "Tablet of Peace", type: "tool"},
-		{name: "Rod of Fishing", type: "tool"},
+		{name: "Silver Spade", codes: `tool, ${vars.Tools.SilverSpade}`},
+		{name: "Crescent Pick", codes: `tool, ${vars.Tools.CrescentPick}`},
+		{name: "Tablet of Peace", codes: `tool, ${vars.Tools.TabletOfPeace}`},
+		{name: "Rod of Fishing", codes: `tool, ${vars.Tools.RodOfFishing}`},
+		{name: "Doomed Reckoning", codes: vars.Events.DoomedReckoning},
 	]
 
 	for (let item of itemData) {
@@ -15,7 +16,7 @@ export function createItems() {
 			name: `${item.name}`,
 			type: "toggle",
 			img: `images/items/${toPascalCase(item.name)}.png`,
-			codes: `${item.type}, ${toPascalCase(item.name)}`
+			codes: item.codes
 		})
 	}
 

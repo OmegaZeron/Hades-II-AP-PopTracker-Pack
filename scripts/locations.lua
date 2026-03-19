@@ -5,5 +5,5 @@ Tracker:AddLocations("locations/areas.jsonc")
 -- Tracker:AddLocations("locations/scores.jsonc")
 
 -- -- scripts
--- require("scripts.logic.items.keepsakes")
--- require("scripts.logic.locations.areas")
+-- require("scripts.logic.locations.keepsakes")
+require("scripts.logic.locations.areas")

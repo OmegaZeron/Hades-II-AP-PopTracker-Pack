@@ -1,6 +1,49 @@
 {
 	"tracker_default": {
-		"type": "map",
-		"maps": ["BiomeMap"]
+		"type": "dock",
+		"content": [
+			{
+				"type": "dock",
+				"dock": "left",
+				"content": [
+					{
+						"type": "group",
+						"header": "Weapons",
+						"dock": "top",
+						"content": {
+							"type": "layout",
+							"key": "weaponGrid"
+						}
+					},
+					{
+						"type": "group",
+						"header": "Keepsakes",
+						"dock": "top",
+						"content": {
+							"type": "layout",
+							"key": "keepsakeGrid"
+						}
+					}
+				]
+			},
+			{
+				"type": "group",
+				"header": "Maps",
+				"v_alignment": "stretch",
+				"content": {
+					"type": "tabbed",
+					"dock": "top",
+					"tabs": [
+						{
+							"title": "Biome Map",
+							"content": {
+								"type": "map",
+								"maps": ["BiomeMap"]
+							}
+						}
+					]
+				}
+			}
+		]
 	}
 }

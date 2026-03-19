@@ -2,199 +2,199 @@
 	{
 		"name": "Silver Wheel (Hecate)",
 		"type": "toggle",
-		"img": "images/items/SilverWheel.png",
+		"img": "images/items/AdamantArrowhead.png",
 		"codes": "keepsake, SilverWheel, keepsakeHecate"
 	},
 	{
 		"name": "Knuckle Bones (Odysseus)",
 		"type": "toggle",
-		"img": "images/items/KnuckleBones.png",
+		"img": "images/items/AdamantArrowhead.png",
 		"codes": "keepsake, KnuckleBones, keepsakeOdysseus"
 	},
 	{
 		"name": "Luckier Tooth (Schelemeus)",
 		"type": "toggle",
-		"img": "images/items/LuckierTooth.png",
+		"img": "images/items/AdamantArrowhead.png",
 		"codes": "keepsake, LuckierTooth, keepsakeSchelemeus"
 	},
 	{
 		"name": "Ghost Onion (Dora)",
 		"type": "toggle",
-		"img": "images/items/GhostOnion.png",
+		"img": "images/items/AdamantArrowhead.png",
 		"codes": "keepsake, GhostOnion, keepsakeDora"
 	},
 	{
 		"name": "Evil Eye (Nemesis)",
 		"type": "toggle",
-		"img": "images/items/EvilEye.png",
+		"img": "images/items/AdamantArrowhead.png",
 		"codes": "keepsake, EvilEye, keepsakeNemesis"
 	},
 	{
 		"name": "Engraved Pin (Moros)",
 		"type": "toggle",
-		"img": "images/items/EngravedPin.png",
+		"img": "images/items/AdamantArrowhead.png",
 		"codes": "keepsake, EngravedPin, keepsakeMoros"
 	},
 	{
 		"name": "Discordant Bell (Eris)",
 		"type": "toggle",
-		"img": "images/items/DiscordantBell.png",
+		"img": "images/items/AdamantArrowhead.png",
 		"codes": "keepsake, DiscordantBell, keepsakeEris"
 	},
 	{
 		"name": "Gold Purse (Charon)",
 		"type": "toggle",
-		"img": "images/items/GoldPurse.png",
+		"img": "images/items/AdamantArrowhead.png",
 		"codes": "keepsake, GoldPurse, keepsakeCharon"
 	},
 	{
 		"name": "Metallic Droplet (Hermes)",
 		"type": "toggle",
-		"img": "images/items/MetallicDroplet.png",
+		"img": "images/items/AdamantArrowhead.png",
 		"codes": "keepsake, MetallicDroplet, keepsakeHermes"
 	},
 	{
 		"name": "White Antler (Artemis)",
 		"type": "toggle",
-		"img": "images/items/WhiteAntler.png",
+		"img": "images/items/AdamantArrowhead.png",
 		"codes": "keepsake, WhiteAntler, keepsakeArtemis"
 	},
 	{
 		"name": "Moon Beam (Selene)",
 		"type": "toggle",
-		"img": "images/items/MoonBeam.png",
+		"img": "images/items/AdamantArrowhead.png",
 		"codes": "keepsake, MoonBeam, keepsakeSelene"
 	},
 	{
 		"name": "Cloud Bangle (Zeus)",
 		"type": "toggle",
-		"img": "images/items/CloudBangle.png",
+		"img": "images/items/AdamantArrowhead.png",
 		"codes": "keepsake, CloudBangle, keepsakeZeus"
 	},
 	{
 		"name": "Iridescent Fan (Hera)",
 		"type": "toggle",
-		"img": "images/items/IridescentFan.png",
+		"img": "images/items/AdamantArrowhead.png",
 		"codes": "keepsake, IridescentFan, keepsakeHera"
 	},
 	{
 		"name": "Vivid Sea (Poseidon)",
 		"type": "toggle",
-		"img": "images/items/VividSea.png",
+		"img": "images/items/AdamantArrowhead.png",
 		"codes": "keepsake, VividSea, keepsakePoseidon"
 	},
 	{
 		"name": "Barley Sheaf (Demeter)",
 		"type": "toggle",
-		"img": "images/items/BarleySheaf.png",
+		"img": "images/items/AdamantArrowhead.png",
 		"codes": "keepsake, BarleySheaf, keepsakeDemeter"
 	},
 	{
 		"name": "Harmonic Photon (Apollo)",
 		"type": "toggle",
-		"img": "images/items/HarmonicPhoton.png",
+		"img": "images/items/AdamantArrowhead.png",
 		"codes": "keepsake, HarmonicPhoton, keepsakeApollo"
 	},
 	{
 		"name": "Beautiful Mirror (Aphrodite)",
 		"type": "toggle",
-		"img": "images/items/BeautifulMirror.png",
+		"img": "images/items/AdamantArrowhead.png",
 		"codes": "keepsake, BeautifulMirror, keepsakeAphrodite"
 	},
 	{
 		"name": "Adamant Shard (Hephaestus)",
 		"type": "toggle",
-		"img": "images/items/AdamantShard.png",
+		"img": "images/items/AdamantArrowhead.png",
 		"codes": "keepsake, AdamantShard, keepsakeHephaestus"
 	},
 	{
 		"name": "Everlasting Ember (Hestia)",
 		"type": "toggle",
-		"img": "images/items/EverlastingEmber.png",
+		"img": "images/items/AdamantArrowhead.png",
 		"codes": "keepsake, EverlastingEmber, keepsakeHestia"
 	},
 	{
 		"name": "Sword Hilt (Ares)",
 		"type": "toggle",
-		"img": "images/items/SwordHilt.png",
+		"img": "images/items/AdamantArrowhead.png",
 		"codes": "keepsake, SwordHilt, keepsakeAres"
 	},
 	{
 		"name": "Gorgon Amulet (Athena)",
 		"type": "toggle",
-		"img": "images/items/GorgonAmulet.png",
+		"img": "images/items/AdamantArrowhead.png",
 		"codes": "keepsake, GorgonAmulet, keepsakeAthena"
 	},
 	{
 		"name": "Fig Leaf (Dionysus)",
 		"type": "toggle",
-		"img": "images/items/FigLeaf.png",
+		"img": "images/items/AdamantArrowhead.png",
 		"codes": "keepsake, FigLeaf, keepsakeDionysus"
 	},
 	{
 		"name": "Silken Sash (Arachne)",
 		"type": "toggle",
-		"img": "images/items/SilkenSash.png",
+		"img": "images/items/AdamantArrowhead.png",
 		"codes": "keepsake, SilkenSash, keepsakeArachne"
 	},
 	{
 		"name": "Aromatic Phial (Narcissus)",
 		"type": "toggle",
-		"img": "images/items/AromaticPhial.png",
+		"img": "images/items/AdamantArrowhead.png",
 		"codes": "keepsake, AromaticPhial, keepsakeNarcissus"
 	},
 	{
 		"name": "Concave Stone (Echo)",
 		"type": "toggle",
-		"img": "images/items/ConcaveStone.png",
+		"img": "images/items/AdamantArrowhead.png",
 		"codes": "keepsake, ConcaveStone, keepsakeEcho"
 	},
 	{
 		"name": "Lion Fang (Heracles)",
 		"type": "toggle",
-		"img": "images/items/LionFang.png",
+		"img": "images/items/AdamantArrowhead.png",
 		"codes": "keepsake, LionFang, keepsakeHeracles"
 	},
 	{
 		"name": "Blackened Fleece (Medea)",
 		"type": "toggle",
-		"img": "images/items/BlackenedFleece.png",
+		"img": "images/items/AdamantArrowhead.png",
 		"codes": "keepsake, BlackenedFleece, keepsakeMedea"
 	},
 	{
 		"name": "Crystal Figurine (Circe)",
 		"type": "toggle",
-		"img": "images/items/CrystalFigurine.png",
+		"img": "images/items/AdamantArrowhead.png",
 		"codes": "keepsake, CrystalFigurine, keepsakeCirce"
 	},
 	{
 		"name": "Experimental Hammer (Icarus)",
 		"type": "toggle",
-		"img": "images/items/ExperimentalHammer.png",
+		"img": "images/items/AdamantArrowhead.png",
 		"codes": "keepsake, ExperimentalHammer, keepsakeIcarus"
 	},
 	{
 		"name": "Jeweled Pom (Hades & Persephone)",
 		"type": "toggle",
-		"img": "images/items/JeweledPom.png",
+		"img": "images/items/AdamantArrowhead.png",
 		"codes": "keepsake, JeweledPom, keepsakeHadesPersephone"
 	},
 	{
 		"name": "Calling Card (Zagreus)",
 		"type": "toggle",
-		"img": "images/items/CallingCard.png",
+		"img": "images/items/AdamantArrowhead.png",
 		"codes": "keepsake, CallingCard, keepsakeZagreus"
 	},
 	{
 		"name": "Time Piece (Chronos)",
 		"type": "toggle",
-		"img": "images/items/TimePiece.png",
+		"img": "images/items/AdamantArrowhead.png",
 		"codes": "keepsake, TimePiece, keepsakeChronos"
 	},
 	{
 		"name": "Transcendent Embryo (Chaos)",
 		"type": "toggle",
-		"img": "images/items/TranscendentEmbryo.png",
+		"img": "images/items/AdamantArrowhead.png",
 		"codes": "keepsake, TranscendentEmbryo, keepsakeChaos"
 	}
 ]

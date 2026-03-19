@@ -8,6 +8,12 @@ local NamedLocations = {}
 
 -- creates a lua object for the given name. it acts as a representation of a overworld reagion or indoor location and
 -- tracks its connected objects via the exit-table
+---@class Hades2Location
+---@field name string
+---@field exits table
+---@field staleness integer
+---@field accessibility_level accessibilityLevel
+---@field cleared boolean
 function Hades2Location.New(name)
 	local self = setmetatable({}, Hades2Location)
 	if name then
@@ -17,7 +23,6 @@ function Hades2Location.New(name)
 	end
 	NamedLocations[self.name] = self
 	self.exits = {}
-	self.exits_to_recheck = {}
 	self.Staleness = -1
 	self.accessibility_level = AccessibilityLevel.None
 	self.cleared = false
@@ -29,7 +34,7 @@ local function Always()
 end
 
 -- markes a 1-way connections between 2 "locations/regions" in the source "locations" exit-table with rules if provided
-function Hades2Location:connect_one_way(exit, rule, requiredExit)
+function Hades2Location:connect_one_way(exit, rule)
 	if type(exit) == "string" then
 		exit = Hades2Location.New(exit)
 	end
@@ -37,13 +42,6 @@ function Hades2Location:connect_one_way(exit, rule, requiredExit)
 		rule = Always
 	end
 	self.exits[#self.exits + 1] = { exit, rule }
-	if (requiredExit ~= nil) then
-		for _, recheck in pairs(requiredExit) do
-			if (not TableContains(recheck.exits_to_recheck, self)) then
-				recheck.exits_to_recheck[#recheck.exits_to_recheck + 1] = self
-			end
-		end
-	end
 end
 
 -- markes a 2-way connection between 2 locations. acts as a shortcut for 2 connect_one_way-calls 
@@ -54,28 +52,21 @@ end
 
 -- creates a 1-way connection from a region/location to another one via a 1-way connector like a ledge, hole,
 -- self-closing door, 1-way teleport, ...
-function Hades2Location:connect_one_way_entrance(exit, rule, requiredExit)
+function Hades2Location:connect_one_way_entrance(exit, rule)
 	if rule == nil then
 		rule = Always
 	end
 	self.exits[#self.exits + 1] = { exit, rule }
-	if (requiredExit ~= nil) then
-		for _, recheck in pairs(requiredExit) do
-			if (not TableContains(recheck.exits_to_recheck, self)) then
-				recheck.exits_to_recheck[#recheck.exits_to_recheck + 1] = self
-			end
-		end
-	end
 end
 
 -- creates a connection between 2 locations that is traversable in both ways using the same rules both ways
 -- acts as a shortcut for 2 connect_one_way_entrance-calls
-function Hades2Location:connect_two_ways_entrance(exit, rule, requiredExit)
+function Hades2Location:connect_two_ways_entrance(exit, rule)
 	if exit == nil then -- for ER
 		return
 	end
-	self:connect_one_way_entrance(exit, rule, requiredExit)
-	exit:connect_one_way_entrance(self, rule, requiredExit)
+	self:connect_one_way_entrance(exit, rule)
+	exit:connect_one_way_entrance(self, rule)
 end
 
 -- creates a connection between 2 locations that is traversable in both ways but each connection follow different rules.
@@ -107,7 +98,6 @@ function Hades2Location:discover(accessibility)
 				if (exit[1]:accessibility() < accessibility) then
 					local location, access = CheckAccess(recheck, exit)
 					location:discover(access)
-					-- DelayedExits[#DelayedExits+1] = {recheck, exit}
 				end
 			end
 		end

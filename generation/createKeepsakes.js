@@ -43,7 +43,8 @@ export function createKeepsakeItems() {
 		items.push({
 			name: `${keepsake.name} (${keepsake.owner})`,
 			type: "toggle",
-			img: `images/items/${keepsake.name.replace(' ', '')}.png`,
+			// img: `images/items/${keepsake.name.replace(' ', '')}.png`,
+			img: `images/items/AdamantArrowhead.png`,
 			codes: `keepsake, ${keepsake.name.replace(' ', '')}, keepsake${keepsake.owner.replace(' & ', '')}`
 		})
 	}

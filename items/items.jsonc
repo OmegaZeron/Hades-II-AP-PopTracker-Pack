@@ -22,5 +22,11 @@
 		"type": "toggle",
 		"img": "images/items/RodOfFishing.png",
 		"codes": "tool, RodOfFishing"
+	},
+	{
+		"name": "Doomed Reckoning",
+		"type": "toggle",
+		"img": "images/items/DoomedReckoning.png",
+		"codes": "DoomedReckoning"
 	}
 ]
