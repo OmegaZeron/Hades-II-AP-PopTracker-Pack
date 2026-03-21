@@ -99,7 +99,8 @@
 			},
 			{
 				"name": "Greater Favor of Gaia",
-				"access_rules": ["tool:4, Divination, ^$CanReach|Tartarus, ^$CanReach|Thessaly"]
+				"access_rules": ["tool:4, Divination, ^$CanReach|Tartarus, ^$CanReach|Thessaly"],
+				"hosted_item": "GreatFavorGaia"
 			},
 			{
 				"name": "Long Arm of the Unseen",
@@ -116,6 +117,28 @@
 			{
 				"name": "Divination of the Elements",
 				"access_rules": ["^$CanReach|HecateBoss"]
+			},
+			{
+				"name": "Forget-Me-Not",
+				"access_rules": ["FlourishingSoil, FatedIntervention"],
+				"hosted_item": "ForgetMeNot"
+			},
+			{
+				"name": "Path to Desired Blessings",
+				"access_rules": ["ForgetMeNot, InsightOffering, ^$CanReach|BothVictory"]
+			},
+			{
+				"name": "Spreading of Ashes",
+				"access_rules": ["Consecration"]
+			},
+			{
+				"name": "Favored of All Keepsakes",
+				"access_rules": ["keepsake:22, ^$CanReach|Tartarus"],
+				"hosted_item": "FavoredKeepsakes"
+			},
+			{
+				"name": "Reagent Sensing",
+				"access_rules": ["CrescentPick, ^$CanReach|Erebus"]
 			},
 			{
 				"name": "Insight into Offerings",
@@ -137,7 +160,246 @@
 			{
 				"name": "Earthly Fortune",
 				"access_rules": []
+			},
+			{
+				"name": "Rivals of Depths and Sea",
+				"access_rules": ["^$CanReach|ScyllaBoss, ^$CanReach|ErisBoss"],
+				"hosted_item": "DepthsAndSea"
+			},
+			{
+				"name": "Rivals of Plain and Peak",
+				"access_rules": ["^$CanReach|CerberusBoss, ^$CanReach|PrometheusBoss"],
+				"hosted_item": "PlainAndPeak"
+			},
+			{
+				"name": "Rivals of Old and Rot",
+				"access_rules": ["Dissolution"],
+				"hosted_item": "OldAndRot"
+			},
+			{
+				"name": "Cleansing of Fountain-Waters",
+				"access_rules": ["SilverSpade, WoodsyLifespring"],
+				"hosted_item": "CleansingWaters"
+			},
+			{
+				"name": "Purification of Fountain-Waters",
+				"access_rules": ["CleansingWaters"]
+			},
+			{
+				"name": "Rise of Stygian Wells",
+				"access_rules": ["SilverSpade"],
+				"hosted_item": "RiseWells"
+			},
+			{
+				"name": "Surge of Stygian Wells",
+				"access_rules": ["RiseWells, CleansingWaters, ^$CanReach|Fields"],
+				"hosted_item": "SurgeWells"
+			},
+			{
+				"name": "Rush of Fresh Air",
+				"access_rules": ["RiseWells, Unraveling, Bats, ^$CanReach|Thessaly"],
+				"hosted_item": "RushAir"
+			},
+			{
+				"name": "Surge of Fresh Air",
+				"access_rules": ["RushAir, ^$CanReach|PolyphemusBoss"],
+				"hosted_item": "SurgeAir"
+			},
+			{
+				"name": "Revival of a Desecrating Pool",
+				"access_rules": ["^$CanReach|Tartarus"],
+				"hosted_item": "RevivalPool"
+			},
+			{
+				"name": "Surge of Desecrating Pools",
+				"access_rules": ["RevivalPool, ^$CanReach|ChronosBoss"]
+			},
+			{
+				"name": "Woodsy Lifespring",
+				"access_rules": ["ReagentSensing, ForgetMeNot"],
+				"hosted_item": "WoodsyLifespring"
+			},
+			{
+				"name": "Briny Lifespring",
+				"access_rules": ["CrescentPick, ^$CanReach|Oceanus"],
+				"hosted_item": "BrinyLifespring"
+			},
+			{
+				"name": "Golden Lifespring",
+				"access_rules": ["BrinyLifespring, DeathlyFortune, ^$CanReach|Tartarus"]
+			},
+			{
+				"name": "Sandy Lifespring",
+				"access_rules": ["BrinyLifespring, ^$CanReach|Thessaly"]
+			},
+			{
+				"name": "Frozen Lifespring",
+				"access_rules": ["SandyLifespring, ^$CanReach|Olympus"]
+			},
+			{
+				"name": "Propensity Towards Gold",
+				"access_rules": ["KindredKeepsakes"]
+			},
+			{
+				"name": "Summoning a Colony of Bats",
+				"access_rules": ["Unraveling"],
+				"hosted_item": "Bats"
+			},
+			{
+				"name": "Revival of a Mournful Husk",
+				"access_rules": ["^$CanReach|Fields"]
+			},
+			{
+				"name": "Temporal Fluctuation",
+				"access_rules": ["^$CanReach|ChronosBoss"]
+			},
+			{
+				"name": "Power to Pause and Reflect",
+				"access_rules": ["OldAndRot"]
+			},
+			{
+				"name": "Gathering of Ancient Bones",
+				"access_rules": ["Mercantile, LimAndOros, ReagentSensing, ^$CanReach|Oceanus"],
+				"hosted_item": "GatheringBones"
+			},
+			{
+				"name": "Gathering of Subterranean Riches",
+				"access_rules": ["EarthlyFortune, CrescentPick, ^$CanReach|ChronosBoss, ^$CanReach|ErisBoss"]
+			},
+			{
+				"name": "Kindred Keepsakes",
+				"access_rules": ["CrescentPick, keepsake:2, WoodsyLifespring, ^$CanReach|Oceanus"],
+				"hosted_item": "KindredKeepsakes"
+			},
+			{
+				"name": "Quickening of Sentimental Value",
+				"access_rules": ["keepsake:23, RiverFording, ^$CanReach|Ephyra"]
+			},
+			{
+				"name": "Rage of the Elements",
+				"access_rules": ["FrozenLifespring, CrescentPick, ^$CanReach|TyphonBoss, ^$CanReach|HecateBoss"]
+			},
+			{
+				"name": "Circles of Protection",
+				"access_rules": ["ExhumedTroves, NecromanticInfluence, SurgeAir, ^$CanReach|Olympus"],
+				"hosted_item": "CircleProtection"
+			},
+			{
+				"name": "Circles of the Moon",
+				"access_rules": ["CircleProtection"]
+			},
+			{
+				"name": "Necromantic Influence",
+				"access_rules": ["WoodsyLifespring, GatheringBones, TabletOfPeace, SilverSpade"]
+			},
+			{
+				"name": "Exhumed Troves",
+				"access_rules": ["KindredKeepsakes, Mercantile, SurgeWells"],
+				"hosted_item": "ExhumedTroves"
+			},
+			{
+				"name": "Eyes of Night and Darkness",
+				"access_rules": ["ArisenTroves, ^$CanReach|ChronosBoss, ^$CanReach|Olympus"]
+			},
+			{
+				"name": "Arisen Troves",
+				"access_rules": ["ExhumedTroves, ^$CanReach|ErisBoss"],
+				"hosted_item": "ArisenTroves"
+			},
+			{
+				"name": "Bounties of the Infinite Abyss",
+				"access_rules": ["CrescentPick, ^$CanReach|ChronosBoss, ^$CanReach|TyphonBoss"]
+			},
+			{
+				"name": "Ashen Memories of Life",
+				"access_rules": ["SilverSpade, ^$CanReach|Oceanus"]
+			},
+			{
+				"name": "Bones of Arcane Wisdom",
+				"access_rules": ["SilverSpade, ^$CanReach|Fields"]
+			},
+			{
+				"name": "Nectar of Godly Savor",
+				"access_rules": ["SilverSpade, ^$CanReach|Ephyra"]
+			},
+			{
+				"name": "Rite of Social Solidarity",
+				"access_rules": ["SilverSpade, ^$CanReach|Ephyra"],
+				"hosted_item": "SocialSolidarity"
+			},
+			{
+				"name": "Rite of Vapor-Cleansing",
+				"access_rules": ["DoomedBeckoning"]
+			},
+			{
+				"name": "Rite of River-Fording",
+				"access_rules": ["SilverSpade, RodOfFishing, ^$CanReach|Oceanus, ^$CanReach|Thessaly"],
+				"hosted_item": "RiverFording"
+			},
+			{
+				"name": "Flourishing Soil",
+				"access_rules": ["^$CanReach|Erebus"],
+				"hosted_item": "FlourishingSoil"
+			},
+			{
+				"name": "Rich Soil",
+				"access_rules": ["FlourishingSoil, ^$CanReach|Fields"],
+				"hosted_item": "RichSoil"
+			},
+			{
+				"name": "Verdant Soil",
+				"access_rules": ["RichSoil, ^$CanReach|Tartarus, ^$CanReach|Olympus"],
+				"hosted_item": "VerdantSoil"
+			},
+			{
+				"name": "Observance of Gaia's Secrets",
+				"access_rules": ["VerdantSoil, GreatFavorGaia"],
+				"hosted_item": "ObservanceGaia"
+			},
+			{
+				"name": "Green Hand of Gaia",
+				"access_rules": ["ObservanceGaia, ^$CanReach|Summit"]
+			},
+			{
+				"name": "Greater Sowing of Gardens",
+				"access_rules": ["ObservanceGaia"]
+			},
+			{
+				"name": "Greatest Gift of Gaia",
+				"access_rules": ["tool:4, ^$CanReach|BothVictory"]
+			},
+			{
+				"name": "Empath's Intuition",
+				"access_rules": ["keepsake:9, ^$CanReach|Fields"]
+			},
+			{
+				"name": "Summoning of Musical Rhapsody",
+				"access_rules": ["SocialSolidarity, EarthlyFortune, ^$CanReach|CerberusBoss"],
+				"hosted_item": "Rhapsody"
+			},
+			{
+				"name": "Shuffling of Noted Ballads",
+				"access_rules": ["Rhapsody, ^$CanReach|Tartarus, Olympus"]
+			},
+			{
+				"name": "Summoning of Historic Travails",
+				"access_rules": ["\n\t\t\t\t\tCrescentPick,\n\t\t\t\t\tMercantile,\n\t\t\t\t\tSocialSolidarity,\n\t\t\t\t\t^$CanReach|ChronosBoss,\n\t\t\t\t\t^$CanReach|PolyphemusBoss\n\t\t\t\t"]
+			},
+			{
+				"name": "Summoning of Personal Insights",
+				"access_rules": ["Mercantile, SocialSolidarity, ^$CanReach|ChronosBoss"]
+			},
+			{
+				"name": "Returning to a Real Possibiliity",
+				"access_rules": ["Dissolution"]
+			},
+			{
+				"name": "Greater Removal of Rubbish",
+				"access_rules": ["EarthlyFortune, SilverSpade, ^$CanReach|Ephyra"]
 			}
+		],
+		"map_locations": [
+			{}
 		]
 	}
 ]

@@ -24,15 +24,309 @@
 		"codes": "tool, RodOfFishing"
 	},
 	{
+		"name": "Gigaros",
+		"type": "toggle",
+		"img": "images/items/Gigaros.png",
+		"codes": "Gigaros"
+	},
+	{
+		"name": "Disintegration of Monstrosity",
+		"type": "toggle",
+		"img": "images/items/DisintegrationOfMonstrosity.png",
+		"codes": "Disintegration"
+	},
+	{
+		"name": "Dissolution of Time",
+		"type": "toggle",
+		"img": "images/items/DissolutionOfTime.png",
+		"codes": "Dissolution"
+	},
+	{
+		"name": "Unraveling of a Fateful Bond",
+		"type": "toggle",
+		"img": "images/items/UnravelingOfAFatefulBond.png",
+		"codes": "Unraveling"
+	},
+	{
+		"name": "Permeation of Witching-Wards",
+		"type": "toggle",
+		"img": "images/items/PermeationOfWitching-Wards.png",
+		"codes": "Permeation"
+	},
+	{
+		"name": "Fated Intervention",
+		"type": "toggle",
+		"img": "images/items/FatedIntervention.png",
+		"codes": "FatedIntervention"
+	},
+	{
 		"name": "Doomed Beckoning",
 		"type": "toggle",
 		"img": "images/items/DoomedBeckoning.png",
 		"codes": "DoomedBeckoning"
 	},
 	{
-		"name": "Gigaros",
+		"name": "End to Deepest Slumber",
 		"type": "toggle",
-		"img": "images/items/Gigaros.png",
-		"codes": "Gigaros"
+		"img": "images/items/EndToDeepestSlumber.png",
+		"codes": "DeepSlumber"
+	},
+	{
+		"name": "End to Dearest Slumber",
+		"type": "toggle",
+		"img": "images/items/EndToDearestSlumber.png",
+		"codes": "DearSlumber"
+	},
+	{
+		"name": "Consecration of Ashes",
+		"type": "toggle",
+		"img": "images/items/ConsecrationOfAshes.png",
+		"codes": "Consecration"
+	},
+	{
+		"name": "Abyssal Insight",
+		"type": "toggle",
+		"img": "images/items/AbyssalInsight.png",
+		"codes": "AbyssalInsight"
+	},
+	{
+		"name": "Faith of Familiar Spirits",
+		"type": "toggle",
+		"img": "images/items/FaithOfFamiliarSpirits.png",
+		"codes": "FaithFamiliar"
+	},
+	{
+		"name": "Alteration of Familiar Forms",
+		"type": "toggle",
+		"img": "images/items/AlterationOfFamiliarForms.png",
+		"codes": "AlterationFamiliar"
+	},
+	{
+		"name": "Greater Favor of Gaia",
+		"type": "toggle",
+		"img": "images/items/GreaterFavorOfGaia.png",
+		"codes": "GreatFavorGaia"
+	},
+	{
+		"name": "Night's Craftwork",
+		"type": "toggle",
+		"img": "images/items/Night'sCraftwork.png",
+		"codes": "NightsCraftwork"
+	},
+	{
+		"name": "Divination of the Elements",
+		"type": "toggle",
+		"img": "images/items/DivinationOfTheElements.png",
+		"codes": "Divination"
+	},
+	{
+		"name": "Forget-Me-Not",
+		"type": "toggle",
+		"img": "images/items/Forget-Me-Not.png",
+		"codes": "ForgetMeNot"
+	},
+	{
+		"name": "Spreading of Ashes",
+		"type": "toggle",
+		"img": "images/items/SpreadingOfAshes.png",
+		"codes": "SpreadingAshes"
+	},
+	{
+		"name": "Favored of All Keepsakes",
+		"type": "toggle",
+		"img": "images/items/FavoredOfAllKeepsakes.png",
+		"codes": "FavoredKeepsakes"
+	},
+	{
+		"name": "Reagent Sensing",
+		"type": "toggle",
+		"img": "images/items/ReagentSensing.png",
+		"codes": "ReagentSensing"
+	},
+	{
+		"name": "Insight into Offerings",
+		"type": "toggle",
+		"img": "images/items/InsightIntoOfferings.png",
+		"codes": "InsightOffering"
+	},
+	{
+		"name": "Summoning of Mercantile Fortune",
+		"type": "toggle",
+		"img": "images/items/SummoningOfMercantileFortune.png",
+		"codes": "Mercantile"
+	},
+	{
+		"name": "Deathly Fortune",
+		"type": "toggle",
+		"img": "images/items/DeathlyFortune.png",
+		"codes": "DeathlyFortune"
+	},
+	{
+		"name": "Earthly Fortune",
+		"type": "toggle",
+		"img": "images/items/EarthlyFortune.png",
+		"codes": "EarthlyFortune"
+	},
+	{
+		"name": "Rivals of Depths And Sea",
+		"type": "toggle",
+		"img": "images/items/RivalsOfDepthsAndSea.png",
+		"codes": "DepthsAndSea"
+	},
+	{
+		"name": "Rivals of Plain And Peak",
+		"type": "toggle",
+		"img": "images/items/RivalsOfPlainAndPeak.png",
+		"codes": "PlainAndPeak"
+	},
+	{
+		"name": "Rivals of Old And Rot",
+		"type": "toggle",
+		"img": "images/items/RivalsOfOldAndRot.png",
+		"codes": "OldAndRot"
+	},
+	{
+		"name": "Cleansing of Fountain-Waters",
+		"type": "toggle",
+		"img": "images/items/CleansingOfFountain-Waters.png",
+		"codes": "CleansingWaters"
+	},
+	{
+		"name": "Rise of Stygian Wells",
+		"type": "toggle",
+		"img": "images/items/RiseOfStygianWells.png",
+		"codes": "RiseWells"
+	},
+	{
+		"name": "Surge of Stygian Wells",
+		"type": "toggle",
+		"img": "images/items/SurgeOfStygianWells.png",
+		"codes": "SurgeWells"
+	},
+	{
+		"name": "Rush of Fresh Air",
+		"type": "toggle",
+		"img": "images/items/RushOfFreshAir.png",
+		"codes": "RushAir"
+	},
+	{
+		"name": "Surge of Fresh Air",
+		"type": "toggle",
+		"img": "images/items/SurgeOfFreshAir.png",
+		"codes": "SurgeAir"
+	},
+	{
+		"name": "Revival of a Desecrating Pool",
+		"type": "toggle",
+		"img": "images/items/RevivalOfADesecratingPool.png",
+		"codes": "RevivalPool"
+	},
+	{
+		"name": "Woodsy Lifespring",
+		"type": "toggle",
+		"img": "images/items/WoodsyLifespring.png",
+		"codes": "WoodsyLifespring"
+	},
+	{
+		"name": "Briny Lifespring",
+		"type": "toggle",
+		"img": "images/items/BrinyLifespring.png",
+		"codes": "BrinyLifespring"
+	},
+	{
+		"name": "Sandy Lifespring",
+		"type": "toggle",
+		"img": "images/items/SandyLifespring.png",
+		"codes": "SandyLifespring"
+	},
+	{
+		"name": "Frozen Lifespring",
+		"type": "toggle",
+		"img": "images/items/FrozenLifespring.png",
+		"codes": "FrozenLifespring"
+	},
+	{
+		"name": "Summoning a Colony of Bats",
+		"type": "toggle",
+		"img": "images/items/SummoningAColonyOfBats.png",
+		"codes": "Bats"
+	},
+	{
+		"name": "Gathering of Ancient Bones",
+		"type": "toggle",
+		"img": "images/items/GatheringOfAncientBones.png",
+		"codes": "GatheringBones"
+	},
+	{
+		"name": "Kindred Keepsakes",
+		"type": "toggle",
+		"img": "images/items/KindredKeepsakes.png",
+		"codes": "KindredKeepsakes"
+	},
+	{
+		"name": "Circles of Protection",
+		"type": "toggle",
+		"img": "images/items/CirclesOfProtection.png",
+		"codes": "CircleProtection"
+	},
+	{
+		"name": "Necromantic Influence",
+		"type": "toggle",
+		"img": "images/items/NecromanticInfluence.png",
+		"codes": "NecromanticInfluence"
+	},
+	{
+		"name": "Exhumed Troves",
+		"type": "toggle",
+		"img": "images/items/ExhumedTroves.png",
+		"codes": "ExhumedTroves"
+	},
+	{
+		"name": "Arisen Troves",
+		"type": "toggle",
+		"img": "images/items/ArisenTroves.png",
+		"codes": "ArisenTroves"
+	},
+	{
+		"name": "Rite of Social Solidarity",
+		"type": "toggle",
+		"img": "images/items/RiteOfSocialSolidarity.png",
+		"codes": "SocialSolidarity"
+	},
+	{
+		"name": "Rite of River-Fording",
+		"type": "toggle",
+		"img": "images/items/RiteOfRiver-Fording.png",
+		"codes": "RiverFording"
+	},
+	{
+		"name": "Flourishing Soil",
+		"type": "toggle",
+		"img": "images/items/FlourishingSoil.png",
+		"codes": "FlourishingSoil"
+	},
+	{
+		"name": "Rich Soil",
+		"type": "toggle",
+		"img": "images/items/RichSoil.png",
+		"codes": "RichSoil"
+	},
+	{
+		"name": "Verdant Soil",
+		"type": "toggle",
+		"img": "images/items/VerdantSoil.png",
+		"codes": "VerdantSoil"
+	},
+	{
+		"name": "Observance of Gaia's Secrets",
+		"type": "toggle",
+		"img": "images/items/ObservanceOfGaia'sSecrets.png",
+		"codes": "ObservanceGaia"
+	},
+	{
+		"name": "Summoning of Musical Rhapsody",
+		"type": "toggle",
+		"img": "images/items/SummoningOfMusicalRhapsody.png",
+		"codes": "Rhapsody"
 	}
 ]
