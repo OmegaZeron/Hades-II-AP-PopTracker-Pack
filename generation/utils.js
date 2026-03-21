@@ -23,7 +23,7 @@ export function toSnakeCase(str) {
 	return str.toLowerCase().split(' ').join('_')
 }
 
-export let vars = {
+export const vars = Object.freeze({
 	Keepsakes: {
 		SilverWheel: "SilverWheel",
 		KnuckleBones: "KnuckleBones",
@@ -99,13 +99,50 @@ export let vars = {
 		SilverSpade: "SilverSpade",
 		RodOfFishing: "RodOfFishing"
 	},
+	Items: {
+		SurfaceAccess: "SurfaceAccess",
+		Gigaros: "Gigaros"
+	},
 	Events: {
-		DoomedReckoning: "DoomedReckoning"
+		Disintegration: "Disintegration",
+		Dissolution: "Dissolution",
+		Unraveling: "Unraveling",
+		Permeation: "Permeation",
+		FatedIntervention: "FatedIntervention",
+		DoomedBeckoning: "DoomedBeckoning",
+		DeepSlumber: "DeepSlumber",
+		DearSlumber: "DearSlumber",
+		Consecration: "Consecration",
+		AbyssalInsight: "AbyssalInsight",
+		FaithFamiliar: "FaithFamiliar",
+		AlterationFamiliar: "AlterationFamiliar",
+		NightsCraftwork: "NightsCraftwork",
+		Divination: "Divination",
+		ForgetMeNot: "ForgetMeNot",
+		SpreadingAshes: "SpreadingAshes",
+		FavoredKeepsakes: "FavoredKeepsakes",
+		ReagentSensing: "ReagentSensing",
+		InsightOffering: "InsightOffering",
+		Mercantile: "Mercantile",
+		DeathlyFortune: "DeathlyFortune",
+		DepthsAndSea: "DepthsAndSea",
+		PlainAndPeak: "PlainAndPeak",
+		// OldAndRot: "OldAndRot",
+		CleansingWaters: "CleansingWaters",
+		RiseWells: "RiseWells",
+		RushAir: "RushAir",
+		RevivalPool: "RevivalPool",
+		WoodsyLifespring: "WoodsyLifespring",
+		BrinyLifespring: "BrinyLifespring",
+		// Bats: "Bats",
+		SocialSolidarity: "SocialSolidarity",
+		FlourishingSoil: "FlourishingSoil"
 	},
 	Helpers: {
 		Keepsake: "keepsake",
 		Weapon: "weapon",
-		SurfaceAccess: "surfaceAccess"
+		Companion: "companion",
+		Tool: "tool"
 	},
 	Settings: {
 		LocationSystemRoom: "location_room",
@@ -119,25 +156,95 @@ export let vars = {
 		KeepsakesanityOn: "keepsakesanityOn",
 		KeepsakesanityOff: "keepsakesanityOff",
 		ReverseFear: "reverseFear",
-		FearSetting: "fearSetting"
+		FearSetting: "fearSetting",
+		CauldronsanityOn: "cauldronsanityOn"
+	},
+
+	LocNames: {
+		Special: {
+			Menu: "Menu",
+			BothVictory: "BothVictory",
+		},
+		Areas: {
+			Erebus: "Erebus",
+			Oceanus: "Oceanus",
+			Fields: "Fields",
+			Tartarus: "Tartarus",
+			Ephyra: "Ephyra",
+			Thessaly: "Thessaly",
+			Olympus: "Olympus",
+			Summit: "Summit"
+		},
+		Bosses: {
+			Hecate: "HecateBoss",
+			Scylla: "ScyllaBoss",
+			Cerberus: "CerberusBoss",
+			Chronos: "ChronosBoss",
+			Polyphemus: "PolyphemusBoss",
+			Eris: "ErisBoss",
+			Prometheus: "PrometheusBoss",
+			Typhon: "TyphonBoss"
+		},
+		Keepsakes: {
+			Hecate: "Hecate",
+			Odysseus: "Odysseus",
+			Schelemeus: "Schelemeus",
+			Dora: "Dora",
+			Nemesis: "Nemesis",
+			Charon: "Charon",
+			Moros: "Moros",
+			Eris: "Eris",
+			Hermes: "Hermes",
+			Artemis: "Artemis",
+			Selene: "Selene",
+			Zeus: "Zeus",
+			Hera: "Hera",
+			Poseidon: "Poseidon",
+			Demeter: "Demeter",
+			Apollo: "Apollo",
+			Aphrodite: "Aphrodite",
+			Hephaestus: "Hephaestus",
+			Hestia: "Hestia",
+			Ares: "Ares",
+			Athena: "Athena",
+			Dionysus: "Dionysus",
+			Arachne: "Arachne",
+			Narcissus: "Narcissus",
+			Echo: "Echo",
+			Heracles: "Heracles",
+			Medea: "Medea",
+			Circe: "Circe",
+			Icarus: "Icarus",
+			HadesAndPersephone: "HadesAndPersephone",
+			Zagreus: "Zagreus",
+			Chronos: "Chronos",
+			Chaos: "Chaos"
+		}
 	}
-}
+})
 
-export let locationData = {
-	Areas: ["Menu", "Erebus", "Oceanus", "Fields", "Tartarus", "Ephyra", "Thessaly", "Olympus", "Summit"],
-	Bosses: ["HecateBoss", "ScyllaBoss", "CerberusBoss", "ChronosBoss", "PolyphemusBoss", "ErisBoss", "PrometheusBoss", "TyphonBoss"],
-	Keepsakes: [
-		"Hecate", "Odysseus", "Schelemeus", "Dora", "Nemesis", "Charon", "Moros", "Eris", "Hermes", "Artemis",
-		"Selene", "Zeus", "Hera", "Poseidon", "Demeter", "Apollo", "Aphrodite", "Hephaestus", "Hestia", "Ares", "Athena",
-		"Dionysus", "Arachne", "Narcissus", "Echo", "Heracles", "Medea", "Circe", "Icarus", "HadesAndPersephone", "Zagreus", "Chronos", "Chaos"
-	]
-}
+export const varDefinitions = Object.freeze({
+	Keepsakes: vars.Keepsakes,
+	Weapons: vars.Weapons,
+	Aspects: vars.Aspects,
+	Tools: vars.Tools,
+	Events: vars.Events,
+	Helpers: vars.Helpers,
+	Settings: vars.Settings
+})
 
-export let mapData = {
+export const locationData = Object.freeze({
+	Special: Object.values(vars.LocNames.Special),
+	Areas: Object.values(vars.LocNames.Areas),
+	Bosses: Object.values(vars.LocNames.Bosses),
+	Keepsakes: Object.values(vars.LocNames.Keepsakes)
+})
+
+export const mapData = Object.freeze({
 	BiomeMap: {name: "BiomeMap", size: 40, border: 5, buffer: 2}
-}
+})
 
-export let weaponData = [
+export const weaponData = Object.freeze([
 	{
 		name: "Descura",
 		code: vars.Weapons.Descura,
@@ -204,4 +311,4 @@ export let weaponData = [
 			{name: "Shiva", code: vars.Aspects.XinthShiva, hidden: true},
 		]
 	}
-]
+])

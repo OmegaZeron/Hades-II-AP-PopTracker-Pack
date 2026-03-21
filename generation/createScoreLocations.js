@@ -1,6 +1,6 @@
 import { writeToFile } from "./utils.js"
 
-export function createScoresLocs() {
+export default function createScoresLocs() {
 	let locations = []
 
 	// some hard coded x/y values to place on the map

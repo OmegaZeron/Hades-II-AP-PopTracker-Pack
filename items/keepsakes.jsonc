@@ -177,7 +177,7 @@
 		"name": "Jeweled Pom (Hades & Persephone)",
 		"type": "toggle",
 		"img": "images/items/AdamantArrowhead.png",
-		"codes": "keepsake, JeweledPom, keepsakeHadesPersephone"
+		"codes": "keepsake, JeweledPom, keepsakeHadesAndPersephone"
 	},
 	{
 		"name": "Calling Card (Zagreus)",

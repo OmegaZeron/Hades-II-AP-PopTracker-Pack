@@ -24,9 +24,15 @@
 		"codes": "tool, RodOfFishing"
 	},
 	{
-		"name": "Doomed Reckoning",
+		"name": "Doomed Beckoning",
 		"type": "toggle",
-		"img": "images/items/DoomedReckoning.png",
-		"codes": "DoomedReckoning"
+		"img": "images/items/DoomedBeckoning.png",
+		"codes": "DoomedBeckoning"
+	},
+	{
+		"name": "Gigaros",
+		"type": "toggle",
+		"img": "images/items/Gigaros.png",
+		"codes": "Gigaros"
 	}
 ]

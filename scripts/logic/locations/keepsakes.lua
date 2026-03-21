@@ -7,8 +7,9 @@ PolyphemusBoss:connect_one_way(Icarus)
 PolyphemusBoss:connect_one_way(Circe)
 Eris:connect_one_way(Eris)
 Eris:connect_one_way(Dionysus)
+-- TyphonBoss:connect_one_way(HadesAndPersephone) -- after Dissolution of Time
 
-Menu:connect_one_way(Moros, function() return Has(DoomedReckoning) end)
+Menu:connect_one_way(Moros, function() return Has(DoomedBeckoning) end)
 
 Menu:connect_one_way(GodKeepsakeRule(Zeus))
 Menu:connect_one_way(GodKeepsakeRule(Hera))

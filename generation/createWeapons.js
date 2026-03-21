@@ -1,6 +1,6 @@
 import { weaponData, writeToFile } from './utils.js'
 
-export function createWeapons() {
+export default function createWeapons() {
 	let items = []
 
 	for (let weapon of weaponData) {

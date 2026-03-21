@@ -195,7 +195,7 @@
 			},
 			{
 				"name": "Hecate",
-				"access_rules": ["^$CanReach|Hecate"],
+				"access_rules": ["^$CanReach|HecateBoss"],
 				"sections": [
 					{
 						"name": "The Test",
@@ -410,7 +410,7 @@
 			},
 			{
 				"name": "Scylla and the Sirens",
-				"access_rules": ["^$CanReach|Scylla"],
+				"access_rules": ["^$CanReach|ScyllaBoss"],
 				"sections": [
 					{
 						"name": "They Hate You",
@@ -639,7 +639,7 @@
 			},
 			{
 				"name": "Cerberus",
-				"access_rules": ["^$CanReach|Cerberus"],
+				"access_rules": ["^$CanReach|CerberusBoss"],
 				"sections": [
 					{
 						"name": "Tormented Puppy",
@@ -1043,7 +1043,7 @@
 			},
 			{
 				"name": "Chronos",
-				"access_rules": ["^$CanReach|Chronos"],
+				"access_rules": ["^$CanReach|ChronosBoss"],
 				"sections": [
 					{
 						"name": "Grandfather Time",
@@ -1286,7 +1286,7 @@
 			},
 			{
 				"name": "Polyphemus",
-				"access_rules": ["^$CanReach|Polyphemus"],
+				"access_rules": ["^$CanReach|PolyphemusBoss"],
 				"sections": [
 					{
 						"name": "Blind Shepherd",
@@ -1501,7 +1501,7 @@
 			},
 			{
 				"name": "Eris",
-				"access_rules": ["^$CanReach|Eris"],
+				"access_rules": ["^$CanReach|ErisBoss"],
 				"sections": [
 					{
 						"name": "Strife Incarnate",
@@ -1730,7 +1730,7 @@
 			},
 			{
 				"name": "Prometheus",
-				"access_rules": ["^$CanReach|Prometheus"],
+				"access_rules": ["^$CanReach|PrometheusBoss"],
 				"sections": [
 					{
 						"name": "Titan of Prophecy",
@@ -2134,7 +2134,7 @@
 			},
 			{
 				"name": "Typhon",
-				"access_rules": ["^$CanReach|Typhon"],
+				"access_rules": ["^$CanReach|TyphonBoss"],
 				"sections": [
 					{
 						"name": "Father of All Monsters",

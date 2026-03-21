@@ -1,10 +1,10 @@
-import { vars, locationData, writeToFile } from "./utils.js"
+import { varDefinitions, locationData, writeToFile } from "./utils.js"
 
 // export variables to Lua to keep in sync
-export function createVars() {
+export default function createVars() {
 	function createVariableDefinitions() {
 		let output = ""
-		for (let [itemType, list] of Object.entries(vars)) {
+		for (let [itemType, list] of Object.entries(varDefinitions)) {
 			output += `-- ${itemType}\n`
 			for (let [name, val] of Object.entries(list)) {
 				output += `${name} = "${val}"\n`

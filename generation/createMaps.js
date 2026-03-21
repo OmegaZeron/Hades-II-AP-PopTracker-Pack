@@ -1,6 +1,6 @@
 import { mapData, writeToFile } from "./utils.js"
 
-export function createMaps() {
+export default function createMaps() {
 	let maps = []
 	for (let map of Object.values(mapData)) {
 		maps.push({

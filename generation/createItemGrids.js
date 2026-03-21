@@ -1,6 +1,6 @@
-import { vars, weaponData, toPascalCase, writeToFile } from "./utils.js"
+import { vars, weaponData, writeToFile } from "./utils.js"
 
-export function createItemGrids() {
+export default function createItemGrids() {
 	let grids = {
 		weaponGrid: {
 			type: "itemgrid",

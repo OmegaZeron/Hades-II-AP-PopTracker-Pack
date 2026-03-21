@@ -60,14 +60,15 @@ end
 function GodKeepsakeRule(god)
 	return god, function()
 		return Any(
-			All(
-				KeepsakesanityOn,
-				KeepsakeMap[god.name]
-			),
+			KeepsakeMap[god.name],
 			KeepsakesanityOff,
 			AccessibilityLevel.SequenceBreak
 		)
 	end
+end
+
+function HasWeaponsForNightAndDarkness()
+	return Tracker:ProviderCountForCode(Weapon) - Tracker:ProviderCountForCode(Xinth) >= 4
 end
 
 function TotalFearAmount()

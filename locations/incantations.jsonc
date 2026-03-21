@@ -1,0 +1,143 @@
+[
+	{
+		"name": "The Cauldron",
+		"chest_unopened_img": "",
+		"chest_opened_img": "",
+		"visibility_rules": ["cauldronsanityOn"],
+		"sections": [
+			{
+				"name": "Disintegration of Monstrosity",
+				"access_rules": ["Gigaros, ^$CanReach|BothVictory"],
+				"hosted_item": "Disintegration"
+			},
+			{
+				"name": "Dissolution of Time",
+				"access_rules": ["Disintegration"],
+				"hosted_item": "Dissolution"
+			},
+			{
+				"name": "Unraveling a Fateful Bond",
+				"access_rules": ["DoomedBeckoning, SilverSpade, Permeation"],
+				"hosted_item": "Unraveling"
+			},
+			{
+				"name": "Permeation of Witching-Wards",
+				"access_rules": ["^$CanReach|Oceanus"],
+				"hosted_item": "Permeation"
+			},
+			{
+				"name": "Fated Intervention",
+				"access_rules": ["NightsCraftwork, CrescentPick, ^$CanReach|Erebus"],
+				"hosted_item": "FatedIntervention"
+			},
+			{
+				"name": "Doomed Beckoning",
+				"access_rules": ["FatedIntervention, SilverSpade"],
+				"hosted_item": "DoomedBeckoning"
+			},
+			{
+				"name": "Purification of Crystal Clarity",
+				"access_rules": ["SilverSpade, ^$CanReach|Tartarus"]
+			},
+			{
+				"name": "Return of Latent Memories",
+				"access_rules": ["SilverSpade, ^$CanReach|PrometheusBoss, ^$CanReach|Oceanus"]
+			},
+			{
+				"name": "Essence of Sorrow",
+				"access_rules": ["SurfaceAccess, ^$CanReach|CerberusBoss"]
+			},
+			{
+				"name": "Augmentation of Bone Density",
+				"access_rules": ["CrescentPick, ^$CanReach|Oceanus, ^$CanReach|Olympus"]
+			},
+			{
+				"name": "End to Deepest Slumber",
+				"access_rules": ["SilverSpade, ^$CanReach|Tartarus"],
+				"hosted_item": "DeepSlumber"
+			},
+			{
+				"name": "End to Dearest Slumber",
+				"access_rules": ["DeepSlumber"],
+				"hosted_item": "DearSlumber"
+			},
+			{
+				"name": "End to Dumbest Slumber",
+				"access_rules": ["DearSlumber, Dissolution"]
+			},
+			{
+				"name": "Aspects of Night and Darkness",
+				"access_rules": ["SilverSpade, Permeation, $HasWeaponsForNightAndDarkness"]
+			},
+			{
+				"name": "Consecration of Ashes",
+				"access_rules": ["^$CanReach|HecateBoss, Mercantile"],
+				"hosted_item": "Consecration"
+			},
+			{
+				"name": "Abyssal Insight",
+				"access_rules": ["^$CanReach|ScyllaBoss, SilverSpade, Unraveling"],
+				"hosted_item": "AbyssalInsight"
+			},
+			{
+				"name": "Abyssal Reflection",
+				"access_rules": ["AbyssalInsight"]
+			},
+			{
+				"name": "Faith of Familiar Spirits",
+				"access_rules": ["CrescentPick, TabletOfPeace, SilverSpade, ^$CanReach|Oceanus"],
+				"hosted_item": "FaithFamiliar"
+			},
+			{
+				"name": "Bravery of Familiar Spirits",
+				"access_rules": ["FaithFamiliar, ^$CanReach|Fields, ^$CanReach|PolyphemusBoss"]
+			},
+			{
+				"name": "Alteration of Familiar Spirits",
+				"access_rules": ["CrescentPick, companion:5, ^$CanReach|Thessaly"],
+				"hosted_item": "AlterationFamiliar"
+			},
+			{
+				"name": "Greater Favor of Gaia",
+				"access_rules": ["tool:4, Divination, ^$CanReach|Tartarus, ^$CanReach|Thessaly"]
+			},
+			{
+				"name": "Long Arm of the Unseen",
+				"access_rules": ["AlterationFamiliar, Mercantile"]
+			},
+			{
+				"name": "Acceptance of Another Fate",
+				"access_rules": ["^$CanReach|BothVictory, InsightOffering"]
+			},
+			{
+				"name": "Night's Craftwork",
+				"hosted_item": "NightsCraftwork"
+			},
+			{
+				"name": "Divination of the Elements",
+				"access_rules": ["^$CanReach|HecateBoss"]
+			},
+			{
+				"name": "Insight into Offerings",
+				"access_rules": ["Mercantile"]
+			},
+			{
+				"name": "Summoning of Mercantile Fortune",
+				"hosted_item": "Mercantile"
+			},
+			{
+				"name": "Deathly Fortune",
+				"access_rules": ["SilverSpade, Permeation, Mercantile"],
+				"hosted_item": "DeathlyFortune"
+			},
+			{
+				"name": "Kinship Fortune",
+				"access_rules": ["NightsCraftwork, Mercantile"]
+			},
+			{
+				"name": "Earthly Fortune",
+				"access_rules": []
+			}
+		]
+	}
+]

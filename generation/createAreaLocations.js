@@ -1,15 +1,15 @@
 import { vars, mapData, writeToFile } from './utils.js'
 
-export function createAreaLocs() {
+export default function createAreaLocs() {
 	let regions = [
-		{name: "Erebus", start: 1, end: 13, x: 655, y: 1247, bossName: "Hecate", subName: "The Test", bossX: 777, bossY: 1343},
-		{name: "Oceanus", start: 15, end: 23, x: 1015, y: 1367, bossName: "Scylla and the Sirens", bossCode: "Scylla", subName: "They Hate You", bossX: 1110, bossY: 1453},
-		{name: "Fields of Mourning", code: "Fields", start: 25, end: 35, x: 1310, y: 1501, bossName: "Cerberus", subName: "Tormented Puppy", bossX: 1210, bossY: 1606},
-		{name: "Tartarus", start: 37, end: 72, x: 998, y: 1729, bossName: "Chronos", subName: "Grandfather Time", bossX: 1010, bossY: 1872},
-		{name: "City of Ephyra", code: "Ephyra", start: 1, end: 13, x: 0, y: 0, bossName: "Polyphemus", subName: "Blind Shepherd", bossX: 10, bossY: 10},
-		{name: "Rift of Thessaly", code: "Thessaly", start: 15, end: 23, x: 0, y: 0, bossName: "Eris", subName: "Strife Incarnate", bossX: 10, bossY: 10},
-		{name: "Mount Olympus", code: "Olympus", start: 25, end: 35, x: 0, y: 0, bossName: "Prometheus", subName: "Titan of Prophecy", bossX: 10, bossY: 10},
-		{name: "The Summit", code: "Summit", start: 37, end: 72, x: 0, y: 0, bossName: "Typhon", subName: "Father of All Monsters", bossX: 10, bossY: 10}
+		{name: "Erebus", code: vars.LocNames.Areas.Erebus, start: 1, end: 13, x: 655, y: 1247, bossName: "Hecate", bossCode: vars.LocNames.Bosses.Hecate, subName: "The Test", bossX: 777, bossY: 1343},
+		{name: "Oceanus", code: vars.LocNames.Areas.Oceanus, start: 15, end: 23, x: 1015, y: 1367, bossName: "Scylla and the Sirens", bossCode: vars.LocNames.Bosses.Scylla, subName: "They Hate You", bossX: 1110, bossY: 1453},
+		{name: "Fields of Mourning", code: vars.LocNames.Areas.Fields, start: 25, end: 35, x: 1310, y: 1501, bossName: "Cerberus", bossCode: vars.LocNames.Bosses.Cerberus, subName: "Tormented Puppy", bossX: 1210, bossY: 1606},
+		{name: "Tartarus", code: vars.LocNames.Areas.Tartarus, start: 37, end: 72, x: 998, y: 1729, bossName: "Chronos", bossCode: vars.LocNames.Bosses.Chronos, subName: "Grandfather Time", bossX: 1010, bossY: 1872},
+		{name: "City of Ephyra", code: vars.LocNames.Areas.Ephyra, start: 1, end: 13, x: 0, y: 0, bossName: "Polyphemus", bossCode: vars.LocNames.Bosses.Polyphemus, subName: "Blind Shepherd", bossX: 10, bossY: 10},
+		{name: "Rift of Thessaly", code: vars.LocNames.Areas.Thessaly, start: 15, end: 23, x: 0, y: 0, bossName: "Eris", bossCode: vars.LocNames.Bosses.Eris, subName: "Strife Incarnate", bossX: 10, bossY: 10},
+		{name: "Mount Olympus", code: vars.LocNames.Areas.Olympus, start: 25, end: 35, x: 0, y: 0, bossName: "Prometheus", bossCode: vars.LocNames.Bosses.Prometheus, subName: "Titan of Prophecy", bossX: 10, bossY: 10},
+		{name: "The Summit", code: vars.LocNames.Areas.Summit, start: 37, end: 72, x: 0, y: 0, bossName: "Typhon", bossCode: vars.LocNames.Bosses.Typhon, subName: "Father of All Monsters", bossX: 10, bossY: 10}
 	]
 	let weapons = [
 		null, // room-location system
@@ -28,7 +28,7 @@ export function createAreaLocs() {
 			name: region.name,
 			chest_unopened_img: "images/labels/Trove.png",
 			chest_opened_img: "images/labels/TroveOpen.png",
-			access_rules: [`^$CanReach|${(region.code ? region.code : region.name)}`],
+			access_rules: [`^$CanReach|${region.code}`],
 			children: []
 		}
 
@@ -58,7 +58,7 @@ export function createAreaLocs() {
 
 		let bossLocation = {
 			name: region.bossName,
-			access_rules: [`^$CanReach|${region.bossCode ? region.bossCode : region.bossName}`],
+			access_rules: [`^$CanReach|${region.bossCode}`],
 			sections: [],
 			map_locations: [{
 				map: mapData.BiomeMap.name,
