@@ -71,12 +71,12 @@
 			},
 			{
 				"name": "Consecration of Ashes",
-				"access_rules": ["^$CanReach|HecateBoss, Mercantile"],
+				"access_rules": ["Mercantile, ^$CanReach|HecateBoss"],
 				"hosted_item": "Consecration"
 			},
 			{
 				"name": "Abyssal Insight",
-				"access_rules": ["^$CanReach|ScyllaBoss, SilverSpade, Unraveling"],
+				"access_rules": ["SilverSpade, Unraveling, ^$CanReach|ScyllaBoss"],
 				"hosted_item": "AbyssalInsight"
 			},
 			{
@@ -108,7 +108,7 @@
 			},
 			{
 				"name": "Acceptance of Another Fate",
-				"access_rules": ["^$CanReach|ChronosBoss, ^$CanReach|TyphonBoss, InsightOffering"]
+				"access_rules": ["InsightOffering, ^$CanReach|ChronosBoss, ^$CanReach|TyphonBoss"]
 			},
 			{
 				"name": "Night's Craftwork",
@@ -379,7 +379,7 @@
 			},
 			{
 				"name": "Shuffling of Noted Ballads",
-				"access_rules": ["Rhapsody, ^$CanReach|Tartarus, Olympus"]
+				"access_rules": ["Rhapsody, ^$CanReach|Tartarus, ^$CanReach|Olympus"]
 			},
 			{
 				"name": "Summoning of Historic Travails",

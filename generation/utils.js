@@ -27,6 +27,10 @@ export function CanReach(area) {
 	return `^$CanReach|${area}`
 }
 
+export function and(...args) {
+	return args.join(", ")
+}
+
 export const vars = Object.freeze({
 	Keepsakes: {
 		SilverWheel: "SilverWheel",
