@@ -1,4 +1,4 @@
-import { weaponData, writeToFile } from './utils.js'
+import { vars, weaponData, writeToFile } from './utils.js'
 
 export default function createWeapons() {
 	let items = []
@@ -9,7 +9,7 @@ export default function createWeapons() {
 			type: "toggle",
 			// img: `images/items/${weapon.code}.png`,
 			img: `images/items/Coronacht_Base.png`,
-			codes: `weapon, ${weapon.code}`
+			codes: `${vars.Helpers.Weapon}, ${weapon.code}`
 		})
 		for (let aspect of weapon.aspects) {
 			items.push({
@@ -17,7 +17,7 @@ export default function createWeapons() {
 				type: "toggle",
 				// img: `images/items/${aspect.code}.png`,
 				img: `images/items/Coronacht_Base.png`,
-				codes: `aspect, aspect${weapon.code}, ${aspect.code}${(aspect.hidden ? `, aspectHidden` : ``)}`
+				codes: `${vars.Helpers.Aspect}, aspect${weapon.code}, ${aspect.code}${(aspect.hidden ? `, ${vars.Helpers.HiddenAspect}` : ``)}`
 			})
 		}
 	}

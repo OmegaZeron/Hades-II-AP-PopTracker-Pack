@@ -1,6 +1,6 @@
 -- Special
 Menu = Hades2Location.New("Menu")
-BothVictory = Hades2Location.New("BothVictory")
+EitherVictory = Hades2Location.New("EitherVictory")
 -- Areas
 Erebus = Hades2Location.New("Erebus")
 Oceanus = Hades2Location.New("Oceanus")

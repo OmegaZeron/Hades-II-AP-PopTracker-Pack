@@ -69,7 +69,10 @@ CrescentPick = "CrescentPick"
 TabletOfPeace = "TabletOfPeace"
 SilverSpade = "SilverSpade"
 RodOfFishing = "RodOfFishing"
--- Events
+-- Items
+SurfaceAccess = "SurfaceAccess"
+Gigaros = "Gigaros"
+-- Incants
 Disintegration = "Disintegration"
 Dissolution = "Dissolution"
 Unraveling = "Unraveling"
@@ -120,9 +123,12 @@ RichSoil = "RichSoil"
 VerdantSoil = "VerdantSoil"
 ObservanceGaia = "ObservanceGaia"
 Rhapsody = "Rhapsody"
+-- Fates
 -- Helpers
 Keepsake = "keepsake"
 Weapon = "weapon"
+Aspect = "aspect"
+HiddenAspect = "aspectHidden"
 Companion = "companion"
 Tool = "tool"
 -- Settings
@@ -139,3 +145,4 @@ KeepsakesanityOff = "keepsakesanityOff"
 ReverseFear = "reverseFear"
 FearSetting = "fearSetting"
 CauldronsanityOn = "cauldronsanityOn"
+FatesanityOn = "fatesanityOn"

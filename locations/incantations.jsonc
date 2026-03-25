@@ -7,7 +7,7 @@
 		"sections": [
 			{
 				"name": "Disintegration of Monstrosity",
-				"access_rules": ["Gigaros, ^$CanReach|BothVictory"],
+				"access_rules": ["Gigaros, ^$CanReach|ChronosBoss, ^$CanReach|TyphonBoss"],
 				"hosted_item": "Disintegration"
 			},
 			{
@@ -108,7 +108,7 @@
 			},
 			{
 				"name": "Acceptance of Another Fate",
-				"access_rules": ["^$CanReach|BothVictory, InsightOffering"]
+				"access_rules": ["^$CanReach|ChronosBoss, ^$CanReach|TyphonBoss, InsightOffering"]
 			},
 			{
 				"name": "Night's Craftwork",
@@ -125,7 +125,7 @@
 			},
 			{
 				"name": "Path to Desired Blessings",
-				"access_rules": ["ForgetMeNot, InsightOffering, ^$CanReach|BothVictory"]
+				"access_rules": ["ForgetMeNot, InsightOffering, ^$CanReach|ChronosBoss, ^$CanReach|TyphonBoss"]
 			},
 			{
 				"name": "Spreading of Ashes",
@@ -168,12 +168,12 @@
 			},
 			{
 				"name": "Rivals of Plain and Peak",
-				"access_rules": ["^$CanReach|CerberusBoss, ^$CanReach|PrometheusBoss"],
+				"access_rules": ["DepthsAndSea, ^$CanReach|CerberusBoss, ^$CanReach|PrometheusBoss"],
 				"hosted_item": "PlainAndPeak"
 			},
 			{
 				"name": "Rivals of Old and Rot",
-				"access_rules": ["Dissolution"],
+				"access_rules": ["DepthsAndSea, Dissolution"],
 				"hosted_item": "OldAndRot"
 			},
 			{
@@ -366,7 +366,7 @@
 			},
 			{
 				"name": "Greatest Gift of Gaia",
-				"access_rules": ["tool:4, ^$CanReach|BothVictory"]
+				"access_rules": ["tool:4, ^$CanReach|ChronosBoss, ^$CanReach|TyphonBoss"]
 			},
 			{
 				"name": "Empath's Intuition",
@@ -383,7 +383,7 @@
 			},
 			{
 				"name": "Summoning of Historic Travails",
-				"access_rules": ["\n\t\t\t\t\tCrescentPick,\n\t\t\t\t\tMercantile,\n\t\t\t\t\tSocialSolidarity,\n\t\t\t\t\t^$CanReach|ChronosBoss,\n\t\t\t\t\t^$CanReach|PolyphemusBoss\n\t\t\t\t"]
+				"access_rules": ["CrescentPick, Mercantile, SocialSolidarity, ^$CanReach|ChronosBoss, ^$CanReach|PolyphemusBoss"]
 			},
 			{
 				"name": "Summoning of Personal Insights",

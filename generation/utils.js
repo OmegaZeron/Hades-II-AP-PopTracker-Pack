@@ -23,6 +23,10 @@ export function toSnakeCase(str) {
 	return str.toLowerCase().split(' ').join('_')
 }
 
+export function CanReach(area) {
+	return `^$CanReach|${area}`
+}
+
 export const vars = Object.freeze({
 	Keepsakes: {
 		SilverWheel: "SilverWheel",
@@ -103,7 +107,7 @@ export const vars = Object.freeze({
 		SurfaceAccess: "SurfaceAccess",
 		Gigaros: "Gigaros"
 	},
-	Events: {
+	Incants: {
 		Disintegration: "Disintegration",
 		Dissolution: "Dissolution",
 		Unraveling: "Unraveling",
@@ -155,9 +159,12 @@ export const vars = Object.freeze({
 		ObservanceGaia: "ObservanceGaia",
 		Rhapsody: "Rhapsody"
 	},
+	Fates: {},
 	Helpers: {
 		Keepsake: "keepsake",
 		Weapon: "weapon",
+		Aspect: "aspect",
+		HiddenAspect: "aspectHidden",
 		Companion: "companion",
 		Tool: "tool"
 	},
@@ -174,13 +181,14 @@ export const vars = Object.freeze({
 		KeepsakesanityOff: "keepsakesanityOff",
 		ReverseFear: "reverseFear",
 		FearSetting: "fearSetting",
-		CauldronsanityOn: "cauldronsanityOn"
+		CauldronsanityOn: "cauldronsanityOn",
+		FatesanityOn: "fatesanityOn"
 	},
 
 	LocNames: {
 		Special: {
 			Menu: "Menu",
-			BothVictory: "BothVictory",
+			EitherVictory: "EitherVictory"
 		},
 		Areas: {
 			Erebus: "Erebus",
@@ -245,7 +253,9 @@ export const varDefinitions = Object.freeze({
 	Weapons: vars.Weapons,
 	Aspects: vars.Aspects,
 	Tools: vars.Tools,
-	Events: vars.Events,
+	Items: vars.Items,
+	Incants: vars.Incants,
+	Fates: vars.Fates,
 	Helpers: vars.Helpers,
 	Settings: vars.Settings
 })

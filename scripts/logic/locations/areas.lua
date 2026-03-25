@@ -37,6 +37,7 @@ Tartarus:connect_one_way_entrance(ChronosBoss, function()
 		AccessibilityLevel.SequenceBreak
 	)
 end)
+ChronosBoss:connect_one_way_entrance(EitherVictory)
 
 Hecate:connect_one_way_entrance(Ephyra, function() return Has(SurfaceAccess) end)
 Ephyra:connect_one_way_entrance(PolyphemusBoss, function()
@@ -77,3 +78,4 @@ Summit:connect_one_way_entrance(TyphonBoss, function()
 		AccessibilityLevel.SequenceBreak
 	)
 end)
+TyphonBoss:connect_one_way_entrance(EitherVictory)
