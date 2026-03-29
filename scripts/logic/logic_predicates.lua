@@ -91,3 +91,40 @@ function HasFear(amount)
 	end
 	return count >= amount
 end
+
+function CanPeace()
+	return Any(
+		TabletOfPeace,
+		All(
+			Frinos,
+			AccessibilityLevel.SequenceBreak
+		)
+	)
+end
+function CanMine()
+	return Any(
+		CrescentPick,
+		All(
+			Raki,
+			AccessibilityLevel.SequenceBreak
+		)
+	)
+end
+function CanDig()
+	return Any(
+		SilverSpade,
+		All(
+			Hecuba,
+			AccessibilityLevel.SequenceBreak
+		)
+	)
+end
+function CanFish()
+	return Any(
+		RodOfFishing,
+		All(
+			Toula,
+			AccessibilityLevel.SequenceBreak
+		)
+	)
+end

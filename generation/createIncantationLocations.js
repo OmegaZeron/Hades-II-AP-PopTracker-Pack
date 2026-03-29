@@ -1,4 +1,4 @@
-import { writeToFile, and, vars, CanReach } from './utils.js'
+import { writeToFile, and, vars, CanReach, LuaFunc } from './utils.js'
 
 export default function createIncantationLocations() {
 	let loc = {
@@ -19,7 +19,7 @@ export default function createIncantationLocations() {
 			},
 			{
 				name: "Unraveling a Fateful Bond",
-				access_rules: [and(vars.Incants.DoomedBeckoning, vars.Tools.SilverSpade, vars.Incants.Permeation)],
+				access_rules: [and(vars.Incants.DoomedBeckoning, LuaFunc.CanDig, vars.Incants.Permeation)],
 				hosted_item: vars.Incants.Unraveling
 			},
 			{
@@ -29,21 +29,23 @@ export default function createIncantationLocations() {
 			},
 			{
 				name: "Fated Intervention",
-				access_rules: [and(vars.Incants.NightsCraftwork, vars.Tools.CrescentPick, CanReach(vars.LocNames.Areas.Erebus))],
+				access_rules: [and(vars.Incants.NightsCraftwork, LuaFunc.CanMine, CanReach(vars.LocNames.Areas.Erebus))],
 				hosted_item: vars.Incants.FatedIntervention
 			},
 			{
 				name: "Doomed Beckoning",
-				access_rules: [and(vars.Incants.FatedIntervention, vars.Tools.SilverSpade)],
+				access_rules: [and(vars.Incants.FatedIntervention, LuaFunc.CanDig)],
 				hosted_item: vars.Incants.DoomedBeckoning
 			},
 			{
 				name: "Purification of Crystal Clarity",
-				access_rules: [and(vars.Tools.SilverSpade, CanReach(vars.LocNames.Areas.Tartarus))] // +Thessaly for Mandrake Seeds?
+				access_rules: [and(LuaFunc.CanDig, CanReach(vars.LocNames.Areas.Tartarus))], // +Thessaly for Mandrake Seeds?
+				hosted_item: vars.Incants.Purification
 			},
 			{
 				name: "Return of Latent Memories",
-				access_rules: [and(vars.Tools.SilverSpade, CanReach(vars.LocNames.Bosses.Prometheus), CanReach(vars.LocNames.Areas.Oceanus))] // +Star Dust?
+				access_rules: [and(LuaFunc.CanDig, CanReach(vars.LocNames.Bosses.Prometheus), CanReach(vars.LocNames.Areas.Oceanus))], // +Star Dust?
+				hosted_item: vars.Incants.ReturnMemories
 			},
 			{
 				name: "Essence of Sorrow",
@@ -51,11 +53,11 @@ export default function createIncantationLocations() {
 			},
 			{
 				name: "Augmentation of Bone Density",
-				access_rules: [and(vars.Tools.CrescentPick, CanReach(vars.LocNames.Areas.Oceanus), CanReach(vars.LocNames.Areas.Olympus))] // +Nightmare?
+				access_rules: [and(LuaFunc.CanMine, CanReach(vars.LocNames.Areas.Oceanus), CanReach(vars.LocNames.Areas.Olympus))] // +Nightmare?
 			},
 			{
 				name: "End to Deepest Slumber",
-				access_rules: [and(vars.Tools.SilverSpade, CanReach(vars.LocNames.Areas.Tartarus))], // +Thessaly for Mandrake Seeds?
+				access_rules: [and(LuaFunc.CanDig, CanReach(vars.LocNames.Areas.Tartarus))], // +Thessaly for Mandrake Seeds?
 				hosted_item: vars.Incants.DeepSlumber
 			},
 			{
@@ -69,7 +71,7 @@ export default function createIncantationLocations() {
 			},
 			{
 				name: "Aspects of Night and Darkness",
-				access_rules: [and(vars.Tools.SilverSpade, vars.Incants.Permeation, "$HasWeaponsForNightAndDarkness")] // Ephyra instead of Permeation?
+				access_rules: [and(LuaFunc.CanDig, vars.Incants.Permeation, "$HasWeaponsForNightAndDarkness")] // Ephyra instead of Permeation?
 			},
 			{
 				name: "Consecration of Ashes",
@@ -78,7 +80,7 @@ export default function createIncantationLocations() {
 			},
 			{
 				name: "Abyssal Insight",
-				access_rules: [and(vars.Tools.SilverSpade, vars.Incants.Unraveling, CanReach(vars.LocNames.Bosses.Scylla))], // Spade is irrelevant cuz Unraveling?
+				access_rules: [and(LuaFunc.CanDig, vars.Incants.Unraveling, CanReach(vars.LocNames.Bosses.Scylla))], // Spade is irrelevant cuz Unraveling?
 				hosted_item: vars.Incants.AbyssalInsight
 			},
 			{
@@ -87,7 +89,7 @@ export default function createIncantationLocations() {
 			},
 			{
 				name: "Faith of Familiar Spirits",
-				access_rules: [and(vars.Tools.CrescentPick, vars.Tools.TabletOfPeace, vars.Tools.SilverSpade, CanReach(vars.LocNames.Areas.Oceanus))],
+				access_rules: [and(LuaFunc.CanMine, LuaFunc.CanPeace, LuaFunc.CanDig, CanReach(vars.LocNames.Areas.Oceanus))],
 				hosted_item: vars.Incants.FaithFamiliar
 			},
 			{
@@ -96,7 +98,7 @@ export default function createIncantationLocations() {
 			},
 			{
 				name: "Alteration of Familiar Spirits",
-				access_rules: [and(vars.Tools.CrescentPick, `${vars.Helpers.Companion}:5`, CanReach(vars.LocNames.Areas.Thessaly))], // +20 Witch's Delight? +30 Grasp?
+				access_rules: [and(LuaFunc.CanMine, `${vars.Helpers.Familiar}:5`, CanReach(vars.LocNames.Areas.Thessaly))], // +20 Witch's Delight? +30 Grasp?
 				hosted_item: vars.Incants.AlterationFamiliar
 			},
 			{
@@ -140,7 +142,7 @@ export default function createIncantationLocations() {
 			},
 			{
 				name: "Reagent Sensing",
-				access_rules: [and(vars.Tools.CrescentPick, CanReach(vars.LocNames.Areas.Erebus))]
+				access_rules: [and(LuaFunc.CanMine, CanReach(vars.LocNames.Areas.Erebus))]
 			},
 			{
 				name: "Insight into Offerings",
@@ -152,7 +154,7 @@ export default function createIncantationLocations() {
 			},
 			{
 				name: "Deathly Fortune",
-				access_rules: [and(vars.Tools.SilverSpade, vars.Incants.Permeation, vars.Incants.Mercantile)],
+				access_rules: [and(LuaFunc.CanDig, vars.Incants.Permeation, vars.Incants.Mercantile)],
 				hosted_item: vars.Incants.DeathlyFortune
 			},
 			{
@@ -180,7 +182,7 @@ export default function createIncantationLocations() {
 			},
 			{
 				name: "Cleansing of Fountain-Waters",
-				access_rules: [and(vars.Tools.SilverSpade, vars.Incants.WoodsyLifespring)],
+				access_rules: [and(LuaFunc.CanDig, vars.Incants.WoodsyLifespring)],
 				hosted_item: vars.Incants.CleansingWaters
 			},
 			{
@@ -189,7 +191,7 @@ export default function createIncantationLocations() {
 			},
 			{
 				name: "Rise of Stygian Wells",
-				access_rules: [vars.Tools.SilverSpade], // +some balancing to put it later?
+				access_rules: [LuaFunc.CanDig], // +some balancing to put it later?
 				hosted_item: vars.Incants.RiseWells
 			},
 			{
@@ -223,7 +225,7 @@ export default function createIncantationLocations() {
 			},
 			{
 				name: "Briny Lifespring",
-				access_rules: [and(vars.Tools.CrescentPick, CanReach(vars.LocNames.Areas.Oceanus))], // pick or Raki?
+				access_rules: [and(LuaFunc.CanMine, CanReach(vars.LocNames.Areas.Oceanus))], // pick or Raki?
 				hosted_item: vars.Incants.BrinyLifespring
 			},
 			{
@@ -266,11 +268,11 @@ export default function createIncantationLocations() {
 			},
 			{
 				name: "Gathering of Subterranean Riches",
-				access_rules: [`${vars.Incants.EarthlyFortune}, ${vars.Tools.CrescentPick}, ${CanReach(vars.LocNames.Bosses.Chronos)}, ${CanReach(vars.LocNames.Bosses.Eris)}`]
+				access_rules: [`${vars.Incants.EarthlyFortune}, ${LuaFunc.CanMine}, ${CanReach(vars.LocNames.Bosses.Chronos)}, ${CanReach(vars.LocNames.Bosses.Eris)}`]
 			},
 			{
 				name: "Kindred Keepsakes",
-				access_rules: [and(vars.Tools.CrescentPick, `${vars.Helpers.Keepsake}:2`, vars.Incants.WoodsyLifespring, CanReach(vars.LocNames.Areas.Oceanus))],
+				access_rules: [and(LuaFunc.CanMine, `${vars.Helpers.Keepsake}:2`, vars.Incants.WoodsyLifespring, CanReach(vars.LocNames.Areas.Oceanus))],
 				hosted_item: vars.Incants.KindredKeepsakes
 			},
 			{
@@ -279,7 +281,7 @@ export default function createIncantationLocations() {
 			},
 			{
 				name: "Rage of the Elements",
-				access_rules: [and(vars.Incants.FrozenLifespring, vars.Tools.CrescentPick, CanReach(vars.LocNames.Bosses.Typhon), CanReach(vars.LocNames.Bosses.Hecate))]
+				access_rules: [and(vars.Incants.FrozenLifespring, LuaFunc.CanMine, CanReach(vars.LocNames.Bosses.Typhon), CanReach(vars.LocNames.Bosses.Hecate))]
 			},
 			{
 				name: "Circles of Protection",
@@ -292,7 +294,7 @@ export default function createIncantationLocations() {
 			},
 			{
 				name: "Necromantic Influence",
-				access_rules: [and(vars.Incants.WoodsyLifespring, vars.Incants.GatheringBones, vars.Tools.TabletOfPeace, vars.Tools.SilverSpade)]
+				access_rules: [and(vars.Incants.WoodsyLifespring, vars.Incants.GatheringBones, LuaFunc.CanPeace, LuaFunc.CanDig)]
 			},
 			{
 				name: "Exhumed Troves",
@@ -310,23 +312,23 @@ export default function createIncantationLocations() {
 			},
 			{
 				name: "Bounties of the Infinite Abyss",
-				access_rules: [and(vars.Tools.CrescentPick, CanReach(vars.LocNames.Bosses.Chronos), CanReach(vars.LocNames.Bosses.Typhon))]
+				access_rules: [and(LuaFunc.CanMine, CanReach(vars.LocNames.Bosses.Chronos), CanReach(vars.LocNames.Bosses.Typhon))]
 			},
 			{
 				name: "Ashen Memories of Life",
-				access_rules: [and(vars.Tools.SilverSpade, CanReach(vars.LocNames.Areas.Oceanus))] // +Star Dust? +^$HasResourcesForUpgrade? (800 ashes, 7500 bones, 50 nectar)
+				access_rules: [and(LuaFunc.CanDig, CanReach(vars.LocNames.Areas.Oceanus))] // +Star Dust? +^$HasResourcesForUpgrade? (800 ashes, 7500 bones, 50 nectar)
 			},
 			{
 				name: "Bones of Arcane Wisdom",
-				access_rules: [and(vars.Tools.SilverSpade, CanReach(vars.LocNames.Areas.Fields))] // +Star Dust? +^$HasResourcesForUpgrade? (800 ashes, 7500 bones, 50 nectar)
+				access_rules: [and(LuaFunc.CanDig, CanReach(vars.LocNames.Areas.Fields))] // +Star Dust? +^$HasResourcesForUpgrade? (800 ashes, 7500 bones, 50 nectar)
 			},
 			{
 				name: "Nectar of Godly Savor",
-				access_rules: [and(vars.Tools.SilverSpade, CanReach(vars.LocNames.Areas.Ephyra))] // +Star Dust? +^$HasResourcesForUpgrade? (800 ashes, 7500 bones, 50 nectar)
+				access_rules: [and(LuaFunc.CanDig, CanReach(vars.LocNames.Areas.Ephyra))] // +Star Dust? +^$HasResourcesForUpgrade? (800 ashes, 7500 bones, 50 nectar)
 			},
 			{
 				name: "Rite of Social Solidarity",
-				access_rules: [and(vars.Tools.SilverSpade, CanReach(vars.LocNames.Areas.Ephyra))], // +12 Nectar?
+				access_rules: [and(LuaFunc.CanDig, CanReach(vars.LocNames.Areas.Ephyra))], // +12 Nectar?
 				hosted_item: vars.Incants.SocialSolidarity
 			},
 			{
@@ -335,7 +337,7 @@ export default function createIncantationLocations() {
 			},
 			{
 				name: "Rite of River-Fording",
-				access_rules: [and(vars.Tools.SilverSpade, vars.Tools.RodOfFishing, CanReach(vars.LocNames.Areas.Oceanus), CanReach(vars.LocNames.Areas.Thessaly))],
+				access_rules: [and(LuaFunc.CanDig, LuaFunc.CanFish, CanReach(vars.LocNames.Areas.Oceanus), CanReach(vars.LocNames.Areas.Thessaly))],
 				hosted_item: vars.Incants.RiverFording
 			},
 			{
@@ -385,7 +387,7 @@ export default function createIncantationLocations() {
 			},
 			{
 				name: "Summoning of Historic Travails",
-				access_rules: [and(vars.Tools.CrescentPick, vars.Incants.Mercantile, vars.Incants.SocialSolidarity, CanReach(vars.LocNames.Bosses.Chronos), CanReach(vars.LocNames.Bosses.Polyphemus))]
+				access_rules: [and(LuaFunc.CanMine, vars.Incants.Mercantile, vars.Incants.SocialSolidarity, CanReach(vars.LocNames.Bosses.Chronos), CanReach(vars.LocNames.Bosses.Polyphemus))]
 			},
 			{
 				name: "Summoning of Personal Insights",
@@ -397,7 +399,7 @@ export default function createIncantationLocations() {
 			},
 			{
 				name: "Greater Removal of Rubbish",
-				access_rules: [and(vars.Incants.EarthlyFortune, vars.Tools.SilverSpade, CanReach(vars.LocNames.Areas.Ephyra))]
+				access_rules: [and(vars.Incants.EarthlyFortune, LuaFunc.CanDig, CanReach(vars.LocNames.Areas.Ephyra))]
 			}
 		],
 		map_locations: [{

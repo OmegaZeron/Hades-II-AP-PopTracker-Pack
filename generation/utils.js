@@ -31,6 +31,13 @@ export function and(...args) {
 	return args.join(", ")
 }
 
+export const LuaFunc = Object.freeze({
+	CanPeace: "^$CanPeace",
+	CanMine: "^$CanMine",
+	CanDig: "^$CanDig",
+	CanFish: "^$CanFish",
+})
+
 export const vars = Object.freeze({
 	Keepsakes: {
 		SilverWheel: "SilverWheel",
@@ -107,6 +114,13 @@ export const vars = Object.freeze({
 		SilverSpade: "SilverSpade",
 		RodOfFishing: "RodOfFishing"
 	},
+	Familiars: {
+		Frinos: "Frinos",
+		Raki: "Raki",
+		Hecuba: "Hecuba",
+		Toula: "Toula",
+		Gale: "Gale"
+	},
 	Items: {
 		SurfaceAccess: "SurfaceAccess",
 		Gigaros: "Gigaros"
@@ -118,6 +132,8 @@ export const vars = Object.freeze({
 		Permeation: "Permeation",
 		FatedIntervention: "FatedIntervention",
 		DoomedBeckoning: "DoomedBeckoning",
+		Purification: "Purification",
+		ReturnMemories: "ReturnMemories",
 		DeepSlumber: "DeepSlumber",
 		DearSlumber: "DearSlumber",
 		Consecration: "Consecration",
@@ -169,7 +185,7 @@ export const vars = Object.freeze({
 		Weapon: "weapon",
 		Aspect: "aspect",
 		HiddenAspect: "aspectHidden",
-		Companion: "companion",
+		Familiar: "familiar",
 		Tool: "tool"
 	},
 	Settings: {
@@ -249,6 +265,41 @@ export const vars = Object.freeze({
 			Chronos: "Chronos",
 			Chaos: "Chaos"
 		}
+	},
+	NameToKeepsake: {
+		Hecate: "SilverWheel",
+		Odysseus: "KnuckleBones",
+		Schelemeus: "LuckierTooth",
+		Dora: "GhostOnion",
+		Nemesis: "EvilEye",
+		Charon: "EngravedPin",
+		Moros: "DiscordantBell",
+		Eris: "GoldPurse",
+		Hermes: "MetallicDroplet",
+		Artemis: "WhiteAntler",
+		Selene: "MoonBeam",
+		Zeus: "CloudBangle",
+		Hera: "IridescentFan",
+		Poseidon: "VividSea",
+		Demeter: "BarleySheaf",
+		Apollo: "HarmonicPhoton",
+		Aphrodite: "BeautifulMirror",
+		Hephaestus: "AdamantShard",
+		Hestia: "EverlastingEmber",
+		Ares: "SwordHilt",
+		Athena: "GorgonAmulet",
+		Dionysus: "FigLeaf",
+		Arachne: "SilkenSash",
+		Narcissus: "AromaticPhial",
+		Echo: "ConcaveStone",
+		Heracles: "LionFang",
+		Medea: "BlackenedFleece",
+		Circe: "CrystalFigurine",
+		Icarus: "ExperimentalHammer",
+		HadesAndPersephone: "JeweledPom",
+		Zagreus: "CallingCard",
+		Chronos: "TimePiece",
+		Chaos: "TranscendentEmbryo"
 	}
 })
 
@@ -257,6 +308,7 @@ export const varDefinitions = Object.freeze({
 	Weapons: vars.Weapons,
 	Aspects: vars.Aspects,
 	Tools: vars.Tools,
+	Familiars: vars.Familiars,
 	Items: vars.Items,
 	Incants: vars.Incants,
 	Fates: vars.Fates,

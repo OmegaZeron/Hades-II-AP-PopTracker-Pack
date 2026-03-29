@@ -17,7 +17,7 @@
 			},
 			{
 				"name": "Unraveling a Fateful Bond",
-				"access_rules": ["DoomedBeckoning, SilverSpade, Permeation"],
+				"access_rules": ["DoomedBeckoning, ^$CanDig, Permeation"],
 				"hosted_item": "Unraveling"
 			},
 			{
@@ -27,21 +27,23 @@
 			},
 			{
 				"name": "Fated Intervention",
-				"access_rules": ["NightsCraftwork, CrescentPick, ^$CanReach|Erebus"],
+				"access_rules": ["NightsCraftwork, ^$CanMine, ^$CanReach|Erebus"],
 				"hosted_item": "FatedIntervention"
 			},
 			{
 				"name": "Doomed Beckoning",
-				"access_rules": ["FatedIntervention, SilverSpade"],
+				"access_rules": ["FatedIntervention, ^$CanDig"],
 				"hosted_item": "DoomedBeckoning"
 			},
 			{
 				"name": "Purification of Crystal Clarity",
-				"access_rules": ["SilverSpade, ^$CanReach|Tartarus"]
+				"access_rules": ["^$CanDig, ^$CanReach|Tartarus"],
+				"hosted_item": "Purification"
 			},
 			{
 				"name": "Return of Latent Memories",
-				"access_rules": ["SilverSpade, ^$CanReach|PrometheusBoss, ^$CanReach|Oceanus"]
+				"access_rules": ["^$CanDig, ^$CanReach|PrometheusBoss, ^$CanReach|Oceanus"],
+				"hosted_item": "ReturnMemories"
 			},
 			{
 				"name": "Essence of Sorrow",
@@ -49,11 +51,11 @@
 			},
 			{
 				"name": "Augmentation of Bone Density",
-				"access_rules": ["CrescentPick, ^$CanReach|Oceanus, ^$CanReach|Olympus"]
+				"access_rules": ["^$CanMine, ^$CanReach|Oceanus, ^$CanReach|Olympus"]
 			},
 			{
 				"name": "End to Deepest Slumber",
-				"access_rules": ["SilverSpade, ^$CanReach|Tartarus"],
+				"access_rules": ["^$CanDig, ^$CanReach|Tartarus"],
 				"hosted_item": "DeepSlumber"
 			},
 			{
@@ -67,7 +69,7 @@
 			},
 			{
 				"name": "Aspects of Night and Darkness",
-				"access_rules": ["SilverSpade, Permeation, $HasWeaponsForNightAndDarkness"]
+				"access_rules": ["^$CanDig, Permeation, $HasWeaponsForNightAndDarkness"]
 			},
 			{
 				"name": "Consecration of Ashes",
@@ -76,7 +78,7 @@
 			},
 			{
 				"name": "Abyssal Insight",
-				"access_rules": ["SilverSpade, Unraveling, ^$CanReach|ScyllaBoss"],
+				"access_rules": ["^$CanDig, Unraveling, ^$CanReach|ScyllaBoss"],
 				"hosted_item": "AbyssalInsight"
 			},
 			{
@@ -85,7 +87,7 @@
 			},
 			{
 				"name": "Faith of Familiar Spirits",
-				"access_rules": ["CrescentPick, TabletOfPeace, SilverSpade, ^$CanReach|Oceanus"],
+				"access_rules": ["^$CanMine, ^$CanPeace, ^$CanDig, ^$CanReach|Oceanus"],
 				"hosted_item": "FaithFamiliar"
 			},
 			{
@@ -94,7 +96,7 @@
 			},
 			{
 				"name": "Alteration of Familiar Spirits",
-				"access_rules": ["CrescentPick, companion:5, ^$CanReach|Thessaly"],
+				"access_rules": ["^$CanMine, familiar:5, ^$CanReach|Thessaly"],
 				"hosted_item": "AlterationFamiliar"
 			},
 			{
@@ -138,7 +140,7 @@
 			},
 			{
 				"name": "Reagent Sensing",
-				"access_rules": ["CrescentPick, ^$CanReach|Erebus"]
+				"access_rules": ["^$CanMine, ^$CanReach|Erebus"]
 			},
 			{
 				"name": "Insight into Offerings",
@@ -150,7 +152,7 @@
 			},
 			{
 				"name": "Deathly Fortune",
-				"access_rules": ["SilverSpade, Permeation, Mercantile"],
+				"access_rules": ["^$CanDig, Permeation, Mercantile"],
 				"hosted_item": "DeathlyFortune"
 			},
 			{
@@ -178,7 +180,7 @@
 			},
 			{
 				"name": "Cleansing of Fountain-Waters",
-				"access_rules": ["SilverSpade, WoodsyLifespring"],
+				"access_rules": ["^$CanDig, WoodsyLifespring"],
 				"hosted_item": "CleansingWaters"
 			},
 			{
@@ -187,7 +189,7 @@
 			},
 			{
 				"name": "Rise of Stygian Wells",
-				"access_rules": ["SilverSpade"],
+				"access_rules": ["^$CanDig"],
 				"hosted_item": "RiseWells"
 			},
 			{
@@ -221,7 +223,7 @@
 			},
 			{
 				"name": "Briny Lifespring",
-				"access_rules": ["CrescentPick, ^$CanReach|Oceanus"],
+				"access_rules": ["^$CanMine, ^$CanReach|Oceanus"],
 				"hosted_item": "BrinyLifespring"
 			},
 			{
@@ -264,11 +266,11 @@
 			},
 			{
 				"name": "Gathering of Subterranean Riches",
-				"access_rules": ["EarthlyFortune, CrescentPick, ^$CanReach|ChronosBoss, ^$CanReach|ErisBoss"]
+				"access_rules": ["EarthlyFortune, ^$CanMine, ^$CanReach|ChronosBoss, ^$CanReach|ErisBoss"]
 			},
 			{
 				"name": "Kindred Keepsakes",
-				"access_rules": ["CrescentPick, keepsake:2, WoodsyLifespring, ^$CanReach|Oceanus"],
+				"access_rules": ["^$CanMine, keepsake:2, WoodsyLifespring, ^$CanReach|Oceanus"],
 				"hosted_item": "KindredKeepsakes"
 			},
 			{
@@ -277,7 +279,7 @@
 			},
 			{
 				"name": "Rage of the Elements",
-				"access_rules": ["FrozenLifespring, CrescentPick, ^$CanReach|TyphonBoss, ^$CanReach|HecateBoss"]
+				"access_rules": ["FrozenLifespring, ^$CanMine, ^$CanReach|TyphonBoss, ^$CanReach|HecateBoss"]
 			},
 			{
 				"name": "Circles of Protection",
@@ -290,7 +292,7 @@
 			},
 			{
 				"name": "Necromantic Influence",
-				"access_rules": ["WoodsyLifespring, GatheringBones, TabletOfPeace, SilverSpade"]
+				"access_rules": ["WoodsyLifespring, GatheringBones, ^$CanPeace, ^$CanDig"]
 			},
 			{
 				"name": "Exhumed Troves",
@@ -308,23 +310,23 @@
 			},
 			{
 				"name": "Bounties of the Infinite Abyss",
-				"access_rules": ["CrescentPick, ^$CanReach|ChronosBoss, ^$CanReach|TyphonBoss"]
+				"access_rules": ["^$CanMine, ^$CanReach|ChronosBoss, ^$CanReach|TyphonBoss"]
 			},
 			{
 				"name": "Ashen Memories of Life",
-				"access_rules": ["SilverSpade, ^$CanReach|Oceanus"]
+				"access_rules": ["^$CanDig, ^$CanReach|Oceanus"]
 			},
 			{
 				"name": "Bones of Arcane Wisdom",
-				"access_rules": ["SilverSpade, ^$CanReach|Fields"]
+				"access_rules": ["^$CanDig, ^$CanReach|Fields"]
 			},
 			{
 				"name": "Nectar of Godly Savor",
-				"access_rules": ["SilverSpade, ^$CanReach|Ephyra"]
+				"access_rules": ["^$CanDig, ^$CanReach|Ephyra"]
 			},
 			{
 				"name": "Rite of Social Solidarity",
-				"access_rules": ["SilverSpade, ^$CanReach|Ephyra"],
+				"access_rules": ["^$CanDig, ^$CanReach|Ephyra"],
 				"hosted_item": "SocialSolidarity"
 			},
 			{
@@ -333,7 +335,7 @@
 			},
 			{
 				"name": "Rite of River-Fording",
-				"access_rules": ["SilverSpade, RodOfFishing, ^$CanReach|Oceanus, ^$CanReach|Thessaly"],
+				"access_rules": ["^$CanDig, ^$CanFish, ^$CanReach|Oceanus, ^$CanReach|Thessaly"],
 				"hosted_item": "RiverFording"
 			},
 			{
@@ -383,7 +385,7 @@
 			},
 			{
 				"name": "Summoning of Historic Travails",
-				"access_rules": ["CrescentPick, Mercantile, SocialSolidarity, ^$CanReach|ChronosBoss, ^$CanReach|PolyphemusBoss"]
+				"access_rules": ["^$CanMine, Mercantile, SocialSolidarity, ^$CanReach|ChronosBoss, ^$CanReach|PolyphemusBoss"]
 			},
 			{
 				"name": "Summoning of Personal Insights",
@@ -395,7 +397,7 @@
 			},
 			{
 				"name": "Greater Removal of Rubbish",
-				"access_rules": ["EarthlyFortune, SilverSpade, ^$CanReach|Ephyra"]
+				"access_rules": ["EarthlyFortune, ^$CanDig, ^$CanReach|Ephyra"]
 			}
 		],
 		"map_locations": [

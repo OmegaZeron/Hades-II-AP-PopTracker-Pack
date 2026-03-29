@@ -24,6 +24,36 @@
 		"codes": "tool, RodOfFishing"
 	},
 	{
+		"name": "Frinos",
+		"type": "toggle",
+		"img": "images/items/Frinos.png",
+		"codes": "familiar, Frinos"
+	},
+	{
+		"name": "Raki",
+		"type": "toggle",
+		"img": "images/items/Raki.png",
+		"codes": "familiar, Raki"
+	},
+	{
+		"name": "Hecuba",
+		"type": "toggle",
+		"img": "images/items/Hecuba.png",
+		"codes": "familiar, Hecuba"
+	},
+	{
+		"name": "Toula",
+		"type": "toggle",
+		"img": "images/items/Toula.png",
+		"codes": "familiar, Toula"
+	},
+	{
+		"name": "Gale",
+		"type": "toggle",
+		"img": "images/items/Gale.png",
+		"codes": "familiar, Gale"
+	},
+	{
 		"name": "Gigaros",
 		"type": "toggle",
 		"img": "images/items/Gigaros.png",

@@ -9,6 +9,12 @@ export default function createItems() {
 		{name: "Crescent Pick", codes: `tool, ${vars.Tools.CrescentPick}`},
 		{name: "Tablet of Peace", codes: `tool, ${vars.Tools.TabletOfPeace}`},
 		{name: "Rod of Fishing", codes: `tool, ${vars.Tools.RodOfFishing}`},
+		// familiars
+		{name: "Frinos", codes: `familiar, ${vars.Familiars.Frinos}`},
+		{name: "Raki", codes: `familiar, ${vars.Familiars.Raki}`},
+		{name: "Hecuba", codes: `familiar, ${vars.Familiars.Hecuba}`},
+		{name: "Toula", codes: `familiar, ${vars.Familiars.Toula}`},
+		{name: "Gale", codes: `familiar, ${vars.Familiars.Gale}`},
 		// items
 		{name: "Gigaros", codes: vars.Items.Gigaros},
 		// incants
