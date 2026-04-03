@@ -15,19 +15,19 @@
 		"name": "Aspect of Circe (Descura)",
 		"type": "toggle",
 		"img": "images/items/Coronacht_Base.png",
-		"codes": "aspect, aspectDescura, DescuraCirce"
+		"codes": "aspect, aspectDescura, DescuraCirce, aspectAlt"
 	},
 	{
 		"name": "Aspect of Momus (Descura)",
 		"type": "toggle",
 		"img": "images/items/Coronacht_Base.png",
-		"codes": "aspect, aspectDescura, DescuraMomus"
+		"codes": "aspect, aspectDescura, DescuraMomus, aspectAlt"
 	},
 	{
 		"name": "Aspect of Anubis (Descura)",
 		"type": "toggle",
 		"img": "images/items/Coronacht_Base.png",
-		"codes": "aspect, aspectDescura, DescuraAnubis, aspectHidden"
+		"codes": "aspect, aspectDescura, DescuraAnubis, aspectAlt, aspectHidden"
 	},
 	{
 		"name": "Lim and Oros, the Sister Blades",
@@ -45,19 +45,19 @@
 		"name": "Aspect of Artemis (Lim and Oros)",
 		"type": "toggle",
 		"img": "images/items/Coronacht_Base.png",
-		"codes": "aspect, aspectLimAndOros, LimAndOrosArtemis"
+		"codes": "aspect, aspectLimAndOros, LimAndOrosArtemis, aspectAlt"
 	},
 	{
 		"name": "Aspect of Pan (Lim and Oros)",
 		"type": "toggle",
 		"img": "images/items/Coronacht_Base.png",
-		"codes": "aspect, aspectLimAndOros, LimAndOrosPan"
+		"codes": "aspect, aspectLimAndOros, LimAndOrosPan, aspectAlt"
 	},
 	{
 		"name": "Aspect of the Morrigan (Lim and Oros)",
 		"type": "toggle",
 		"img": "images/items/Coronacht_Base.png",
-		"codes": "aspect, aspectLimAndOros, LimAndOrosTheMorrigan, aspectHidden"
+		"codes": "aspect, aspectLimAndOros, LimAndOrosTheMorrigan, aspectAlt, aspectHidden"
 	},
 	{
 		"name": "Ygnium, the Umbral Flames",
@@ -75,19 +75,19 @@
 		"name": "Aspect of Moros (Ygnium)",
 		"type": "toggle",
 		"img": "images/items/Coronacht_Base.png",
-		"codes": "aspect, aspectYgnium, YgniumMoros"
+		"codes": "aspect, aspectYgnium, YgniumMoros, aspectAlt"
 	},
 	{
 		"name": "Aspect of Eos (Ygnium)",
 		"type": "toggle",
 		"img": "images/items/Coronacht_Base.png",
-		"codes": "aspect, aspectYgnium, YgniumEos"
+		"codes": "aspect, aspectYgnium, YgniumEos, aspectAlt"
 	},
 	{
 		"name": "Aspect of Supay (Ygnium)",
 		"type": "toggle",
 		"img": "images/items/Coronacht_Base.png",
-		"codes": "aspect, aspectYgnium, YgniumSupay, aspectHidden"
+		"codes": "aspect, aspectYgnium, YgniumSupay, aspectAlt, aspectHidden"
 	},
 	{
 		"name": "Zorephet, the Moonstone Axe",
@@ -105,19 +105,19 @@
 		"name": "Aspect of Charon (Zorephet)",
 		"type": "toggle",
 		"img": "images/items/Coronacht_Base.png",
-		"codes": "aspect, aspectZorephet, ZorephetCharon"
+		"codes": "aspect, aspectZorephet, ZorephetCharon, aspectAlt"
 	},
 	{
 		"name": "Aspect of Thanatos (Zorephet)",
 		"type": "toggle",
 		"img": "images/items/Coronacht_Base.png",
-		"codes": "aspect, aspectZorephet, ZorephetThanatos"
+		"codes": "aspect, aspectZorephet, ZorephetThanatos, aspectAlt"
 	},
 	{
 		"name": "Aspect of Nergal (Zorephet)",
 		"type": "toggle",
 		"img": "images/items/Coronacht_Base.png",
-		"codes": "aspect, aspectZorephet, ZorephetNergal, aspectHidden"
+		"codes": "aspect, aspectZorephet, ZorephetNergal, aspectAlt, aspectHidden"
 	},
 	{
 		"name": "Revall, the Argent Skull",
@@ -135,19 +135,19 @@
 		"name": "Aspect of Medea (Revall)",
 		"type": "toggle",
 		"img": "images/items/Coronacht_Base.png",
-		"codes": "aspect, aspectRevall, RevallMedea"
+		"codes": "aspect, aspectRevall, RevallMedea, aspectAlt"
 	},
 	{
 		"name": "Aspect of Persephone (Revall)",
 		"type": "toggle",
 		"img": "images/items/Coronacht_Base.png",
-		"codes": "aspect, aspectRevall, RevallPersephone"
+		"codes": "aspect, aspectRevall, RevallPersephone, aspectAlt"
 	},
 	{
 		"name": "Aspect of Hel (Revall)",
 		"type": "toggle",
 		"img": "images/items/Coronacht_Base.png",
-		"codes": "aspect, aspectRevall, RevallHel, aspectHidden"
+		"codes": "aspect, aspectRevall, RevallHel, aspectAlt, aspectHidden"
 	},
 	{
 		"name": "Xinth, the Black Coat",
@@ -165,18 +165,18 @@
 		"name": "Aspect of Selene (Xinth)",
 		"type": "toggle",
 		"img": "images/items/Coronacht_Base.png",
-		"codes": "aspect, aspectXinth, XinthSelene"
+		"codes": "aspect, aspectXinth, XinthSelene, aspectAlt"
 	},
 	{
 		"name": "Aspect of Nyx (Xinth)",
 		"type": "toggle",
 		"img": "images/items/Coronacht_Base.png",
-		"codes": "aspect, aspectXinth, XinthNyx"
+		"codes": "aspect, aspectXinth, XinthNyx, aspectAlt"
 	},
 	{
 		"name": "Aspect of Shiva (Xinth)",
 		"type": "toggle",
 		"img": "images/items/Coronacht_Base.png",
-		"codes": "aspect, aspectXinth, XinthShiva, aspectHidden"
+		"codes": "aspect, aspectXinth, XinthShiva, aspectAlt, aspectHidden"
 	}
 ]

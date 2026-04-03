@@ -1,4 +1,4 @@
-import { writeToFile, and, vars, CanReach, LuaFunc } from './utils.js'
+import { writeToFile, and, vars, CanReach, LuaFunc, Has } from './utils.js'
 
 export default function createIncantationLocations() {
 	let loc = {
@@ -49,7 +49,8 @@ export default function createIncantationLocations() {
 			},
 			{
 				name: "Essence of Sorrow",
-				access_rules: [and(vars.Items.SurfaceAccess, CanReach(vars.LocNames.Bosses.Cerberus))]
+				access_rules: [and(vars.Items.SurfaceAccess, CanReach(vars.LocNames.Bosses.Cerberus))],
+				hosted_item: vars.Incants.EssenceSorrow
 			},
 			{
 				name: "Augmentation of Bone Density",
@@ -67,7 +68,8 @@ export default function createIncantationLocations() {
 			},
 			{
 				name: "End to Dumbest Slumber",
-				access_rules: [and(vars.Incants.DearSlumber, vars.Incants.Dissolution)]
+				access_rules: [and(vars.Incants.DearSlumber, vars.Incants.Dissolution)],
+				hosted_item: vars.Incants.DumbSlumber
 			},
 			{
 				name: "Aspects of Night and Darkness",
@@ -98,12 +100,12 @@ export default function createIncantationLocations() {
 			},
 			{
 				name: "Alteration of Familiar Spirits",
-				access_rules: [and(LuaFunc.CanMine, `${vars.Helpers.Familiar}:5`, CanReach(vars.LocNames.Areas.Thessaly))], // +20 Witch's Delight? +30 Grasp?
+				access_rules: [and(LuaFunc.CanMine, Has(vars.Helpers.Familiar, 5), CanReach(vars.LocNames.Areas.Thessaly))], // +20 Witch's Delight? +30 Grasp?
 				hosted_item: vars.Incants.AlterationFamiliar
 			},
 			{
 				name: "Greater Favor of Gaia",
-				access_rules: [and(`${vars.Helpers.Tool}:4`, vars.Incants.Divination, CanReach(vars.LocNames.Areas.Tartarus), CanReach(vars.LocNames.Areas.Thessaly))],
+				access_rules: [and(Has(vars.Helpers.Tool, 4), vars.Incants.Divination, CanReach(vars.LocNames.Areas.Tartarus), CanReach(vars.LocNames.Areas.Thessaly))],
 				hosted_item: vars.Incants.GreatFavorGaia
 			},
 			{
@@ -137,7 +139,7 @@ export default function createIncantationLocations() {
 			},
 			{
 				name: "Favored of All Keepsakes",
-				access_rules: [and(`${vars.Helpers.Keepsake}:22`, CanReach(vars.LocNames.Areas.Tartarus))],
+				access_rules: [and(Has(vars.Helpers.Keepsake, 22), CanReach(vars.LocNames.Areas.Tartarus))],
 				hosted_item: vars.Incants.FavoredKeepsakes
 			},
 			{
@@ -272,12 +274,12 @@ export default function createIncantationLocations() {
 			},
 			{
 				name: "Kindred Keepsakes",
-				access_rules: [and(LuaFunc.CanMine, `${vars.Helpers.Keepsake}:2`, vars.Incants.WoodsyLifespring, CanReach(vars.LocNames.Areas.Oceanus))],
+				access_rules: [and(LuaFunc.CanMine, Has(vars.Helpers.Keepsake, 2), vars.Incants.WoodsyLifespring, CanReach(vars.LocNames.Areas.Oceanus))],
 				hosted_item: vars.Incants.KindredKeepsakes
 			},
 			{
 				name: "Quickening of Sentimental Value",
-				access_rules: [and(`${vars.Helpers.Keepsake}:23`, vars.Incants.RiverFording, CanReach(vars.LocNames.Areas.Ephyra))] // +Mercantile?
+				access_rules: [and(Has(vars.Helpers.Keepsake, 23), vars.Incants.RiverFording, CanReach(vars.LocNames.Areas.Ephyra))] // +Mercantile?
 			},
 			{
 				name: "Rage of the Elements",
@@ -370,11 +372,11 @@ export default function createIncantationLocations() {
 			},
 			{
 				name: "Greatest Gift of Gaia",
-				access_rules: [and(`${vars.Helpers.Tool}:4`, CanReach(vars.LocNames.Bosses.Chronos), CanReach(vars.LocNames.Bosses.Typhon))]
+				access_rules: [and(Has(vars.Helpers.Tool, 4), CanReach(vars.LocNames.Bosses.Chronos), CanReach(vars.LocNames.Bosses.Typhon))]
 			},
 			{
 				name: "Empath's Intuition",
-				access_rules: [and(`${vars.Helpers.Keepsake}:9`, CanReach(vars.LocNames.Areas.Fields))] // +Mercantile?
+				access_rules: [and(Has(vars.Helpers.Keepsake, 9), CanReach(vars.LocNames.Areas.Fields))] // +Mercantile?
 			},
 			{
 				name: "Summoning of Musical Rhapsody",
@@ -387,7 +389,13 @@ export default function createIncantationLocations() {
 			},
 			{
 				name: "Summoning of Historic Travails",
-				access_rules: [and(LuaFunc.CanMine, vars.Incants.Mercantile, vars.Incants.SocialSolidarity, CanReach(vars.LocNames.Bosses.Chronos), CanReach(vars.LocNames.Bosses.Polyphemus))]
+				access_rules: [and(
+					LuaFunc.CanMine,
+					vars.Incants.Mercantile,
+					vars.Incants.SocialSolidarity,
+					CanReach(vars.LocNames.Bosses.Chronos),
+					CanReach(vars.LocNames.Bosses.Polyphemus)
+				)]
 			},
 			{
 				name: "Summoning of Personal Insights",

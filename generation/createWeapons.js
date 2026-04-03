@@ -17,7 +17,7 @@ export default function createWeapons() {
 				type: "toggle",
 				// img: `images/items/${aspect.code}.png`,
 				img: `images/items/Coronacht_Base.png`,
-				codes: `${vars.Helpers.Aspect}, aspect${weapon.code}, ${aspect.code}${(aspect.hidden ? `, ${vars.Helpers.HiddenAspect}` : ``)}`
+				codes: `${vars.Helpers.Aspect}, aspect${weapon.code}, ${aspect.code}${aspect.alt ? `, ${vars.Helpers.AltAspect}` : ''}${(aspect.hidden ? `, ${vars.Helpers.HiddenAspect}` : ``)}`
 			})
 		}
 	}

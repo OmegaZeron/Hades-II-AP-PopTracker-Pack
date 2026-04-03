@@ -63,67 +63,67 @@
 		"name": "Moon Beam (Selene)",
 		"type": "toggle",
 		"img": "images/items/AdamantArrowhead.png",
-		"codes": "keepsake, MoonBeam, keepsakeSelene"
+		"codes": "keepsake, MoonBeam, keepsakeSelene, keepsakeSummon"
 	},
 	{
 		"name": "Cloud Bangle (Zeus)",
 		"type": "toggle",
 		"img": "images/items/AdamantArrowhead.png",
-		"codes": "keepsake, CloudBangle, keepsakeZeus"
+		"codes": "keepsake, CloudBangle, keepsakeZeus, keepsakeSummon"
 	},
 	{
 		"name": "Iridescent Fan (Hera)",
 		"type": "toggle",
 		"img": "images/items/AdamantArrowhead.png",
-		"codes": "keepsake, IridescentFan, keepsakeHera"
+		"codes": "keepsake, IridescentFan, keepsakeHera, keepsakeSummon"
 	},
 	{
 		"name": "Vivid Sea (Poseidon)",
 		"type": "toggle",
 		"img": "images/items/AdamantArrowhead.png",
-		"codes": "keepsake, VividSea, keepsakePoseidon"
+		"codes": "keepsake, VividSea, keepsakePoseidon, keepsakeSummon"
 	},
 	{
 		"name": "Barley Sheaf (Demeter)",
 		"type": "toggle",
 		"img": "images/items/AdamantArrowhead.png",
-		"codes": "keepsake, BarleySheaf, keepsakeDemeter"
+		"codes": "keepsake, BarleySheaf, keepsakeDemeter, keepsakeSummon"
 	},
 	{
 		"name": "Harmonic Photon (Apollo)",
 		"type": "toggle",
 		"img": "images/items/AdamantArrowhead.png",
-		"codes": "keepsake, HarmonicPhoton, keepsakeApollo"
+		"codes": "keepsake, HarmonicPhoton, keepsakeApollo, keepsakeSummon"
 	},
 	{
 		"name": "Beautiful Mirror (Aphrodite)",
 		"type": "toggle",
 		"img": "images/items/AdamantArrowhead.png",
-		"codes": "keepsake, BeautifulMirror, keepsakeAphrodite"
+		"codes": "keepsake, BeautifulMirror, keepsakeAphrodite, keepsakeSummon"
 	},
 	{
 		"name": "Adamant Shard (Hephaestus)",
 		"type": "toggle",
 		"img": "images/items/AdamantArrowhead.png",
-		"codes": "keepsake, AdamantShard, keepsakeHephaestus"
+		"codes": "keepsake, AdamantShard, keepsakeHephaestus, keepsakeSummon"
 	},
 	{
 		"name": "Everlasting Ember (Hestia)",
 		"type": "toggle",
 		"img": "images/items/AdamantArrowhead.png",
-		"codes": "keepsake, EverlastingEmber, keepsakeHestia"
+		"codes": "keepsake, EverlastingEmber, keepsakeHestia, keepsakeSummon"
 	},
 	{
 		"name": "Sword Hilt (Ares)",
 		"type": "toggle",
 		"img": "images/items/AdamantArrowhead.png",
-		"codes": "keepsake, SwordHilt, keepsakeAres"
+		"codes": "keepsake, SwordHilt, keepsakeAres, keepsakeSummon"
 	},
 	{
 		"name": "Gorgon Amulet (Athena)",
 		"type": "toggle",
 		"img": "images/items/AdamantArrowhead.png",
-		"codes": "keepsake, GorgonAmulet, keepsakeAthena"
+		"codes": "keepsake, GorgonAmulet, keepsakeAthena, keepsakeSummon"
 	},
 	{
 		"name": "Fig Leaf (Dionysus)",

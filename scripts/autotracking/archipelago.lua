@@ -241,11 +241,7 @@ function OnNotify(key, value, old_value)
 	if value ~= old_value and key == HINTS_ID then
 		for _, hint in ipairs(value) do
 			if hint.finding_player == Archipelago.PlayerNumber then
-				if not hint.found then
-					UpdateHints(hint.location, PriorityToHighlight[hint.status])
-				else
-					UpdateHints(hint.location, Highlight.None)
-				end
+				UpdateHints(hint.location, PriorityToHighlight[hint.status])
 			end
 		end
 	end

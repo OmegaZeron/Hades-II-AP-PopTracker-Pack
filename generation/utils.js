@@ -27,6 +27,10 @@ export function CanReach(area) {
 	return `^$CanReach|${area}`
 }
 
+export function Has(item, count) {
+	return `${item}:${count}`
+}
+
 export function and(...args) {
 	return args.join(", ")
 }
@@ -134,8 +138,10 @@ export const vars = Object.freeze({
 		DoomedBeckoning: "DoomedBeckoning",
 		Purification: "Purification",
 		ReturnMemories: "ReturnMemories",
+		EssenceSorrow: "EssenceSorrow",
 		DeepSlumber: "DeepSlumber",
 		DearSlumber: "DearSlumber",
+		DumbSlumber: "DumbSlumber",
 		Consecration: "Consecration",
 		AbyssalInsight: "AbyssalInsight",
 		FaithFamiliar: "FaithFamiliar",
@@ -182,8 +188,10 @@ export const vars = Object.freeze({
 	Fates: {},
 	Helpers: {
 		Keepsake: "keepsake",
+		KeepsakeSummon: "keepsakeSummon",
 		Weapon: "weapon",
 		Aspect: "aspect",
+		AltAspect: "aspectAlt",
 		HiddenAspect: "aspectHidden",
 		Familiar: "familiar",
 		Tool: "tool"
@@ -334,9 +342,9 @@ export const weaponData = Object.freeze([
 		type: "Witch's Staff",
 		aspects: [
 			{name: "Melinoë", code: vars.Aspects.DescuraMelinoe},
-			{name: "Circe", code: vars.Aspects.DescuraCirce},
-			{name: "Momus", code: vars.Aspects.DescuraMomus},
-			{name: "Anubis", code: vars.Aspects.DescuraAnubis, hidden: true},
+			{name: "Circe", code: vars.Aspects.DescuraCirce, alt: true},
+			{name: "Momus", code: vars.Aspects.DescuraMomus, alt: true},
+			{name: "Anubis", code: vars.Aspects.DescuraAnubis, alt: true, hidden: true},
 		]
 	},
 	{
@@ -345,9 +353,9 @@ export const weaponData = Object.freeze([
 		type: "Sister Blades",
 		aspects: [
 			{name: "Melinoë", code: vars.Aspects.LimAndOrosMelinoe},
-			{name: "Artemis", code: vars.Aspects.LimAndOrosArtemis},
-			{name: "Pan", code: vars.Aspects.LimAndOrosPan},
-			{name: "the Morrigan", code: vars.Aspects.LimAndOrosTheMorrigan, hidden: true},
+			{name: "Artemis", code: vars.Aspects.LimAndOrosArtemis, alt: true},
+			{name: "Pan", code: vars.Aspects.LimAndOrosPan, alt: true},
+			{name: "the Morrigan", code: vars.Aspects.LimAndOrosTheMorrigan, alt: true, hidden: true},
 		]
 	},
 	{
@@ -356,9 +364,9 @@ export const weaponData = Object.freeze([
 		type: "Umbral Flames",
 		aspects: [
 			{name: "Melinoë", code: vars.Aspects.YgniumMelinoe},
-			{name: "Moros", code: vars.Aspects.YgniumMoros},
-			{name: "Eos", code: vars.Aspects.YgniumEos},
-			{name: "Supay", code: vars.Aspects.YgniumSupay, hidden: true},
+			{name: "Moros", code: vars.Aspects.YgniumMoros, alt: true},
+			{name: "Eos", code: vars.Aspects.YgniumEos, alt: true},
+			{name: "Supay", code: vars.Aspects.YgniumSupay, alt: true, hidden: true},
 		]
 	},
 	{
@@ -367,9 +375,9 @@ export const weaponData = Object.freeze([
 		type: "Moonstone Axe",
 		aspects: [
 			{name: "Melinoë", code: vars.Aspects.ZorephetMelinoe},
-			{name: "Charon", code: vars.Aspects.ZorephetCharon},
-			{name: "Thanatos", code: vars.Aspects.ZorephetThanatos},
-			{name: "Nergal", code: vars.Aspects.ZorephetNergal, hidden: true},
+			{name: "Charon", code: vars.Aspects.ZorephetCharon, alt: true},
+			{name: "Thanatos", code: vars.Aspects.ZorephetThanatos, alt: true},
+			{name: "Nergal", code: vars.Aspects.ZorephetNergal, alt: true, hidden: true},
 		]
 	},
 	{
@@ -378,9 +386,9 @@ export const weaponData = Object.freeze([
 		type: "Argent Skull",
 		aspects: [
 			{name: "Melinoë", code: vars.Aspects.RevallMelinoe},
-			{name: "Medea", code: vars.Aspects.RevallMedea},
-			{name: "Persephone", code: vars.Aspects.RevallPersephone},
-			{name: "Hel", code: vars.Aspects.RevallHel, hidden: true},
+			{name: "Medea", code: vars.Aspects.RevallMedea, alt: true},
+			{name: "Persephone", code: vars.Aspects.RevallPersephone, alt: true},
+			{name: "Hel", code: vars.Aspects.RevallHel, alt: true, hidden: true},
 		]
 	},
 	{
@@ -389,9 +397,9 @@ export const weaponData = Object.freeze([
 		type: "Black Coat",
 		aspects: [
 			{name: "Melinoë", code: vars.Aspects.XinthMelinoe},
-			{name: "Selene", code: vars.Aspects.XinthSelene},
-			{name: "Nyx", code: vars.Aspects.XinthNyx},
-			{name: "Shiva", code: vars.Aspects.XinthShiva, hidden: true},
+			{name: "Selene", code: vars.Aspects.XinthSelene, alt: true},
+			{name: "Nyx", code: vars.Aspects.XinthNyx, alt: true},
+			{name: "Shiva", code: vars.Aspects.XinthShiva, alt: true, hidden: true},
 		]
 	}
 ])

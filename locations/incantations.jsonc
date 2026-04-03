@@ -47,7 +47,8 @@
 			},
 			{
 				"name": "Essence of Sorrow",
-				"access_rules": ["SurfaceAccess, ^$CanReach|CerberusBoss"]
+				"access_rules": ["SurfaceAccess, ^$CanReach|CerberusBoss"],
+				"hosted_item": "EssenceSorrow"
 			},
 			{
 				"name": "Augmentation of Bone Density",
@@ -65,7 +66,8 @@
 			},
 			{
 				"name": "End to Dumbest Slumber",
-				"access_rules": ["DearSlumber, Dissolution"]
+				"access_rules": ["DearSlumber, Dissolution"],
+				"hosted_item": "DumbSlumber"
 			},
 			{
 				"name": "Aspects of Night and Darkness",

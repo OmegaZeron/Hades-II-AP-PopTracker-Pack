@@ -12,17 +12,17 @@ let keepsakeData = [
 	{name: "Gold Purse", code: vars.Keepsakes.GoldPurse, owner: vars.LocNames.Keepsakes.Charon},
 	{name: "Metallic Droplet", code: vars.Keepsakes.MetallicDroplet, owner: vars.LocNames.Keepsakes.Hermes},
 	{name: "White Antler", code: vars.Keepsakes.WhiteAntler, owner: vars.LocNames.Keepsakes.Artemis},
-	{name: "Moon Beam", code: vars.Keepsakes.MoonBeam, owner: vars.LocNames.Keepsakes.Selene},
-	{name: "Cloud Bangle", code: vars.Keepsakes.CloudBangle, owner: vars.LocNames.Keepsakes.Zeus},
-	{name: "Iridescent Fan", code: vars.Keepsakes.IridescentFan, owner: vars.LocNames.Keepsakes.Hera},
-	{name: "Vivid Sea", code: vars.Keepsakes.VividSea, owner: vars.LocNames.Keepsakes.Poseidon},
-	{name: "Barley Sheaf", code: vars.Keepsakes.BarleySheaf, owner: vars.LocNames.Keepsakes.Demeter},
-	{name: "Harmonic Photon", code: vars.Keepsakes.HarmonicPhoton, owner: vars.LocNames.Keepsakes.Apollo},
-	{name: "Beautiful Mirror", code: vars.Keepsakes.BeautifulMirror, owner: vars.LocNames.Keepsakes.Aphrodite},
-	{name: "Adamant Shard", code: vars.Keepsakes.AdamantShard, owner: vars.LocNames.Keepsakes.Hephaestus},
-	{name: "Everlasting Ember", code: vars.Keepsakes.EverlastingEmber, owner: vars.LocNames.Keepsakes.Hestia},
-	{name: "Sword Hilt", code: vars.Keepsakes.SwordHilt, owner: vars.LocNames.Keepsakes.Ares},
-	{name: "Gorgon Amulet", code: vars.Keepsakes.GorgonAmulet, owner: vars.LocNames.Keepsakes.Athena},
+	{name: "Moon Beam", code: vars.Keepsakes.MoonBeam, summonsOwner: true, owner: vars.LocNames.Keepsakes.Selene},
+	{name: "Cloud Bangle", code: vars.Keepsakes.CloudBangle, summonsOwner: true, owner: vars.LocNames.Keepsakes.Zeus},
+	{name: "Iridescent Fan", code: vars.Keepsakes.IridescentFan, summonsOwner: true, owner: vars.LocNames.Keepsakes.Hera},
+	{name: "Vivid Sea", code: vars.Keepsakes.VividSea, summonsOwner: true, owner: vars.LocNames.Keepsakes.Poseidon},
+	{name: "Barley Sheaf", code: vars.Keepsakes.BarleySheaf, summonsOwner: true, owner: vars.LocNames.Keepsakes.Demeter},
+	{name: "Harmonic Photon", code: vars.Keepsakes.HarmonicPhoton, summonsOwner: true, owner: vars.LocNames.Keepsakes.Apollo},
+	{name: "Beautiful Mirror", code: vars.Keepsakes.BeautifulMirror, summonsOwner: true, owner: vars.LocNames.Keepsakes.Aphrodite},
+	{name: "Adamant Shard", code: vars.Keepsakes.AdamantShard, summonsOwner: true, owner: vars.LocNames.Keepsakes.Hephaestus},
+	{name: "Everlasting Ember", code: vars.Keepsakes.EverlastingEmber, summonsOwner: true, owner: vars.LocNames.Keepsakes.Hestia},
+	{name: "Sword Hilt", code: vars.Keepsakes.SwordHilt, summonsOwner: true, owner: vars.LocNames.Keepsakes.Ares},
+	{name: "Gorgon Amulet", code: vars.Keepsakes.GorgonAmulet, summonsOwner: true, owner: vars.LocNames.Keepsakes.Athena},
 	{name: "Fig Leaf", code: vars.Keepsakes.FigLeaf, owner: vars.LocNames.Keepsakes.Dionysus},
 	{name: "Silken Sash", code: vars.Keepsakes.SilkenSash, owner: vars.LocNames.Keepsakes.Arachne},
 	{name: "Aromatic Phial", code: vars.Keepsakes.AromaticPhial, owner: vars.LocNames.Keepsakes.Narcissus},
@@ -46,7 +46,7 @@ export default function createKeepsakeItems() {
 			type: "toggle",
 			// img: `images/items/${keepsake.code}.png`,
 			img: `images/items/AdamantArrowhead.png`,
-			codes: `keepsake, ${keepsake.code}, keepsake${keepsake.owner.replace(' & ', 'And')}`
+			codes: `keepsake, ${keepsake.code}, keepsake${keepsake.owner.replace(' & ', 'And')}${keepsake.summonsOwner ? `, ${vars.Helpers.KeepsakeSummon}` : ''}`
 		})
 	}
 	
