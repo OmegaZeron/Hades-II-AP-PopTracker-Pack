@@ -190,6 +190,7 @@ export const vars = Object.freeze({
 		Keepsake: "keepsake",
 		KeepsakeSummon: "keepsakeSummon",
 		Weapon: "weapon",
+		WeaponNightDarkness: "weaponNightDarkness",
 		Aspect: "aspect",
 		AltAspect: "aspectAlt",
 		HiddenAspect: "aspectHidden",
@@ -338,7 +339,7 @@ export const mapData = Object.freeze({
 export const weaponData = Object.freeze([
 	{
 		name: "Descura",
-		code: vars.Weapons.Descura,
+		codes: [vars.Weapons.Descura, vars.Helpers.WeaponNightDarkness],
 		type: "Witch's Staff",
 		aspects: [
 			{name: "Melinoë", code: vars.Aspects.DescuraMelinoe},
@@ -349,7 +350,7 @@ export const weaponData = Object.freeze([
 	},
 	{
 		name: "Lim and Oros",
-		code: vars.Weapons.LimAndOros,
+		codes: [vars.Weapons.LimAndOros, vars.Helpers.WeaponNightDarkness],
 		type: "Sister Blades",
 		aspects: [
 			{name: "Melinoë", code: vars.Aspects.LimAndOrosMelinoe},
@@ -360,7 +361,7 @@ export const weaponData = Object.freeze([
 	},
 	{
 		name: "Ygnium",
-		code: vars.Weapons.Ygnium,
+		codes: [vars.Weapons.Ygnium, vars.Helpers.WeaponNightDarkness],
 		type: "Umbral Flames",
 		aspects: [
 			{name: "Melinoë", code: vars.Aspects.YgniumMelinoe},
@@ -371,7 +372,7 @@ export const weaponData = Object.freeze([
 	},
 	{
 		name: "Zorephet",
-		code: vars.Weapons.Zorephet,
+		codes: [vars.Weapons.Zorephet, vars.Helpers.WeaponNightDarkness],
 		type: "Moonstone Axe",
 		aspects: [
 			{name: "Melinoë", code: vars.Aspects.ZorephetMelinoe},
@@ -382,7 +383,7 @@ export const weaponData = Object.freeze([
 	},
 	{
 		name: "Revall",
-		code: vars.Weapons.Revall,
+		codes: [vars.Weapons.Revall, vars.Helpers.WeaponNightDarkness],
 		type: "Argent Skull",
 		aspects: [
 			{name: "Melinoë", code: vars.Aspects.RevallMelinoe},
@@ -393,7 +394,7 @@ export const weaponData = Object.freeze([
 	},
 	{
 		name: "Xinth",
-		code: vars.Weapons.Xinth,
+		codes: [vars.Weapons.Xinth],
 		type: "Black Coat",
 		aspects: [
 			{name: "Melinoë", code: vars.Aspects.XinthMelinoe},

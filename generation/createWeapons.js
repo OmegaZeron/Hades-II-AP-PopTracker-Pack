@@ -9,15 +9,23 @@ export default function createWeapons() {
 			type: "toggle",
 			// img: `images/items/${weapon.code}.png`,
 			img: `images/items/Coronacht_Base.png`,
-			codes: `${vars.Helpers.Weapon}, ${weapon.code}`
+			codes: `${vars.Helpers.Weapon}, ${weapon.codes.join(", ")}`
 		})
 		for (let aspect of weapon.aspects) {
+			let codes = `${vars.Helpers.Aspect}, aspect${weapon.codes[0]}, ${aspect.code}`
+			if (aspect.alt) {
+				codes += `, ${vars.Helpers.AltAspect}`
+			}
+			if (aspect.hidden) {
+				codes += `, ${vars.Helpers.HiddenAspect}`
+			}
+
 			items.push({
 				name: `Aspect of ${aspect.name} (${weapon.name})`,
 				type: "toggle",
 				// img: `images/items/${aspect.code}.png`,
 				img: `images/items/Coronacht_Base.png`,
-				codes: `${vars.Helpers.Aspect}, aspect${weapon.code}, ${aspect.code}${aspect.alt ? `, ${vars.Helpers.AltAspect}` : ''}${(aspect.hidden ? `, ${vars.Helpers.HiddenAspect}` : ``)}`
+				codes: codes
 			})
 		}
 	}

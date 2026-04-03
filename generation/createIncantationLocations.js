@@ -73,7 +73,7 @@ export default function createIncantationLocations() {
 			},
 			{
 				name: "Aspects of Night and Darkness",
-				access_rules: [and(LuaFunc.CanDig, vars.Incants.Permeation, "$HasWeaponsForNightAndDarkness")] // Ephyra instead of Permeation?
+				access_rules: [and(LuaFunc.CanDig, vars.Incants.Permeation, Has(vars.Helpers.WeaponNightDarkness, 4))] // Ephyra instead of Permeation?
 			},
 			{
 				name: "Consecration of Ashes",

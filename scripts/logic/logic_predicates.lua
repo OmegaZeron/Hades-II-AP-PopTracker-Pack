@@ -67,10 +67,6 @@ function GodKeepsakeRule(god)
 	end
 end
 
-function HasWeaponsForNightAndDarkness()
-	return Tracker:ProviderCountForCode(Weapon) - Tracker:ProviderCountForCode(Xinth) >= 4
-end
-
 function TotalFearAmount()
 	return Tracker:ProviderCountForCode(FearSetting)
 end

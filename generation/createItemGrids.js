@@ -38,7 +38,7 @@ export default function createItemGrids() {
 			if (!grids.weaponGrid.rows[index]) {
 				grids.weaponGrid.rows.push([])
 			}
-			grids.weaponGrid.rows[index].push(weapon.code)
+			grids.weaponGrid.rows[index].push(weapon.codes[0])
 			for (let aspect of weapon.aspects) {
 				if (!grids.weaponGrid.rows[++index]) {
 					grids.weaponGrid.rows.push([])

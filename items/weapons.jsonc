@@ -3,7 +3,7 @@
 		"name": "Descura, the Witch's Staff",
 		"type": "toggle",
 		"img": "images/items/Coronacht_Base.png",
-		"codes": "weapon, Descura"
+		"codes": "weapon, Descura, weaponNightDarkness"
 	},
 	{
 		"name": "Aspect of Melinoë (Descura)",
@@ -33,7 +33,7 @@
 		"name": "Lim and Oros, the Sister Blades",
 		"type": "toggle",
 		"img": "images/items/Coronacht_Base.png",
-		"codes": "weapon, LimAndOros"
+		"codes": "weapon, LimAndOros, weaponNightDarkness"
 	},
 	{
 		"name": "Aspect of Melinoë (Lim and Oros)",
@@ -63,7 +63,7 @@
 		"name": "Ygnium, the Umbral Flames",
 		"type": "toggle",
 		"img": "images/items/Coronacht_Base.png",
-		"codes": "weapon, Ygnium"
+		"codes": "weapon, Ygnium, weaponNightDarkness"
 	},
 	{
 		"name": "Aspect of Melinoë (Ygnium)",
@@ -93,7 +93,7 @@
 		"name": "Zorephet, the Moonstone Axe",
 		"type": "toggle",
 		"img": "images/items/Coronacht_Base.png",
-		"codes": "weapon, Zorephet"
+		"codes": "weapon, Zorephet, weaponNightDarkness"
 	},
 	{
 		"name": "Aspect of Melinoë (Zorephet)",
@@ -123,7 +123,7 @@
 		"name": "Revall, the Argent Skull",
 		"type": "toggle",
 		"img": "images/items/Coronacht_Base.png",
-		"codes": "weapon, Revall"
+		"codes": "weapon, Revall, weaponNightDarkness"
 	},
 	{
 		"name": "Aspect of Melinoë (Revall)",

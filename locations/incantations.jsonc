@@ -71,7 +71,7 @@
 			},
 			{
 				"name": "Aspects of Night and Darkness",
-				"access_rules": ["^$CanDig, Permeation, $HasWeaponsForNightAndDarkness"]
+				"access_rules": ["^$CanDig, Permeation, weaponNightDarkness:4"]
 			},
 			{
 				"name": "Consecration of Ashes",
