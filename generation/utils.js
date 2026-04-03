@@ -185,7 +185,14 @@ export const vars = Object.freeze({
 		ObservanceGaia: "ObservanceGaia",
 		Rhapsody: "Rhapsody"
 	},
-	Fates: {},
+	Fates: {
+		HelpUs: "HelpUs",
+		RememberUs: "RememberUs",
+		SeekUs: "SeekUs",
+		TempSetback: "TempSetback",
+		WitchCrossroads: "WitchCrossroads",
+		ToolsUnseen: "ToolsUnseen"
+	},
 	Helpers: {
 		Keepsake: "keepsake",
 		KeepsakeSummon: "keepsakeSummon",

@@ -7,6 +7,7 @@ import createScoresLocs from "./createScoreLocations.js"
 import createAreaLocs from "./createAreaLocations.js"
 import createIncantationLocations from "./createIncantationLocations.js"
 import createItemGrids from "./createItemGrids.js"
+import createFatedListLocations from "./createFatedListLocations.js"
 
 createVars()
 
@@ -18,5 +19,6 @@ createMaps()
 createScoresLocs()
 createAreaLocs()
 createIncantationLocations()
+createFatedListLocations()
 
 createItemGrids()

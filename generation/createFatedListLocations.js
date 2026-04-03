@@ -337,6 +337,34 @@ export default function createFatedListLocations() {
 				name: "Wings of Freedom",
 				access_rules: [CanReach(vars.LocNames.Areas.Thessaly)]
 			},
+			{
+				name: "Bared Fangs",
+				access_rules: [and(CanReach(vars.LocNames.Bosses.Chronos), CanReach(vars.LocNames.Areas.Ephyra))] // +balance?
+			},
+			{
+				name: "The Witch's Staff",
+				access_rules: [vars.Weapons.Descura] // +balance?
+			},
+			{
+				name: "The Sister Blades",
+				access_rules: [vars.Weapons.LimAndOros] // +balance?
+			},
+			{
+				name: "The Umbral Flames",
+				access_rules: [vars.Weapons.Ygnium] // +balance?
+			},
+			{
+				name: "The Moonstone Axe",
+				access_rules: [vars.Weapons.Zorephet] // +balance?
+			},
+			{
+				name: "The Argent Skull",
+				access_rules: [vars.Weapons.Revall] // +balance?
+			},
+			{
+				name: "The Black Coat",
+				access_rules: [vars.Weapons.Xinth] // +balance?
+			},
 		],
 		map_locations: [{
 			
@@ -344,7 +372,7 @@ export default function createFatedListLocations() {
 	}
 	
 	let output = JSON.stringify([loc], null, "\t").replace(/\[\n\s+(".+")\n\s+\]/g, "[$1]").replace(/\{\n\s+(.+)\n\s+\}/g, "{$1}")
-	writeToFile("locations/incantations.jsonc", output)
+	writeToFile("locations/fated_list.jsonc", output)
 }
 
 if (import.meta.main) {

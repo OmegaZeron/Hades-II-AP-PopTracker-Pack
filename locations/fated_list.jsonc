@@ -1,0 +1,351 @@
+[
+	{
+		"name": "Fated List of Minor Prophesies",
+		"chest_unopened_img": "",
+		"chest_opened_img": "",
+		"visibility_rules": ["fatesanityOn"],
+		"sections": [
+			{
+				"name": "Melinoë, Help Us",
+				"access_rules": ["Dissolution, DoomedBeckoning"],
+				"hosted_item": "HelpUs"
+			},
+			{
+				"name": "Melinoë, Remember Us",
+				"access_rules": ["HelpUs"],
+				"hosted_item": "RememberUs"
+			},
+			{
+				"name": "Melinoë, Seek Us",
+				"access_rules": ["RememberUs"],
+				"hosted_item": "SeekUs"
+			},
+			{
+				"name": "Melinoë, Find Us",
+				"access_rules": ["SeekUs, EngravedPin"]
+			},
+			{
+				"name": "Storm in the Heavens",
+				"access_rules": ["^$CanReach|TyphonBoss"]
+			},
+			{
+				"name": "Temporary Setback",
+				"access_rules": ["^$CanReach|ChronosBoss"],
+				"hosted_item": "TempSetback"
+			},
+			{
+				"name": "Harbinger of Doom",
+				"access_rules": ["DoomedBeckoning"]
+			},
+			{
+				"name": "Witch of the Crossroads",
+				"access_rules": ["^$CanReach|HecateBoss"],
+				"hosted_item": "WitchCrossroads"
+			},
+			{
+				"name": "Natural Talent",
+				"access_rules": ["WitchCrossroads"]
+			},
+			{
+				"name": "Sword of the Night",
+				"access_rules": ["weapon:6, TempSetback, ^$CanReach|TyphonBoss"]
+			},
+			{
+				"name": "Arcana of the Ages",
+				"access_rules": ["TempSetback"]
+			},
+			{
+				"name": "Unrivaled Prowess",
+				"access_rules": ["OldAndRot"]
+			},
+			{
+				"name": "Bearing Dark Gifts",
+				"access_rules": ["aspect:24, ^$CanReach|EitherVictory"]
+			},
+			{
+				"name": "Den Mother",
+				"access_rules": ["familiar:5, ^$CanReach|EitherVictory"]
+			},
+			{
+				"name": "Family in Need",
+				"access_rules": ["VividSea, ^$CanMine, ^$CanReach|Oceanus"]
+			},
+			{
+				"name": "Visions of Victory",
+				"access_rules": ["AbyssalInsight"]
+			},
+			{
+				"name": "Unfinished Business",
+				"access_rules": ["Dissolution, KnuckleBones"]
+			},
+			{
+				"name": "Haunted by the Past",
+				"access_rules": ["ReturnMemories, ^$CanReach|PrometheusBoss"]
+			},
+			{
+				"name": "Silk and Spitefulness",
+				"access_rules": ["GorgonAmulet, ^$CanReach|Olympus"]
+			},
+			{
+				"name": "Voice and Vanity",
+				"access_rules": ["Purification"]
+			},
+			{
+				"name": "Bitter Tears",
+				"access_rules": ["EssenceSorrow, ^$CanReach|ChronosBoss, ^$CanReach|PolyphemusBoss"]
+			},
+			{
+				"name": "Drowned Ambitions",
+				"access_rules": ["EssenceSorrow, ^$CanReach|ChronosBoss"]
+			},
+			{
+				"name": "The Jackal's Aspect",
+				"access_rules": ["DescuraAnubis, ^$CanReach|ChronosBoss"]
+			},
+			{
+				"name": "The Crow's Aspect",
+				"access_rules": ["LimAndOrosTheMorrigan, ^$CanReach|ChronosBoss"]
+			},
+			{
+				"name": "The Shadow's Aspect",
+				"access_rules": ["YgniumSupay, ^$CanReach|ChronosBoss"]
+			},
+			{
+				"name": "The Warrior's Aspect",
+				"access_rules": ["ZorephetNergal, ^$CanReach|ChronosBoss"]
+			},
+			{
+				"name": "The Grave's Aspect",
+				"access_rules": ["RevallHel, ^$CanReach|ChronosBoss"]
+			},
+			{
+				"name": "The Destroyed's Aspect",
+				"access_rules": ["XinthShiva, ^$CanReach|ChronosBoss"]
+			},
+			{
+				"name": "Nobody But Nobody",
+				"access_rules": ["KnuckleBones, ^$CanReach|PolyphemusBoss"]
+			},
+			{
+				"name": "Born to Win",
+				"access_rules": ["TranscendentEmbryo, ^$CanReach|EitherVictory"]
+			},
+			{
+				"name": "Improbable Outcomes",
+				"access_rules": ["weapon:6, aspect:24, keepsake:33, familiar:5, ^$CanReach|ChronosBoss, ^$CanReach|TyphonBoss"]
+			},
+			{
+				"name": "Soundest of Sleepers",
+				"access_rules": ["DumbSlumber"]
+			},
+			{"name": "Customary Gift"},
+			{"name": "Mindful Craft"},
+			{
+				"name": "Blades of Pure Silver",
+				"access_rules": ["LimAndOros"]
+			},
+			{
+				"name": "The Arms of Night",
+				"access_rules": ["weapon:6"]
+			},
+			{
+				"name": "The Unseen Sentinel",
+				"access_rules": ["aspectAlt:18"]
+			},
+			{
+				"name": "Awakened Aspect",
+				"access_rules": ["aspect"]
+			},
+			{
+				"name": "Major Arcana",
+				"access_rules": ["Consecration"]
+			},
+			{
+				"name": "Familiar Confidant",
+				"access_rules": ["FatedIntervention"]
+			},
+			{
+				"name": "Note to Self",
+				"access_rules": ["ForgetMeNot"]
+			},
+			{
+				"name": "The Invoker",
+				"access_rules": []
+			},
+			{"name": "Whims of Chaos"},
+			{"name": "Breadth of Knowledge"},
+			{"name": "Weight in Gold"},
+			{
+				"name": "Valued Customer",
+				"access_rules": ["RiseWells"]
+			},
+			{
+				"name": "Close Companions",
+				"access_rules": ["familiar:3"]
+			},
+			{
+				"name": "Beyond Familiar",
+				"access_rules": ["familiar"]
+			},
+			{
+				"name": "Denizens of the Deep",
+				"access_rules": ["^$CanFish, ^$CanReach|Tartarus, ^$CanReach|Summit"]
+			},
+			{
+				"name": "Keeper of Shadows",
+				"access_rules": ["^$CanReach|HecateBoss"]
+			},
+			{
+				"name": "Tools of the Unseen",
+				"access_rules": ["NightsCraftwork, tool:4"],
+				"hosted_item": "ToolsUnseen"
+			},
+			{
+				"name": "Precision Instruments",
+				"access_rules": ["ToolsUnseen, ObservanceGaia"]
+			},
+			{
+				"name": "Home in the Crossroads",
+				"access_rules": ["EarthlyFortune"]
+			},
+			{
+				"name": "Spectral Forms",
+				"access_rules": ["NecromanticInfluence"]
+			},
+			{
+				"name": "Shadow of Death",
+				"access_rules": ["^$CanReach|Tartarus"]
+			},
+			{
+				"name": "Shadow of Doom",
+				"access_rules": ["^$CanReach|Summit"]
+			},
+			{"name": "Gifts of the Moon"},
+			{"name": "Godsent Favor"},
+			{
+				"name": "Master of the Dead",
+				"access_rules": ["^$CanReach|Tartarus"]
+			},
+			{
+				"name": "Master of the Heavens",
+				"access_rules": ["CloudBangle"]
+			},
+			{
+				"name": "Mistress of Wedlock",
+				"access_rules": ["IridescentFan"]
+			},
+			{
+				"name": "Master of the Sea",
+				"access_rules": ["VividSea"]
+			},
+			{
+				"name": "Mistress of Seasons",
+				"access_rules": ["BarleySheaf"]
+			},
+			{
+				"name": "Master of Light",
+				"access_rules": ["HarmonicPhoton"]
+			},
+			{
+				"name": "Mistress of Beauty",
+				"access_rules": ["BeautifulMirror"]
+			},
+			{
+				"name": "Master of the Forge",
+				"access_rules": ["AdamantShard"]
+			},
+			{
+				"name": "Mistress of the Hearth",
+				"access_rules": ["EverlastingEmber"]
+			},
+			{
+				"name": "Master of War",
+				"access_rules": ["SwordHilt"]
+			},
+			{"name": "Mistress of the Hunt"},
+			{
+				"name": "Master of Swiftness",
+				"access_rules": ["^$CanReach|HecateBoss"]
+			},
+			{
+				"name": "Mistress of Battle",
+				"access_rules": ["GorgonAmulet"]
+			},
+			{
+				"name": "Master of Revelry",
+				"access_rules": ["^$CanReach|Olympus"]
+			},
+			{
+				"name": "Original Sins",
+				"access_rules": []
+			},
+			{
+				"name": "Original Virtues",
+				"access_rules": []
+			},
+			{
+				"name": "Power Beyond Legend",
+				"access_rules": []
+			},
+			{
+				"name": "Combined Might",
+				"access_rules": ["keepsakeSummon:11"]
+			},
+			{
+				"name": "Weaver of Fineries",
+				"access_rules": ["^$CanReach|Erebus"]
+			},
+			{
+				"name": "Denier of Suitors",
+				"access_rules": ["^$CanReach|Oceanus"]
+			},
+			{
+				"name": "Voice of Truth",
+				"access_rules": ["^$CanReach|Fields"]
+			},
+			{
+				"name": "Witch of Shadows",
+				"access_rules": ["^$CanReach|Ephyra"]
+			},
+			{
+				"name": "Witch of Changing",
+				"access_rules": ["^$CanReach|Thessaly"]
+			},
+			{
+				"name": "Wings of Freedom",
+				"access_rules": ["^$CanReach|Thessaly"]
+			},
+			{
+				"name": "Bared Fangs",
+				"access_rules": ["^$CanReach|ChronosBoss, ^$CanReach|Ephyra"]
+			},
+			{
+				"name": "The Witch's Staff",
+				"access_rules": ["Descura"]
+			},
+			{
+				"name": "The Sister Blades",
+				"access_rules": ["LimAndOros"]
+			},
+			{
+				"name": "The Umbral Flames",
+				"access_rules": ["Ygnium"]
+			},
+			{
+				"name": "The Moonstone Axe",
+				"access_rules": ["Zorephet"]
+			},
+			{
+				"name": "The Argent Skull",
+				"access_rules": ["Revall"]
+			},
+			{
+				"name": "The Black Coat",
+				"access_rules": ["Xinth"]
+			}
+		],
+		"map_locations": [
+			{}
+		]
+	}
+]
