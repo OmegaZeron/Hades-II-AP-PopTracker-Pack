@@ -120,34 +120,34 @@
 		"codes": "aspect, aspectZorephet, ZorephetNergal, aspectAlt, aspectHidden"
 	},
 	{
-		"name": "Revall, the Argent Skull",
+		"name": "Revaal, the Argent Skull",
 		"type": "toggle",
 		"img": "images/items/Coronacht_Base.png",
-		"codes": "weapon, Revall, weaponNightDarkness"
+		"codes": "weapon, Revaal, weaponNightDarkness"
 	},
 	{
-		"name": "Aspect of Melinoë (Revall)",
+		"name": "Aspect of Melinoë (Revaal)",
 		"type": "toggle",
 		"img": "images/items/Coronacht_Base.png",
-		"codes": "aspect, aspectRevall, RevallMelinoe"
+		"codes": "aspect, aspectRevaal, RevaalMelinoe"
 	},
 	{
-		"name": "Aspect of Medea (Revall)",
+		"name": "Aspect of Medea (Revaal)",
 		"type": "toggle",
 		"img": "images/items/Coronacht_Base.png",
-		"codes": "aspect, aspectRevall, RevallMedea, aspectAlt"
+		"codes": "aspect, aspectRevaal, RevaalMedea, aspectAlt"
 	},
 	{
-		"name": "Aspect of Persephone (Revall)",
+		"name": "Aspect of Persephone (Revaal)",
 		"type": "toggle",
 		"img": "images/items/Coronacht_Base.png",
-		"codes": "aspect, aspectRevall, RevallPersephone, aspectAlt"
+		"codes": "aspect, aspectRevaal, RevaalPersephone, aspectAlt"
 	},
 	{
-		"name": "Aspect of Hel (Revall)",
+		"name": "Aspect of Hel (Revaal)",
 		"type": "toggle",
 		"img": "images/items/Coronacht_Base.png",
-		"codes": "aspect, aspectRevall, RevallHel, aspectAlt, aspectHidden"
+		"codes": "aspect, aspectRevaal, RevaalHel, aspectAlt, aspectHidden"
 	},
 	{
 		"name": "Xinth, the Black Coat",

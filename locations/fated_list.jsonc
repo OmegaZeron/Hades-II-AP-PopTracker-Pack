@@ -68,7 +68,7 @@
 			},
 			{
 				"name": "Family in Need",
-				"access_rules": ["VividSea, ^$CanMine, ^$CanReach|Oceanus"]
+				"access_rules": ["VividSea, ^$CanReach|Oceanus"]
 			},
 			{
 				"name": "Visions of Victory",
@@ -80,11 +80,11 @@
 			},
 			{
 				"name": "Haunted by the Past",
-				"access_rules": ["ReturnMemories, ^$CanReach|PrometheusBoss"]
+				"access_rules": ["ReturnMemories"]
 			},
 			{
 				"name": "Silk and Spitefulness",
-				"access_rules": ["GorgonAmulet, ^$CanReach|Olympus"]
+				"access_rules": ["GorgonAmulet, ^$CanReach|Erebus, ^$CanReach|Olympus"]
 			},
 			{
 				"name": "Voice and Vanity",
@@ -96,7 +96,7 @@
 			},
 			{
 				"name": "Drowned Ambitions",
-				"access_rules": ["EssenceSorrow, ^$CanReach|ChronosBoss"]
+				"access_rules": ["^$CanReach|ChronosBoss, ^$CanReach|Thessaly"]
 			},
 			{
 				"name": "The Jackal's Aspect",
@@ -116,7 +116,7 @@
 			},
 			{
 				"name": "The Grave's Aspect",
-				"access_rules": ["RevallHel, ^$CanReach|ChronosBoss"]
+				"access_rules": ["RevaalHel, ^$CanReach|ChronosBoss"]
 			},
 			{
 				"name": "The Destroyed's Aspect",
@@ -132,7 +132,7 @@
 			},
 			{
 				"name": "Improbable Outcomes",
-				"access_rules": ["weapon:6, aspect:24, keepsake:33, familiar:5, ^$CanReach|ChronosBoss, ^$CanReach|TyphonBoss"]
+				"access_rules": ["aspect:24, keepsake:33, familiar:5, ^$CanReach|ChronosBoss, ^$CanReach|TyphonBoss"]
 			},
 			{
 				"name": "Soundest of Sleepers",
@@ -189,7 +189,7 @@
 			},
 			{
 				"name": "Denizens of the Deep",
-				"access_rules": ["^$CanFish, ^$CanReach|Tartarus, ^$CanReach|Summit"]
+				"access_rules": ["RodOfFishing, VividSea, ^$CanReach|Tartarus, ^$CanReach|Summit"]
 			},
 			{
 				"name": "Keeper of Shadows",
@@ -337,7 +337,7 @@
 			},
 			{
 				"name": "The Argent Skull",
-				"access_rules": ["Revall"]
+				"access_rules": ["Revaal"]
 			},
 			{
 				"name": "The Black Coat",

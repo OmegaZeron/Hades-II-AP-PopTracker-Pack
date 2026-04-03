@@ -70,7 +70,7 @@ export default function createFatedListLocations() {
 			},
 			{
 				name: "Family in Need",
-				access_rules: [and(vars.NameToKeepsake.Poseidon, LuaFunc.CanMine, CanReach(vars.LocNames.Areas.Oceanus))]
+				access_rules: [and(vars.NameToKeepsake.Poseidon, CanReach(vars.LocNames.Areas.Oceanus))]
 			},
 			{
 				name: "Visions of Victory",
@@ -82,11 +82,11 @@ export default function createFatedListLocations() {
 			},
 			{
 				name: "Haunted by the Past",
-				access_rules: [and(vars.Incants.ReturnMemories, CanReach(vars.LocNames.Bosses.Prometheus))]
+				access_rules: [vars.Incants.ReturnMemories]
 			},
 			{
 				name: "Silk and Spitefulness",
-				access_rules: [and(vars.Keepsakes.GorgonAmulet, CanReach(vars.LocNames.Areas.Olympus))]
+				access_rules: [and(vars.Keepsakes.GorgonAmulet, CanReach(vars.LocNames.Areas.Erebus), CanReach(vars.LocNames.Areas.Olympus))]
 			},
 			{
 				name: "Voice and Vanity",
@@ -94,11 +94,11 @@ export default function createFatedListLocations() {
 			},
 			{
 				name: "Bitter Tears",
-				access_rules: [and(vars.Incants.EssenceSorrow, CanReach(vars.LocNames.Bosses.Chronos), CanReach(vars.LocNames.Bosses.Polyphemus))]
+				access_rules: [and(vars.Incants.EssenceSorrow, CanReach(vars.LocNames.Bosses.Chronos), CanReach(vars.LocNames.Bosses.Polyphemus))] // Polyphemus not needed if Essence of Sorrow requires Polyphemus
 			},
 			{
 				name: "Drowned Ambitions",
-				access_rules: [and(vars.Incants.EssenceSorrow, CanReach(vars.LocNames.Bosses.Chronos))]
+				access_rules: [and(CanReach(vars.LocNames.Bosses.Chronos), CanReach(vars.LocNames.Areas.Thessaly))]
 			},
 			{
 				name: "The Jackal's Aspect",
@@ -118,7 +118,7 @@ export default function createFatedListLocations() {
 			},
 			{
 				name: "The Grave's Aspect",
-				access_rules: [and(vars.Aspects.RevallHel, CanReach(vars.LocNames.Bosses.Chronos))]
+				access_rules: [and(vars.Aspects.RevaalHel, CanReach(vars.LocNames.Bosses.Chronos))]
 			},
 			{
 				name: "The Destroyed's Aspect",
@@ -135,7 +135,6 @@ export default function createFatedListLocations() {
 			{
 				name: "Improbable Outcomes",
 				access_rules: [and(
-					Has(vars.Helpers.Weapon, 6),
 					Has(vars.Helpers.Aspect, 24),
 					Has(vars.Helpers.Keepsake, 33),
 					Has(vars.Helpers.Familiar, 5),
@@ -205,7 +204,7 @@ export default function createFatedListLocations() {
 			},
 			{
 				name: "Denizens of the Deep",
-				access_rules: [and(LuaFunc.CanFish, CanReach(vars.LocNames.Areas.Tartarus), CanReach(vars.LocNames.Areas.Summit))]
+				access_rules: [and(vars.Tools.RodOfFishing, vars.NameToKeepsake.Poseidon, CanReach(vars.LocNames.Areas.Tartarus), CanReach(vars.LocNames.Areas.Summit))]
 			},
 			{
 				name: "Keeper of Shadows",
@@ -218,7 +217,7 @@ export default function createFatedListLocations() {
 			},
 			{
 				name: "Precision Instruments",
-				access_rules: [and(vars.Fates.ToolsUnseen, vars.Incants.ObservanceGaia)]
+				access_rules: [and(vars.Fates.ToolsUnseen, vars.Incants.ObservanceGaia)] // tool upgrades?
 			},
 			{
 				name: "Home in the Crossroads",
@@ -359,7 +358,7 @@ export default function createFatedListLocations() {
 			},
 			{
 				name: "The Argent Skull",
-				access_rules: [vars.Weapons.Revall] // +balance?
+				access_rules: [vars.Weapons.Revaal] // +balance?
 			},
 			{
 				name: "The Black Coat",

@@ -140,9 +140,9 @@
 				]
 			},
 			{
-				"name": "Erebus (Revall)",
+				"name": "Erebus (Revaal)",
 				"visibility_rules": ["location_weapon"],
-				"access_rules": ["Revall"],
+				"access_rules": ["Revaal"],
 				"sections": [
 					{"name": "Room 1"},
 					{"name": "Room 2"},
@@ -222,9 +222,9 @@
 						"access_rules": ["Zorephet"]
 					},
 					{
-						"name": "Revall",
+						"name": "Revaal",
 						"visibility_rules": ["location_weapon"],
-						"access_rules": ["Revall"]
+						"access_rules": ["Revaal"]
 					},
 					{
 						"name": "Xinth",
@@ -363,9 +363,9 @@
 				]
 			},
 			{
-				"name": "Oceanus (Revall)",
+				"name": "Oceanus (Revaal)",
 				"visibility_rules": ["location_weapon"],
-				"access_rules": ["Revall"],
+				"access_rules": ["Revaal"],
 				"sections": [
 					{"name": "Room 15"},
 					{"name": "Room 16"},
@@ -437,9 +437,9 @@
 						"access_rules": ["Zorephet"]
 					},
 					{
-						"name": "Revall",
+						"name": "Revaal",
 						"visibility_rules": ["location_weapon"],
-						"access_rules": ["Revall"]
+						"access_rules": ["Revaal"]
 					},
 					{
 						"name": "Xinth",
@@ -588,9 +588,9 @@
 				]
 			},
 			{
-				"name": "Fields of Mourning (Revall)",
+				"name": "Fields of Mourning (Revaal)",
 				"visibility_rules": ["location_weapon"],
-				"access_rules": ["Revall"],
+				"access_rules": ["Revaal"],
 				"sections": [
 					{"name": "Room 25"},
 					{"name": "Room 26"},
@@ -666,9 +666,9 @@
 						"access_rules": ["Zorephet"]
 					},
 					{
-						"name": "Revall",
+						"name": "Revaal",
 						"visibility_rules": ["location_weapon"],
-						"access_rules": ["Revall"]
+						"access_rules": ["Revaal"]
 					},
 					{
 						"name": "Xinth",
@@ -942,9 +942,9 @@
 				]
 			},
 			{
-				"name": "Tartarus (Revall)",
+				"name": "Tartarus (Revaal)",
 				"visibility_rules": ["location_weapon"],
-				"access_rules": ["Revall"],
+				"access_rules": ["Revaal"],
 				"sections": [
 					{"name": "Room 37"},
 					{"name": "Room 38"},
@@ -1070,9 +1070,9 @@
 						"access_rules": ["Zorephet"]
 					},
 					{
-						"name": "Revall",
+						"name": "Revaal",
 						"visibility_rules": ["location_weapon"],
-						"access_rules": ["Revall"]
+						"access_rules": ["Revaal"]
 					},
 					{
 						"name": "Xinth",
@@ -1231,9 +1231,9 @@
 				]
 			},
 			{
-				"name": "City of Ephyra (Revall)",
+				"name": "City of Ephyra (Revaal)",
 				"visibility_rules": ["location_weapon"],
-				"access_rules": ["Revall"],
+				"access_rules": ["Revaal"],
 				"sections": [
 					{"name": "Room 1"},
 					{"name": "Room 2"},
@@ -1313,9 +1313,9 @@
 						"access_rules": ["Zorephet"]
 					},
 					{
-						"name": "Revall",
+						"name": "Revaal",
 						"visibility_rules": ["location_weapon"],
-						"access_rules": ["Revall"]
+						"access_rules": ["Revaal"]
 					},
 					{
 						"name": "Xinth",
@@ -1454,9 +1454,9 @@
 				]
 			},
 			{
-				"name": "Rift of Thessaly (Revall)",
+				"name": "Rift of Thessaly (Revaal)",
 				"visibility_rules": ["location_weapon"],
-				"access_rules": ["Revall"],
+				"access_rules": ["Revaal"],
 				"sections": [
 					{"name": "Room 15"},
 					{"name": "Room 16"},
@@ -1528,9 +1528,9 @@
 						"access_rules": ["Zorephet"]
 					},
 					{
-						"name": "Revall",
+						"name": "Revaal",
 						"visibility_rules": ["location_weapon"],
-						"access_rules": ["Revall"]
+						"access_rules": ["Revaal"]
 					},
 					{
 						"name": "Xinth",
@@ -1679,9 +1679,9 @@
 				]
 			},
 			{
-				"name": "Mount Olympus (Revall)",
+				"name": "Mount Olympus (Revaal)",
 				"visibility_rules": ["location_weapon"],
-				"access_rules": ["Revall"],
+				"access_rules": ["Revaal"],
 				"sections": [
 					{"name": "Room 25"},
 					{"name": "Room 26"},
@@ -1757,9 +1757,9 @@
 						"access_rules": ["Zorephet"]
 					},
 					{
-						"name": "Revall",
+						"name": "Revaal",
 						"visibility_rules": ["location_weapon"],
-						"access_rules": ["Revall"]
+						"access_rules": ["Revaal"]
 					},
 					{
 						"name": "Xinth",
@@ -2033,9 +2033,9 @@
 				]
 			},
 			{
-				"name": "The Summit (Revall)",
+				"name": "The Summit (Revaal)",
 				"visibility_rules": ["location_weapon"],
-				"access_rules": ["Revall"],
+				"access_rules": ["Revaal"],
 				"sections": [
 					{"name": "Room 37"},
 					{"name": "Room 38"},
@@ -2161,9 +2161,9 @@
 						"access_rules": ["Zorephet"]
 					},
 					{
-						"name": "Revall",
+						"name": "Revaal",
 						"visibility_rules": ["location_weapon"],
-						"access_rules": ["Revall"]
+						"access_rules": ["Revaal"]
 					},
 					{
 						"name": "Xinth",

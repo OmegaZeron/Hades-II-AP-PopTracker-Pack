@@ -5,11 +5,11 @@
 		"item_margin": "3, 2",
 		"item_size": 38,
 		"rows": [
-			["Descura", "LimAndOros", "Ygnium", "Zorephet", "Revall", "Xinth"],
-			["DescuraMelinoe", "LimAndOrosMelinoe", "YgniumMelinoe", "ZorephetMelinoe", "RevallMelinoe", "XinthMelinoe"],
-			["DescuraCirce", "LimAndOrosArtemis", "YgniumMoros", "ZorephetCharon", "RevallMedea", "XinthSelene"],
-			["DescuraMomus", "LimAndOrosPan", "YgniumEos", "ZorephetThanatos", "RevallPersephone", "XinthNyx"],
-			["DescuraAnubis", "LimAndOrosTheMorrigan", "YgniumSupay", "ZorephetNergal", "RevallHel", "XinthShiva"]
+			["Descura", "LimAndOros", "Ygnium", "Zorephet", "Revaal", "Xinth"],
+			["DescuraMelinoe", "LimAndOrosMelinoe", "YgniumMelinoe", "ZorephetMelinoe", "RevaalMelinoe", "XinthMelinoe"],
+			["DescuraCirce", "LimAndOrosArtemis", "YgniumMoros", "ZorephetCharon", "RevaalMedea", "XinthSelene"],
+			["DescuraMomus", "LimAndOrosPan", "YgniumEos", "ZorephetThanatos", "RevaalPersephone", "XinthNyx"],
+			["DescuraAnubis", "LimAndOrosTheMorrigan", "YgniumSupay", "ZorephetNergal", "RevaalHel", "XinthShiva"]
 		]
 	},
 	"keepsakeGrid": {

@@ -43,7 +43,7 @@ ITEM_MAPPING = {
 	[weaponBaseID + 2] = {LimAndOros},
 	[weaponBaseID + 3] = {Ygnium},
 	[weaponBaseID + 4] = {Zorephet},
-	[weaponBaseID + 5] = {Revall},
+	[weaponBaseID + 5] = {Revaal},
 	[weaponBaseID + 6] = {Xinth},
 	-- tools
 	[toolBaseID + 1] = {CrescentPick},

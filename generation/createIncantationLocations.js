@@ -49,7 +49,7 @@ export default function createIncantationLocations() {
 			},
 			{
 				name: "Essence of Sorrow",
-				access_rules: [and(vars.Items.SurfaceAccess, CanReach(vars.LocNames.Bosses.Cerberus))],
+				access_rules: [and(vars.Items.SurfaceAccess, CanReach(vars.LocNames.Bosses.Chronos))], // Polyphemus instead of Surface Access?
 				hosted_item: vars.Incants.EssenceSorrow
 			},
 			{

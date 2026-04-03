@@ -47,7 +47,7 @@ LOCATION_MAPPING = {
 	[weaponIDs + 2] = {"@Nocturnal Arms/Lim and Oros/Sister Blades"},
 	[weaponIDs + 3] = {"@Nocturnal Arms/Ygnium/Umbral Flames"},
 	[weaponIDs + 4] = {"@Nocturnal Arms/Zorephet/Moonstone Axe"},
-	[weaponIDs + 5] = {"@Nocturnal Arms/Revall/Argent Skull"},
+	[weaponIDs + 5] = {"@Nocturnal Arms/Revaal/Argent Skull"},
 	[weaponIDs + 6] = {"@Nocturnal Arms/Xinth/Black Coat"},
 	-- tools
 	[toolIDs + 1] = {"@Tools/Crescent Pick/"},

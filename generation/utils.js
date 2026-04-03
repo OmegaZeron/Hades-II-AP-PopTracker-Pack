@@ -83,7 +83,7 @@ export const vars = Object.freeze({
 		LimAndOros: "LimAndOros",
 		Ygnium: "Ygnium",
 		Zorephet: "Zorephet",
-		Revall: "Revall",
+		Revaal: "Revaal",
 		Xinth: "Xinth"
 	},
 	Aspects: {
@@ -103,10 +103,10 @@ export const vars = Object.freeze({
 		ZorephetCharon: "ZorephetCharon",
 		ZorephetThanatos: "ZorephetThanatos",
 		ZorephetNergal: "ZorephetNergal",
-		RevallMelinoe: "RevallMelinoe",
-		RevallMedea: "RevallMedea",
-		RevallPersephone: "RevallPersephone",
-		RevallHel: "RevallHel",
+		RevaalMelinoe: "RevaalMelinoe",
+		RevaalMedea: "RevaalMedea",
+		RevaalPersephone: "RevaalPersephone",
+		RevaalHel: "RevaalHel",
 		XinthMelinoe: "XinthMelinoe",
 		XinthSelene: "XinthSelene",
 		XinthNyx: "XinthNyx",
@@ -389,14 +389,14 @@ export const weaponData = Object.freeze([
 		]
 	},
 	{
-		name: "Revall",
-		codes: [vars.Weapons.Revall, vars.Helpers.WeaponNightDarkness],
+		name: "Revaal",
+		codes: [vars.Weapons.Revaal, vars.Helpers.WeaponNightDarkness],
 		type: "Argent Skull",
 		aspects: [
-			{name: "Melinoë", code: vars.Aspects.RevallMelinoe},
-			{name: "Medea", code: vars.Aspects.RevallMedea, alt: true},
-			{name: "Persephone", code: vars.Aspects.RevallPersephone, alt: true},
-			{name: "Hel", code: vars.Aspects.RevallHel, alt: true, hidden: true},
+			{name: "Melinoë", code: vars.Aspects.RevaalMelinoe},
+			{name: "Medea", code: vars.Aspects.RevaalMedea, alt: true},
+			{name: "Persephone", code: vars.Aspects.RevaalPersephone, alt: true},
+			{name: "Hel", code: vars.Aspects.RevaalHel, alt: true, hidden: true},
 		]
 	},
 	{

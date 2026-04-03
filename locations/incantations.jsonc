@@ -47,7 +47,7 @@
 			},
 			{
 				"name": "Essence of Sorrow",
-				"access_rules": ["SurfaceAccess, ^$CanReach|CerberusBoss"],
+				"access_rules": ["SurfaceAccess, ^$CanReach|ChronosBoss"],
 				"hosted_item": "EssenceSorrow"
 			},
 			{

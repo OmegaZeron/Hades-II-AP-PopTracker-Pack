@@ -17,7 +17,7 @@ export default function createAreaLocs() {
 		{name: "Lim and Oros", code: vars.Weapons.LimAndOros, offset: -1.5},
 		{name: "Ygnium", code: vars.Weapons.Ygnium, offset: -.5},
 		{name: "Zorephet", code: vars.Weapons.Zorephet, offset: .5},
-		{name: "Revall", code: vars.Weapons.Revall, offset: 1.5},
+		{name: "Revaal", code: vars.Weapons.Revaal, offset: 1.5},
 		{name: "Xinth", code: vars.Weapons.Xinth, offset: 2.5}
 	]
 	
