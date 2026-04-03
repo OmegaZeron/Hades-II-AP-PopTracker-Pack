@@ -50,7 +50,7 @@ export default function createFatedListLocations() {
 			},
 			{
 				name: "Sword of the Night",
-				access_rules: [and(`${vars.Helpers.Weapon}:6`, vars.Fates.TempSetback, CanReach(vars.LocNames.Bosses.Typhon))]
+				access_rules: [and(Has(vars.Helpers.Weapon, 6), vars.Fates.TempSetback, CanReach(vars.LocNames.Bosses.Typhon))]
 			},
 			{
 				name: "Arcana of the Ages",
@@ -62,11 +62,11 @@ export default function createFatedListLocations() {
 			},
 			{
 				name: "Bearing Dark Gifts",
-				access_rules: [and(`${vars.Helpers.Aspect}:24`, CanReach(vars.LocNames.Special.EitherVictory))]
+				access_rules: [and(Has(vars.Helpers.Aspect, 24), CanReach(vars.LocNames.Special.EitherVictory))]
 			},
 			{
 				name: "Den Mother",
-				access_rules: [and(`${vars.Helpers.Familiar}:5`, CanReach(vars.LocNames.Special.EitherVictory))]
+				access_rules: [and(Has(vars.Helpers.Familiar, 5), CanReach(vars.LocNames.Special.EitherVictory))]
 			},
 			{
 				name: "Family in Need",
