@@ -68,7 +68,10 @@
 			},
 			{
 				"name": "Family in Need",
-				"access_rules": ["VividSea, ^$CanReach|Oceanus"]
+				"access_rules": [
+					"keepsakesanityOn, VividSea, ^$CanReach|Oceanus",
+					"keepsakesanityOff, ^$CanReach|Oceanus"
+				]
 			},
 			{
 				"name": "Visions of Victory",
@@ -84,7 +87,10 @@
 			},
 			{
 				"name": "Silk and Spitefulness",
-				"access_rules": ["GorgonAmulet, ^$CanReach|Erebus, ^$CanReach|Olympus"]
+				"access_rules": [
+					"keepsakesanityOn, GorgonAmulet, ^$CanReach|Erebus",
+					"keepsakesanityOff, ^$CanReach|Erebus, ^$CanReach|Olympus"
+				]
 			},
 			{
 				"name": "Voice and Vanity",
@@ -173,7 +179,10 @@
 				"access_rules": []
 			},
 			{"name": "Whims of Chaos"},
-			{"name": "Breadth of Knowledge"},
+			{
+				"name": "Breadth of Knowledge",
+				"access_rules": ["^$CanReach|CerberusBoss, ^$CanReach|PrometheusBoss"]
+			},
 			{"name": "Weight in Gold"},
 			{
 				"name": "Valued Customer",
@@ -189,7 +198,10 @@
 			},
 			{
 				"name": "Denizens of the Deep",
-				"access_rules": ["RodOfFishing, VividSea, ^$CanReach|Tartarus, ^$CanReach|Summit"]
+				"access_rules": [
+					"RodOfFishing, keepsakesanityOn, VividSea, ^$CanReach|Tartarus, ^$CanReach|Summit",
+					"RodOfFishing, keepsakesanityOff, ^$CanReach|Tartarus, ^$CanReach|Summit"
+				]
 			},
 			{
 				"name": "Keeper of Shadows",
@@ -228,39 +240,66 @@
 			},
 			{
 				"name": "Master of the Heavens",
-				"access_rules": ["CloudBangle"]
+				"access_rules": [
+					"CloudBangle",
+					"keepsakesanityOff"
+				]
 			},
 			{
 				"name": "Mistress of Wedlock",
-				"access_rules": ["IridescentFan"]
+				"access_rules": [
+					"IridescentFan",
+					"keepsakesanityOff, SurfaceAccess"
+				]
 			},
 			{
 				"name": "Master of the Sea",
-				"access_rules": ["VividSea"]
+				"access_rules": [
+					"VividSea",
+					"keepsakesanityOff"
+				]
 			},
 			{
 				"name": "Mistress of Seasons",
-				"access_rules": ["BarleySheaf"]
+				"access_rules": [
+					"BarleySheaf",
+					"keepsakesanityOff"
+				]
 			},
 			{
 				"name": "Master of Light",
-				"access_rules": ["HarmonicPhoton"]
+				"access_rules": [
+					"HarmonicPhoton",
+					"keepsakesanityOff"
+				]
 			},
 			{
 				"name": "Mistress of Beauty",
-				"access_rules": ["BeautifulMirror"]
+				"access_rules": [
+					"BeautifulMirror",
+					"keepsakesanityOff"
+				]
 			},
 			{
 				"name": "Master of the Forge",
-				"access_rules": ["AdamantShard"]
+				"access_rules": [
+					"AdamantShard",
+					"keepsakesanityOff"
+				]
 			},
 			{
 				"name": "Mistress of the Hearth",
-				"access_rules": ["EverlastingEmber"]
+				"access_rules": [
+					"EverlastingEmber",
+					"keepsakesanityOff"
+				]
 			},
 			{
 				"name": "Master of War",
-				"access_rules": ["SwordHilt"]
+				"access_rules": [
+					"SwordHilt",
+					"keepsakesanityOff, ^$CanReach|TyphonBoss"
+				]
 			},
 			{"name": "Mistress of the Hunt"},
 			{
@@ -269,7 +308,10 @@
 			},
 			{
 				"name": "Mistress of Battle",
-				"access_rules": ["GorgonAmulet"]
+				"access_rules": [
+					"GorgonAmulet",
+					"keepsakesanityOff, ^$CanReach|Olympus"
+				]
 			},
 			{
 				"name": "Master of Revelry",

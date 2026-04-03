@@ -70,7 +70,10 @@ export default function createFatedListLocations() {
 			},
 			{
 				name: "Family in Need",
-				access_rules: [and(vars.NameToKeepsake.Poseidon, CanReach(vars.LocNames.Areas.Oceanus))]
+				access_rules: [
+					and(vars.Settings.KeepsakesanityOn, vars.NameToKeepsake.Poseidon, CanReach(vars.LocNames.Areas.Oceanus)),
+					and(vars.Settings.KeepsakesanityOff, CanReach(vars.LocNames.Areas.Oceanus))
+				]
 			},
 			{
 				name: "Visions of Victory",
@@ -86,7 +89,10 @@ export default function createFatedListLocations() {
 			},
 			{
 				name: "Silk and Spitefulness",
-				access_rules: [and(vars.Keepsakes.GorgonAmulet, CanReach(vars.LocNames.Areas.Erebus), CanReach(vars.LocNames.Areas.Olympus))]
+				access_rules: [
+					and(vars.Settings.KeepsakesanityOn, vars.Keepsakes.GorgonAmulet, CanReach(vars.LocNames.Areas.Erebus)), // Olympus anyway?
+					and(vars.Settings.KeepsakesanityOff, CanReach(vars.LocNames.Areas.Erebus), CanReach(vars.LocNames.Areas.Olympus))
+				]
 			},
 			{
 				name: "Voice and Vanity",
@@ -183,8 +189,7 @@ export default function createFatedListLocations() {
 			{name: "Whims of Chaos"},
 			{
 				name: "Breadth of Knowledge",
-				// access_rules: [] // 18/14 can be unlocked with only Ashes, so no rules? Caerberus+Prometheus? Arcana AP items?
-				// access_rules: [and(CanReach(vars.LocNames.Bosses.Cerberus), CanReach(vars.LocNames.Bosses.Prometheus))]
+				access_rules: [and(CanReach(vars.LocNames.Bosses.Cerberus), CanReach(vars.LocNames.Bosses.Prometheus))]
 			},
 			{
 				name: "Weight in Gold",
@@ -204,7 +209,10 @@ export default function createFatedListLocations() {
 			},
 			{
 				name: "Denizens of the Deep",
-				access_rules: [and(vars.Tools.RodOfFishing, vars.NameToKeepsake.Poseidon, CanReach(vars.LocNames.Areas.Tartarus), CanReach(vars.LocNames.Areas.Summit))]
+				access_rules: [
+					and(vars.Tools.RodOfFishing, vars.Settings.KeepsakesanityOn, vars.NameToKeepsake.Poseidon, CanReach(vars.LocNames.Areas.Tartarus), CanReach(vars.LocNames.Areas.Summit)),
+					and(vars.Tools.RodOfFishing, vars.Settings.KeepsakesanityOff, CanReach(vars.LocNames.Areas.Tartarus), CanReach(vars.LocNames.Areas.Summit))
+				]
 			},
 			{
 				name: "Keeper of Shadows",
@@ -249,39 +257,45 @@ export default function createFatedListLocations() {
 			},
 			{
 				name: "Master of the Heavens",
-				access_rules: [vars.NameToKeepsake.Zeus]
+				access_rules: [vars.NameToKeepsake.Zeus, vars.Settings.KeepsakesanityOff]
 			},
 			{
 				name: "Mistress of Wedlock",
-				access_rules: [vars.NameToKeepsake.Hera]
+				access_rules: [
+					vars.NameToKeepsake.Hera,
+					and(vars.Settings.KeepsakesanityOff, vars.Items.SurfaceAccess)
+				]
 			},
 			{
 				name: "Master of the Sea",
-				access_rules: [vars.NameToKeepsake.Poseidon]
+				access_rules: [vars.NameToKeepsake.Poseidon, vars.Settings.KeepsakesanityOff]
 			},
 			{
 				name: "Mistress of Seasons",
-				access_rules: [vars.NameToKeepsake.Demeter]
+				access_rules: [vars.NameToKeepsake.Demeter, vars.Settings.KeepsakesanityOff]
 			},
 			{
 				name: "Master of Light",
-				access_rules: [vars.NameToKeepsake.Apollo]
+				access_rules: [vars.NameToKeepsake.Apollo, vars.Settings.KeepsakesanityOff]
 			},
 			{
 				name: "Mistress of Beauty",
-				access_rules: [vars.NameToKeepsake.Aphrodite]
+				access_rules: [vars.NameToKeepsake.Aphrodite, vars.Settings.KeepsakesanityOff]
 			},
 			{
 				name: "Master of the Forge",
-				access_rules: [vars.NameToKeepsake.Hephaestus]
+				access_rules: [vars.NameToKeepsake.Hephaestus, vars.Settings.KeepsakesanityOff]
 			},
 			{
 				name: "Mistress of the Hearth",
-				access_rules: [vars.NameToKeepsake.Hestia]
+				access_rules: [vars.NameToKeepsake.Hestia, vars.Settings.KeepsakesanityOff]
 			},
 			{
 				name: "Master of War",
-				access_rules: [vars.NameToKeepsake.Ares]
+				access_rules: [
+					vars.NameToKeepsake.Ares,
+					and(vars.Settings.KeepsakesanityOff, CanReach(vars.LocNames.Bosses.Typhon))
+				]
 			},
 			{name: "Mistress of the Hunt"},
 			{
@@ -290,7 +304,10 @@ export default function createFatedListLocations() {
 			},
 			{
 				name: "Mistress of Battle",
-				access_rules: [vars.NameToKeepsake.Athena]
+				access_rules: [
+					vars.NameToKeepsake.Athena,
+					and(vars.Settings.KeepsakesanityOff, CanReach(vars.LocNames.Areas.Olympus))
+				]
 			},
 			{
 				name: "Master of Revelry",
