@@ -188,12 +188,11 @@ end
 function All(...)
 	local args = { ... }
 	local min = AccessibilityLevel.Normal
-	for _, rule in ipairs(args) do
-		local access = AccessibilityLevel.None
+	for _, access in ipairs(args) do
 		if type(access) == "function" then
-			access = rule()
-		elseif type(rule) == "string" then
-			access = BoolToAccess(Has(rule))
+			access = access()
+		elseif type(access) == "string" then
+			access = BoolToAccess(Has(access))
 		end
 		if type(access) == "boolean" then
 			access = BoolToAccess(access)
@@ -215,12 +214,11 @@ end
 function Any(...)
 	local args = { ... }
 	local max = AccessibilityLevel.None
-	for _, rule in ipairs(args) do
-		local access = max
-		if type(rule) == "function" then
-			access = rule()
-		elseif type(rule) == "string" then
-			access = BoolToAccess(Has(rule))
+	for _, access in ipairs(args) do
+		if type(access) == "function" then
+			access = access()
+		elseif type(access) == "string" then
+			access = BoolToAccess(Has(access))
 		end
 		if type(access) == "boolean" then
 			access = BoolToAccess(access)
