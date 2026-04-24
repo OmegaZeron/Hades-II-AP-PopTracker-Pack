@@ -93,14 +93,6 @@ function Hades2Location:discover(accessibility)
 	end
 
 	if change then
-		for _, recheck in ipairs(self.exits_to_recheck) do
-			for _, exit in pairs(recheck.exits) do
-				if (exit[1]:accessibility() < accessibility) then
-					local location, access = CheckAccess(recheck, exit)
-					location:discover(access)
-				end
-			end
-		end
 		for _, exit in pairs(self.exits) do
 			if (exit[1]:accessibility() < accessibility) then
 				local location, access = CheckAccess(self, exit)
