@@ -7,6 +7,13 @@ export default function createItemGrids() {
 			h_alignment: "left",
 			item_margin: "3, 2",
 			item_size: 38,
+			rows: [[]]
+		},
+		aspectGrid: {
+			type: "itemgrid",
+			h_alignment: "left",
+			item_margin: "3, 2",
+			item_size: 38,
 			rows: []
 		},
 		keepsakeGrid: {
@@ -34,16 +41,14 @@ export default function createItemGrids() {
 
 	function createWeaponGrid() {
 		for (let weapon of weaponData) {
+			grids.weaponGrid.rows[0].push(weapon.codes[0])
+			// aspects
 			let index = 0
-			if (!grids.weaponGrid.rows[index]) {
-				grids.weaponGrid.rows.push([])
-			}
-			grids.weaponGrid.rows[index].push(weapon.codes[0])
 			for (let aspect of weapon.aspects) {
-				if (!grids.weaponGrid.rows[++index]) {
-					grids.weaponGrid.rows.push([])
+				if (!grids.aspectGrid.rows[index]) {
+					grids.aspectGrid.rows.push([])
 				}
-				grids.weaponGrid.rows[index].push(aspect.code)
+				grids.aspectGrid.rows[index++].push(aspect.code)
 			}
 		}
 	}

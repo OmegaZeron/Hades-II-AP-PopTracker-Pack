@@ -17,6 +17,15 @@
 					},
 					{
 						"type": "group",
+						"header": "Aspects",
+						"dock": "top",
+						"content": {
+							"type": "layout",
+							"key": "aspectGrid"
+						}
+					},
+					{
+						"type": "group",
 						"header": "Keepsakes",
 						"dock": "top",
 						"content": {

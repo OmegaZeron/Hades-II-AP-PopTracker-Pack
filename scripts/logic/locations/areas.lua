@@ -24,7 +24,8 @@ Fields:connect_one_way_entrance(CerberusBoss, function()
 		All(
 			HasFear(math.min(TotalFearAmount() * 3 / 4, 30)),
 			Has(Weapon, 5)
-		)
+		),
+		AccessibilityLevel.SequenceBreak
 	)
 end)
 CerberusBoss:connect_one_way_entrance(Tartarus)
